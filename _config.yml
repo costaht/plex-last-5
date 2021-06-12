@@ -54,4 +54,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-color_scheme: dark
+color_scheme: plex
