@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 1.23.2.4656-85f0adf5b
+description: Plex Media Server version 1.23.2.4656-85f0adf5b
 ---
 ## Released on 06/04/2021 23:04
 {: .no_toc }
