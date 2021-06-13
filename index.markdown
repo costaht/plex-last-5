@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+tagline: A non-official Plex Media Server Archive where you have access to the last 5 public releases
 ---
 Welcome to Plex Last 5, where you can get access to the last 5 public PMS releases
 
