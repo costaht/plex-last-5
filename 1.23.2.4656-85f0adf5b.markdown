@@ -104,7 +104,7 @@ Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding D
 Build: linux-armv7neon  
 Checksum: `1ed53a3da222d5e85d4ad618ea95195945c635c0`
 
-# SynologyDSM7
+# Synology (DSM 7)
 Requirements: [Requires DSM 7.0 minimum to install.](Note:)  
 Items Fixed:
 * (Music) Fix regression with Add to Library when adding artists and albums from TIDAL (#12741)
@@ -236,7 +236,7 @@ Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.23.2.4656-85f0
 Build: linux-armv7hf  
 Checksum: `1a44945b46b63de7385db95a20779779a5499bc9`
 
-# WesternDigital
+# Western Digital
 Requirements: [Requires My Cloud OS 5. Older devices use &#39;Western Digital (OS3)&#39;.](Note:)  
 Items Fixed:
 * (Music) Fix regression with Add to Library when adding artists and albums from TIDAL (#12741)
@@ -284,7 +284,7 @@ Distro: [WD Cloud for Japan](https://downloads.plex.tv/plex-media-server-new/1.2
 Build: linux-armv7hf  
 Checksum: `c7138656f188e7df4867b281fcb34f07cb65854b`
 
-# WesternDigitalOS3
+# Western Digital (OS 3)
 Items Fixed:
 * (Music) Fix regression with Add to Library when adding artists and albums from TIDAL (#12741)
 * (PlayQueues) Playing a special could result in starting playback on wrong episode (#12505)
