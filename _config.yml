@@ -62,5 +62,5 @@ color_scheme: plex
 # Supports true (default) or false
 heading_anchors: true
 back_to_top: true
-kramdown:
-  parse_block_html: true
+back_to_top_text: "Back to top"
+footer_content: "Wanna help? Create a cool logo for this website"
