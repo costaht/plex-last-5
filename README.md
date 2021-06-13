@@ -8,4 +8,4 @@ Good to know:
 * This is not an official Plex Media Server archive, *but it's probably the only one available*.
 
 
-Access the website [Plex Media Server Archive ](https://costaht.github.io/plex-last-5/)
+Access the [Plex Media Server Archive ](https://costaht.github.io/plex-last-5/)
