@@ -20,7 +20,7 @@
 
 title: Plex Last 5
 #mail: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: # this means to ignore newlines until "baseurl:"
   A non-official Plex Media Server Archive where you have access
   to the last 5 public releases
   baseurl: "/plex-last-5" # the subpath of your site, e.g. /blog
