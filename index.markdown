@@ -1,8 +1,9 @@
 ---
 layout: home
 tagline: A non-official Plex Media Server Archive where you have access to the last 5 public releases
+nav_exclude: true
 ---
-# Plex Media Server Archive 
+# Plex Media Server Archive
 
 Welcome to Plex Last 5, where you can get access to the last 5 public PMS releases
 
