@@ -20,6 +20,7 @@
 
 title: Plex Last 5
 #mail: your-email@example.com
+tagline: Plex Last 5 is a Plex Media Server Archive
 description: # this means to ignore newlines until "baseurl:"
   Plex Media Server Archive | A non-official Plex Media Server Archive where you have access
   to the last 5 public releases
