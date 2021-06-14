@@ -12,5 +12,6 @@ Good to know:
 * Beta versions won't be added here. They are Plex Pass exclusive.
 * The latest public version won't be available here. Download it from [the official website](https://www.plex.tv/media-server-downloads/).
 * This is not an official Plex Media Server archive, *but it's probably the only one available*.
+* Why only the last 5? Because if you think you need more than that, you probably [need help](https://forums.plex.tv/).
 
 **Share this website with others**

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 1.23.1.4602-280ab6053
+description: Plex Media Server version 1.23.1.4602-280ab6053
 ---
 ## Released on 05/28/2021 11:45
 {: .no_toc }
