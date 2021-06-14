@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 1.23.2.4625-a83d2d0f9
+description: Plex Media Server version 1.23.2.4625-a83d2d0f9
 ---
 ## Released on 06/01/2021 19:59
 {: .no_toc }
@@ -104,7 +105,7 @@ Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding D
 Build: linux-armv7neon  
 Checksum: `27204b7d3a8c1eb98d9391e9c4daff16ce4cce20`
 
-# SynologyDSM7
+# Synology (DSM 7)
 Requirements: [Requires DSM 7.0 minimum to install.](Note:)  
 Items Fixed:
 * (Music) Fix regression with Add to Library when adding artists and albums from TIDAL (#12741)
@@ -236,8 +237,8 @@ Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.23.2.4625-a83d
 Build: linux-armv7hf  
 Checksum: `2afc2d3a81a626c337fbc572172b5f663d44fa56`
 
-# WesternDigital
-Requirements: [Requires My Cloud OS 5. Older devices use &#39;WesternDigital (OS3)&#39;.](Note:)  
+# Western Digital
+Requirements: [Requires My Cloud OS 5. Older devices use &#39;Western Digital (OS3)&#39;.](Note:)  
 Items Fixed:
 * (Music) Fix regression with Add to Library when adding artists and albums from TIDAL (#12741)
 * (PlayQueues) Playing a special could result in starting playback on wrong episode (#12505)
@@ -284,7 +285,7 @@ Distro: [WD Cloud for Japan](https://downloads.plex.tv/plex-media-server-new/1.2
 Build: linux-armv7hf  
 Checksum: `cc470fcb7e4de685635d269b6c1b829312b1d988`
 
-# WesternDigitalOS3
+# Western Digital (OS 3)
 Items Fixed:
 * (Music) Fix regression with Add to Library when adding artists and albums from TIDAL (#12741)
 * (PlayQueues) Playing a special could result in starting playback on wrong episode (#12505)
