@@ -1,0 +1,530 @@
+---
+layout: page
+title: 1.24.0.4930-ab6e1a058
+description: Plex Media Server version 1.24.0.4930-ab6e1a058
+---
+## Released on 08/12/2021 00:53
+{: .no_toc }
+## Table of contents
+{: .no_toc .text-delta }
+* TOC
+{:toc}
+# Windows
+Requirements: [Windows 7 SP1 or newer (Intel or AMD processors only)](https://support.plex.tv/hc/en-us/articles/200375666)  
+Items Added:
+* (API) Language and country names are now returned in the client's language (#12815)
+* (Localization) Improved language code support for audio and subtitle streams (#12909)
+* (Scanner) Support for TV season directory names that contain a season title after the number (#12834)
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect when file contained image attachments (#12882)
+* (Collections) Manually ordered collections would fail to play (#12879)
+* (Collections) Missing hubs when an item is part of a manually ordered collection (#12862
+* (Extras) An exception throw in refreshing extra lists could cause the server to exit (#12890)
+* (HTTP) HTTP/2 requests could fail when passed malformed headers (#12876)
+* (Library) Scanning photo libraries could result in Exception warning log spam on certain platforms (#12941)
+* (Music) Aural fixations were broken for TIDAL subscribers w/o a full Plex Pass (#12812)
+* (Music) If genre preference is "Plex Music" don't read genre from tags (#12812)
+* (Music) When manually analyzing albums, clear loudness analysis (#12808)
+* (Playback) Pre-rolls wouldn't play unless cinema trailers were enabled (#12819)
+* (Transcode) Transcoding to AC3 could result in a lower bitrate than this codec needs to produce decent quality. (#9814)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/windows/PlexMediaServer-1.24.0.4930-ab6e1a058-x86.exe)  
+Build: windows-x86  
+Checksum: `993023197c7662b3e845a732c4f2e823f1db7621`
+
+# MacOS
+Requirements: [OS X 10.9 Mavericks or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+Items Added:
+* (API) Language and country names are now returned in the client's language (#12815)
+* (Localization) Improved language code support for audio and subtitle streams (#12909)
+* (Scanner) Support for TV season directory names that contain a season title after the number (#12834)
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect when file contained image attachments (#12882)
+* (Collections) Manually ordered collections would fail to play (#12879)
+* (Collections) Missing hubs when an item is part of a manually ordered collection (#12862
+* (Extras) An exception throw in refreshing extra lists could cause the server to exit (#12890)
+* (HTTP) HTTP/2 requests could fail when passed malformed headers (#12876)
+* (Library) Scanning photo libraries could result in Exception warning log spam on certain platforms (#12941)
+* (Music) Aural fixations were broken for TIDAL subscribers w/o a full Plex Pass (#12812)
+* (Music) If genre preference is "Plex Music" don't read genre from tags (#12812)
+* (Music) When manually analyzing albums, clear loudness analysis (#12808)
+* (Playback) Pre-rolls wouldn't play unless cinema trailers were enabled (#12819)
+* (Transcode) Transcoding to AC3 could result in a lower bitrate than this codec needs to produce decent quality. (#9814)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/macos/PlexMediaServer-1.24.0.4930-ab6e1a058-x86_64.zip)  
+Build: darwin-x86_64  
+Checksum: `6cf2fa8614fc9cc24e45f1221dc173dca6261e1f`
+
+# Linux
+Items Added:
+* (API) Language and country names are now returned in the client's language (#12815)
+* (Localization) Improved language code support for audio and subtitle streams (#12909)
+* (Scanner) Support for TV season directory names that contain a season title after the number (#12834)
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect when file contained image attachments (#12882)
+* (Collections) Manually ordered collections would fail to play (#12879)
+* (Collections) Missing hubs when an item is part of a manually ordered collection (#12862
+* (Extras) An exception throw in refreshing extra lists could cause the server to exit (#12890)
+* (HTTP) HTTP/2 requests could fail when passed malformed headers (#12876)
+* (Library) Scanning photo libraries could result in Exception warning log spam on certain platforms (#12941)
+* (Music) Aural fixations were broken for TIDAL subscribers w/o a full Plex Pass (#12812)
+* (Music) If genre preference is "Plex Music" don't read genre from tags (#12812)
+* (Music) When manually analyzing albums, clear loudness analysis (#12808)
+* (Playback) Pre-rolls wouldn't play unless cinema trailers were enabled (#12819)
+* (Transcode) Transcoding to AC3 could result in a lower bitrate than this codec needs to produce decent quality. (#9814)
+
+## Releases
+{: .no_toc }
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/debian/plexmediaserver_1.24.0.4930-ab6e1a058_i386.deb)  
+Build: linux-x86  
+Checksum: `e78a6b2b8cf2700645f1019c7ea9bd233d8a0008`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/debian/plexmediaserver_1.24.0.4930-ab6e1a058_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `ddf865547676210f000a8c98a5ba2e997a48d43d`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv8](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/debian/plexmediaserver_1.24.0.4930-ab6e1a058_arm64.deb)  
+Build: linux-aarch64  
+Checksum: `dabbae292c826a21349a831f1ef105acdc5d6ef7`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv7](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/debian/plexmediaserver_1.24.0.4930-ab6e1a058_armhf.deb)  
+Build: linux-armv7neon  
+Checksum: `98948b427c9673471f0ae07b4625281af3c4a26a`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/redhat/plexmediaserver-1.24.0.4930-ab6e1a058.i686.rpm)  
+Build: linux-x86  
+Checksum: `21cbbbd9e1bae8c7c0d9abb32d420c4ee7854ab5`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/redhat/plexmediaserver-1.24.0.4930-ab6e1a058.x86_64.rpm)  
+Build: linux-x86_64  
+Checksum: `5579998d0fd9639fd3225d0eb1f504907672f694`
+
+# FreeBSD
+Requirements: [FreeBSD 11.2 or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+Items Added:
+* (API) Language and country names are now returned in the client's language (#12815)
+* (Localization) Improved language code support for audio and subtitle streams (#12909)
+* (Scanner) Support for TV season directory names that contain a season title after the number (#12834)
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect when file contained image attachments (#12882)
+* (Collections) Manually ordered collections would fail to play (#12879)
+* (Collections) Missing hubs when an item is part of a manually ordered collection (#12862
+* (Extras) An exception throw in refreshing extra lists could cause the server to exit (#12890)
+* (HTTP) HTTP/2 requests could fail when passed malformed headers (#12876)
+* (Library) Scanning photo libraries could result in Exception warning log spam on certain platforms (#12941)
+* (Music) Aural fixations were broken for TIDAL subscribers w/o a full Plex Pass (#12812)
+* (Music) If genre preference is "Plex Music" don't read genre from tags (#12812)
+* (Music) When manually analyzing albums, clear loudness analysis (#12808)
+* (Playback) Pre-rolls wouldn't play unless cinema trailers were enabled (#12819)
+* (Transcode) Transcoding to AC3 could result in a lower bitrate than this codec needs to produce decent quality. (#9814)
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/freebsd/PlexMediaServer-1.24.0.4930-ab6e1a058-FreeBSD-amd64.tar.bz2)  
+Build: freebsd-x86_64  
+Checksum: `88759831d0c50f36010e9a70fed8576a03c52521`
+
+# Synology
+Requirements: [Requires DSM 5.0 minimum to install.](Note:)  
+Extra Information: Guide: <a href="https://support.plex.tv/hc/en-us/articles/205165858" target="_blank">Add Plex as a trusted publisher for package installations</a>.  
+Items Added:
+* (API) Language and country names are now returned in the client's language (#12815)
+* (Localization) Improved language code support for audio and subtitle streams (#12909)
+* (Scanner) Support for TV season directory names that contain a season title after the number (#12834)
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect when file contained image attachments (#12882)
+* (Collections) Manually ordered collections would fail to play (#12879)
+* (Collections) Missing hubs when an item is part of a manually ordered collection (#12862
+* (Extras) An exception throw in refreshing extra lists could cause the server to exit (#12890)
+* (HTTP) HTTP/2 requests could fail when passed malformed headers (#12876)
+* (Library) Scanning photo libraries could result in Exception warning log spam on certain platforms (#12941)
+* (Music) Aural fixations were broken for TIDAL subscribers w/o a full Plex Pass (#12812)
+* (Music) If genre preference is "Plex Music" don't read genre from tags (#12812)
+* (Music) When manually analyzing albums, clear loudness analysis (#12808)
+* (Playback) Pre-rolls wouldn't play unless cinema trailers were enabled (#12819)
+* (Transcode) Transcoding to AC3 could result in a lower bitrate than this codec needs to produce decent quality. (#9814)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit (x10 Series, DS415play, and DS214play)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/synology/PlexMediaServer-1.24.0.4930-ab6e1a058-x86_DSM6.spk)  
+Build: linux-x86  
+Checksum: `00f41120377b783cd0fbb1d09197dd5bdba21a3d`
+
+Distro: [Intel 64-bit (DSM 6.0 and newer)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/synology/PlexMediaServer-1.24.0.4930-ab6e1a058-x86_64_DSM6.spk)  
+Build: linux-x86_64  
+Checksum: `4c2d42058786a3048ca9bc57c06fbe76dd93d7a2`
+
+Distro: [ARMv8 (x18 Series)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/synology/PlexMediaServer-1.24.0.4930-ab6e1a058-aarch64_DSM6.spk)  
+Build: linux-aarch64  
+Checksum: `fd3f53bb4edffdd45bc9d8efbbb2f65a587f6ec1`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/synology/PlexMediaServer-1.24.0.4930-ab6e1a058-armv7hf_DSM6.spk)  
+Build: linux-armv7hf  
+Checksum: `1c0f93853133852aa956f760dd7d6762119457e5`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/synology/PlexMediaServer-1.24.0.4930-ab6e1a058-armv7neon_DSM6.spk)  
+Build: linux-armv7neon  
+Checksum: `8ea9344590b2b7f251c89804604e8597c64203fe`
+
+# Synology (DSM 7)
+Requirements: [Requires DSM 7.0 minimum to install.](Note:)  
+Items Added:
+* (API) Language and country names are now returned in the client's language (#12815)
+* (Localization) Improved language code support for audio and subtitle streams (#12909)
+* (Scanner) Support for TV season directory names that contain a season title after the number (#12834)
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect when file contained image attachments (#12882)
+* (Collections) Manually ordered collections would fail to play (#12879)
+* (Collections) Missing hubs when an item is part of a manually ordered collection (#12862
+* (Extras) An exception throw in refreshing extra lists could cause the server to exit (#12890)
+* (HTTP) HTTP/2 requests could fail when passed malformed headers (#12876)
+* (Library) Scanning photo libraries could result in Exception warning log spam on certain platforms (#12941)
+* (Music) Aural fixations were broken for TIDAL subscribers w/o a full Plex Pass (#12812)
+* (Music) If genre preference is "Plex Music" don't read genre from tags (#12812)
+* (Music) When manually analyzing albums, clear loudness analysis (#12808)
+* (Playback) Pre-rolls wouldn't play unless cinema trailers were enabled (#12819)
+* (Transcode) Transcoding to AC3 could result in a lower bitrate than this codec needs to produce decent quality. (#9814)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/synology-dsm7/PlexMediaServer-1.24.0.4930-ab6e1a058-x86_DSM7.spk)  
+Build: linux-x86  
+Checksum: `97d45355a504086a61447c2d58347a7855269b3f`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/synology-dsm7/PlexMediaServer-1.24.0.4930-ab6e1a058-x86_64_DSM7.spk)  
+Build: linux-x86_64  
+Checksum: `943acf8ada3b59ecd0b9da2a1009826c01f7b32e`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/synology-dsm7/PlexMediaServer-1.24.0.4930-ab6e1a058-aarch64_DSM7.spk)  
+Build: linux-aarch64  
+Checksum: `81ff66d0a84bd420286a69cfb249b9f4fa64ca2f`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/synology-dsm7/PlexMediaServer-1.24.0.4930-ab6e1a058-armv7hf_DSM7.spk)  
+Build: linux-armv7hf  
+Checksum: `bf4205a36cce949fa549a1cc575346d143546604`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/synology-dsm7/PlexMediaServer-1.24.0.4930-ab6e1a058-armv7neon_DSM7.spk)  
+Build: linux-armv7neon  
+Checksum: `79012c81242c4d4784f18c90ee0e88ddd2d9ced9`
+
+# Netgear
+Items Added:
+* (API) Language and country names are now returned in the client's language (#12815)
+* (Localization) Improved language code support for audio and subtitle streams (#12909)
+* (Scanner) Support for TV season directory names that contain a season title after the number (#12834)
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect when file contained image attachments (#12882)
+* (Collections) Manually ordered collections would fail to play (#12879)
+* (Collections) Missing hubs when an item is part of a manually ordered collection (#12862
+* (Extras) An exception throw in refreshing extra lists could cause the server to exit (#12890)
+* (HTTP) HTTP/2 requests could fail when passed malformed headers (#12876)
+* (Library) Scanning photo libraries could result in Exception warning log spam on certain platforms (#12941)
+* (Music) Aural fixations were broken for TIDAL subscribers w/o a full Plex Pass (#12812)
+* (Music) If genre preference is "Plex Music" don't read genre from tags (#12812)
+* (Music) When manually analyzing albums, clear loudness analysis (#12808)
+* (Playback) Pre-rolls wouldn't play unless cinema trailers were enabled (#12819)
+* (Transcode) Transcoding to AC3 could result in a lower bitrate than this codec needs to produce decent quality. (#9814)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/netgear/plexmediaserver_1.24.0.4930-ab6e1a058_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `ea91acf71d248cfd4005db151ca56433ce9edf38`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/netgear/plexmediaserver_1.24.0.4930-ab6e1a058_armel.deb)  
+Build: linux-armv7hf  
+Checksum: `4f75221cc17577f4d583a21086bc044bb08d2638`
+
+Distro: [ARMv7 (RN2xx Series)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/netgear/plexmediaserver-annapurna_1.24.0.4930-ab6e1a058_armel.deb)  
+Build: linux-armv7neon  
+Checksum: `3381c92fa8f7afe1017baddaa1ae8905738a75c3`
+
+# QNAP
+Extra Information: <a href="http://www.qnap.com/i/en/trade_teach/con_show.php?op=showone&cid=72" target="_blank"><b>View the tutorial</b></a> on how to use a QNAP Turbo NAS as a Plex Media Server.  
+Items Added:
+* (API) Language and country names are now returned in the client's language (#12815)
+* (Localization) Improved language code support for audio and subtitle streams (#12909)
+* (Scanner) Support for TV season directory names that contain a season title after the number (#12834)
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect when file contained image attachments (#12882)
+* (Collections) Manually ordered collections would fail to play (#12879)
+* (Collections) Missing hubs when an item is part of a manually ordered collection (#12862
+* (Extras) An exception throw in refreshing extra lists could cause the server to exit (#12890)
+* (HTTP) HTTP/2 requests could fail when passed malformed headers (#12876)
+* (Library) Scanning photo libraries could result in Exception warning log spam on certain platforms (#12941)
+* (Music) Aural fixations were broken for TIDAL subscribers w/o a full Plex Pass (#12812)
+* (Music) If genre preference is "Plex Music" don't read genre from tags (#12812)
+* (Music) When manually analyzing albums, clear loudness analysis (#12808)
+* (Playback) Pre-rolls wouldn't play unless cinema trailers were enabled (#12819)
+* (Transcode) Transcoding to AC3 could result in a lower bitrate than this codec needs to produce decent quality. (#9814)
+
+## Releases
+{: .no_toc }
+Distro: [Intel/AMD 64-bit (QTS-4.3 and newer)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/qnap/PlexMediaServer-1.24.0.4930-ab6e1a058-x86_64.qpkg)  
+Build: linux-x86_64  
+Checksum: `76f8087778ef5acadd2ffa94be0f000274b5ad09`
+
+Distro: [ARMv8 (TS-x28, and TS-x32 Series)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/qnap/PlexMediaServer-1.24.0.4930-ab6e1a058-aarch64.qpkg)  
+Build: linux-aarch64  
+Checksum: `fa4e15fffb649da768c619b3396e9ee52604e7b2`
+
+Distro: [ARMv7 (TS-x31, and TS-x31U Series)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/qnap/PlexMediaServer-1.24.0.4930-ab6e1a058-armv7hf.qpkg)  
+Build: linux-armv7hf  
+Checksum: `476e380bd7af6ec70c6cc9913aab869752963e70`
+
+Distro: [ARMv7 (TS-x31+, TS-x31P, TS-x31P2, TS-x31X, and TS-x31XU Series)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/qnap/PlexMediaServer-1.24.0.4930-ab6e1a058-armv7neon.qpkg)  
+Build: linux-armv7neon  
+Checksum: `ef6bf56932252304f6420a6f66caaf3efa954288`
+
+# unRAID
+Items Added:
+* (API) Language and country names are now returned in the client's language (#12815)
+* (Localization) Improved language code support for audio and subtitle streams (#12909)
+* (Scanner) Support for TV season directory names that contain a season title after the number (#12834)
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect when file contained image attachments (#12882)
+* (Collections) Manually ordered collections would fail to play (#12879)
+* (Collections) Missing hubs when an item is part of a manually ordered collection (#12862
+* (Extras) An exception throw in refreshing extra lists could cause the server to exit (#12890)
+* (HTTP) HTTP/2 requests could fail when passed malformed headers (#12876)
+* (Library) Scanning photo libraries could result in Exception warning log spam on certain platforms (#12941)
+* (Music) Aural fixations were broken for TIDAL subscribers w/o a full Plex Pass (#12812)
+* (Music) If genre preference is "Plex Music" don't read genre from tags (#12812)
+* (Music) When manually analyzing albums, clear loudness analysis (#12808)
+* (Playback) Pre-rolls wouldn't play unless cinema trailers were enabled (#12819)
+* (Transcode) Transcoding to AC3 could result in a lower bitrate than this codec needs to produce decent quality. (#9814)
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/unraid/PlexMediaServer-1.24.0.4930-ab6e1a058-x86_64.txz)  
+Build: linux-x86_64  
+Checksum: `37b08a5fde90dc5feeaf87adb4cf01199861247c`
+
+# Drobo
+Items Added:
+* (API) Language and country names are now returned in the client's language (#12815)
+* (Localization) Improved language code support for audio and subtitle streams (#12909)
+* (Scanner) Support for TV season directory names that contain a season title after the number (#12834)
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect when file contained image attachments (#12882)
+* (Collections) Manually ordered collections would fail to play (#12879)
+* (Collections) Missing hubs when an item is part of a manually ordered collection (#12862
+* (Extras) An exception throw in refreshing extra lists could cause the server to exit (#12890)
+* (HTTP) HTTP/2 requests could fail when passed malformed headers (#12876)
+* (Library) Scanning photo libraries could result in Exception warning log spam on certain platforms (#12941)
+* (Music) Aural fixations were broken for TIDAL subscribers w/o a full Plex Pass (#12812)
+* (Music) If genre preference is "Plex Music" don't read genre from tags (#12812)
+* (Music) When manually analyzing albums, clear loudness analysis (#12808)
+* (Playback) Pre-rolls wouldn't play unless cinema trailers were enabled (#12819)
+* (Transcode) Transcoding to AC3 could result in a lower bitrate than this codec needs to produce decent quality. (#9814)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/drobo/plex.tgz)  
+Build: linux-armv7hf  
+Checksum: `e90ed8eb1ec7d52f7c0b970d170de38147a45b12`
+
+# ASUSTOR
+Extra Information: <a href="https://www.asustor.com/online/College_topic?topic=235" target="_blank"><b>View the tutorial</b></a> on how to use a ASUSTOR NAS as a Plex Media Server.  
+Items Added:
+* (API) Language and country names are now returned in the client's language (#12815)
+* (Localization) Improved language code support for audio and subtitle streams (#12909)
+* (Scanner) Support for TV season directory names that contain a season title after the number (#12834)
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect when file contained image attachments (#12882)
+* (Collections) Manually ordered collections would fail to play (#12879)
+* (Collections) Missing hubs when an item is part of a manually ordered collection (#12862
+* (Extras) An exception throw in refreshing extra lists could cause the server to exit (#12890)
+* (HTTP) HTTP/2 requests could fail when passed malformed headers (#12876)
+* (Library) Scanning photo libraries could result in Exception warning log spam on certain platforms (#12941)
+* (Music) Aural fixations were broken for TIDAL subscribers w/o a full Plex Pass (#12812)
+* (Music) If genre preference is "Plex Music" don't read genre from tags (#12812)
+* (Music) When manually analyzing albums, clear loudness analysis (#12808)
+* (Playback) Pre-rolls wouldn't play unless cinema trailers were enabled (#12819)
+* (Transcode) Transcoding to AC3 could result in a lower bitrate than this codec needs to produce decent quality. (#9814)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/asustor/PlexMediaServer-1.24.0.4930-ab6e1a058-x86.apk)  
+Build: linux-x86  
+Checksum: `8e2f0bb793a1dde900456a78da5207109e52ac7b`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/asustor/PlexMediaServer-1.24.0.4930-ab6e1a058-x86_64.apk)  
+Build: linux-x86_64  
+Checksum: `a8e01aa6913d035f5872d211d2f9ccb46ea32144`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/asustor/PlexMediaServer-1.24.0.4930-ab6e1a058-aarch64.apk)  
+Build: linux-aarch64  
+Checksum: `2c12331e9e54e5ed71c07e235ce0f15f2a3ed2a8`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/asustor/PlexMediaServer-1.24.0.4930-ab6e1a058-armv7neon.apk)  
+Build: linux-armv7neon  
+Checksum: `3080a36e2822945b266e7348dbb047bd6b9e846c`
+
+# Seagate
+Items Added:
+* (API) Language and country names are now returned in the client's language (#12815)
+* (Localization) Improved language code support for audio and subtitle streams (#12909)
+* (Scanner) Support for TV season directory names that contain a season title after the number (#12834)
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect when file contained image attachments (#12882)
+* (Collections) Manually ordered collections would fail to play (#12879)
+* (Collections) Missing hubs when an item is part of a manually ordered collection (#12862
+* (Extras) An exception throw in refreshing extra lists could cause the server to exit (#12890)
+* (HTTP) HTTP/2 requests could fail when passed malformed headers (#12876)
+* (Library) Scanning photo libraries could result in Exception warning log spam on certain platforms (#12941)
+* (Music) Aural fixations were broken for TIDAL subscribers w/o a full Plex Pass (#12812)
+* (Music) If genre preference is "Plex Music" don't read genre from tags (#12812)
+* (Music) When manually analyzing albums, clear loudness analysis (#12808)
+* (Playback) Pre-rolls wouldn't play unless cinema trailers were enabled (#12819)
+* (Transcode) Transcoding to AC3 could result in a lower bitrate than this codec needs to produce decent quality. (#9814)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/seagate/PlexMediaServer-1.24.0.4930-ab6e1a058-x86_64.rbw)  
+Build: linux-x86_64  
+Checksum: `700d5947b0f7da4cf61c1e85f551e0746a042ed2`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/seagate/PlexMediaServer-1.24.0.4930-ab6e1a058-armv7.rbw)  
+Build: linux-armv7hf  
+Checksum: `d64e907066838ba92baa01576d2bc4d6ae7aab84`
+
+# Western Digital
+Requirements: [Requires My Cloud OS 5. Older devices use &#39;Western Digital (OS3)&#39;.](Note:)  
+Items Added:
+* (API) Language and country names are now returned in the client's language (#12815)
+* (Localization) Improved language code support for audio and subtitle streams (#12909)
+* (Scanner) Support for TV season directory names that contain a season title after the number (#12834)
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect when file contained image attachments (#12882)
+* (Collections) Manually ordered collections would fail to play (#12879)
+* (Collections) Missing hubs when an item is part of a manually ordered collection (#12862
+* (Extras) An exception throw in refreshing extra lists could cause the server to exit (#12890)
+* (HTTP) HTTP/2 requests could fail when passed malformed headers (#12876)
+* (Library) Scanning photo libraries could result in Exception warning log spam on certain platforms (#12941)
+* (Music) Aural fixations were broken for TIDAL subscribers w/o a full Plex Pass (#12812)
+* (Music) If genre preference is "Plex Music" don't read genre from tags (#12812)
+* (Music) When manually analyzing albums, clear loudness analysis (#12808)
+* (Playback) Pre-rolls wouldn't play unless cinema trailers were enabled (#12819)
+* (Transcode) Transcoding to AC3 could result in a lower bitrate than this codec needs to produce decent quality. (#9814)
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud PR2100](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/wd/PlexMediaServer-1.24.0.4930-ab6e1a058-MyCloudPR2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `1302066b25c1df62854d34995d44e268f21052b5`
+
+Distro: [My Cloud PR4100](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/wd/PlexMediaServer-1.24.0.4930-ab6e1a058-MyCloudPR4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `fff314cf4b7136f65dfb832c3f23d8c44ec70e63`
+
+Distro: [My Cloud EX2 Ultra](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/wd/PlexMediaServer-1.24.0.4930-ab6e1a058-MyCloudEX2Ultra_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `dbfe7202a0b21cfb8439cf09c73609f2a184f33a`
+
+Distro: [My Cloud EX4100](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/wd/PlexMediaServer-1.24.0.4930-ab6e1a058-WDMyCloudEX4100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `a04ac9950e38c78dee703f3662bcd1cd8dc0a3ff`
+
+Distro: [My Cloud Mirror](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/wd/PlexMediaServer-1.24.0.4930-ab6e1a058-WDMyCloudMirror_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `564cbd3bc59e62ac6b8c5f32572766f8b3a4def9`
+
+Distro: [My Cloud EX2100](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/wd/PlexMediaServer-1.24.0.4930-ab6e1a058-WDMyCloudEX2100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `4a48ecad0f0ff8bd9051c26df8f4d3f5f580e132`
+
+Distro: [My Cloud DL2100](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/wd/PlexMediaServer-1.24.0.4930-ab6e1a058-WDMyCloudDL2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `6a73c52fb4f39ae0acff027ce6874898ace703e9`
+
+Distro: [My Cloud DL4100](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/wd/PlexMediaServer-1.24.0.4930-ab6e1a058-WDMyCloudDL4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `73464c193758e7e3d779980b43877e7e3174a408`
+
+Distro: [My Cloud (Single Bay)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/wd/PlexMediaServer-1.24.0.4930-ab6e1a058-WDMyCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `7214f38278826ef1759542830b63d9739fc35f30`
+
+Distro: [WD Cloud for Japan](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/wd/PlexMediaServer-1.24.0.4930-ab6e1a058-WDCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `c2bc457977901c27db09a20c1fde66352722a878`
+
+# Western Digital (OS 3)
+Items Added:
+* (API) Language and country names are now returned in the client's language (#12815)
+* (Localization) Improved language code support for audio and subtitle streams (#12909)
+* (Scanner) Support for TV season directory names that contain a season title after the number (#12834)
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect when file contained image attachments (#12882)
+* (Collections) Manually ordered collections would fail to play (#12879)
+* (Collections) Missing hubs when an item is part of a manually ordered collection (#12862
+* (Extras) An exception throw in refreshing extra lists could cause the server to exit (#12890)
+* (HTTP) HTTP/2 requests could fail when passed malformed headers (#12876)
+* (Library) Scanning photo libraries could result in Exception warning log spam on certain platforms (#12941)
+* (Music) Aural fixations were broken for TIDAL subscribers w/o a full Plex Pass (#12812)
+* (Music) If genre preference is "Plex Music" don't read genre from tags (#12812)
+* (Music) When manually analyzing albums, clear loudness analysis (#12808)
+* (Playback) Pre-rolls wouldn't play unless cinema trailers were enabled (#12819)
+* (Transcode) Transcoding to AC3 could result in a lower bitrate than this codec needs to produce decent quality. (#9814)
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud DL2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/wd/PlexMediaServer-1.24.0.4930-ab6e1a058-WDMyCloudDL2100.bin)  
+Build: linux-x86_64  
+Checksum: `9950ec9c5f235972585733da8db227484dae95da`
+
+Distro: [My Cloud DL4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/wd/PlexMediaServer-1.24.0.4930-ab6e1a058-WDMyCloudDL4100.bin)  
+Build: linux-x86_64  
+Checksum: `62684a6f4ef0493ec55d1b98cb6013d41f827656`
+
+Distro: [My Cloud PR2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/wd/PlexMediaServer-1.24.0.4930-ab6e1a058-MyCloudPR2100.bin)  
+Build: linux-x86_64  
+Checksum: `90f79a4acc12dfeffcd0e18d98d2ce9bafe5affc`
+
+Distro: [My Cloud PR4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/wd/PlexMediaServer-1.24.0.4930-ab6e1a058-MyCloudPR4100.bin)  
+Build: linux-x86_64  
+Checksum: `cfba6210ef5276e8219c0f4cd203ae65050b2af4`
+
+Distro: [My Cloud EX2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/wd/PlexMediaServer-1.24.0.4930-ab6e1a058-WDMyCloudEX2.bin)  
+Build: linux-armv7hf  
+Checksum: `a88978cb683ebff967fd51be391ebe820085a28c`
+
+Distro: [My Cloud EX2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/wd/PlexMediaServer-1.24.0.4930-ab6e1a058-WDMyCloudEX2100.bin)  
+Build: linux-armv7hf  
+Checksum: `227eca7c5cabbbe314d8352f9249b776ee597597`
+
+Distro: [My Cloud EX2 Ultra (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/wd/PlexMediaServer-1.24.0.4930-ab6e1a058-MyCloudEX2Ultra.bin)  
+Build: linux-armv7hf  
+Checksum: `ec07102d7dfa3f848ce54199d5ece61d10b7597f`
+
+Distro: [My Cloud EX4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/wd/PlexMediaServer-1.24.0.4930-ab6e1a058-WDMyCloudEX4100.bin)  
+Build: linux-armv7hf  
+Checksum: `f3bcc9e6cc164c825e4b3ed2252d4a2f3fdd1636`
+
+Distro: [My Cloud Mirror (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/wd/PlexMediaServer-1.24.0.4930-ab6e1a058-WDMyCloudMirror.bin)  
+Build: linux-armv7hf  
+Checksum: `660f29ce6d7063836f6189d5f3141c7e1478947c`
+
+Distro: [My Cloud Mirror Gen2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.0.4930-ab6e1a058/wd/PlexMediaServer-1.24.0.4930-ab6e1a058-WDMyCloudMirrorGen2.bin)  
+Build: linux-armv7hf  
+Checksum: `baaccb80005efdac881f29c616db40f4b0005ec8`
+
