@@ -1,0 +1,348 @@
+---
+layout: page
+title: 1.24.1.4931-1a38e63c6
+description: Plex Media Server version 1.24.1.4931-1a38e63c6
+---
+## Released on 08/12/2021 16:17
+{: .no_toc }
+## Table of contents
+{: .no_toc .text-delta }
+* TOC
+{:toc}
+# Windows
+Requirements: [Windows 7 SP1 or newer (Intel or AMD processors only)](https://support.plex.tv/hc/en-us/articles/200375666)  
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect with certain audio tracks (#12955)
+* (Metadata) Always use the first embedded image when preferring local metadata (#12946)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/windows/PlexMediaServer-1.24.1.4931-1a38e63c6-x86.exe)  
+Build: windows-x86  
+Checksum: `9e604083c75caa5de1e9169148efbf2b7270f5ad`
+
+# MacOS
+Requirements: [OS X 10.9 Mavericks or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect with certain audio tracks (#12955)
+* (Metadata) Always use the first embedded image when preferring local metadata (#12946)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/macos/PlexMediaServer-1.24.1.4931-1a38e63c6-x86_64.zip)  
+Build: darwin-x86_64  
+Checksum: `fdffbc6e945219fafec8fddf8d64c20765940082`
+
+# Linux
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect with certain audio tracks (#12955)
+* (Metadata) Always use the first embedded image when preferring local metadata (#12946)
+
+## Releases
+{: .no_toc }
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/debian/plexmediaserver_1.24.1.4931-1a38e63c6_i386.deb)  
+Build: linux-x86  
+Checksum: `199ec1766802a19c7cdb3c56f96092f02d03ca92`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/debian/plexmediaserver_1.24.1.4931-1a38e63c6_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `7d0751f7efaa7b5fc9ac2a3cdb130712db6b6d89`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv8](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/debian/plexmediaserver_1.24.1.4931-1a38e63c6_arm64.deb)  
+Build: linux-aarch64  
+Checksum: `f2ea73e3d25bc59abf7befe60b0d4c8320dbc8c3`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv7](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/debian/plexmediaserver_1.24.1.4931-1a38e63c6_armhf.deb)  
+Build: linux-armv7neon  
+Checksum: `b561550154ba3884ca213a37b8f869e1ee8f48a8`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/redhat/plexmediaserver-1.24.1.4931-1a38e63c6.i686.rpm)  
+Build: linux-x86  
+Checksum: `a17f7f5cacde0b3494577d8f25ca9956e694e4ca`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/redhat/plexmediaserver-1.24.1.4931-1a38e63c6.x86_64.rpm)  
+Build: linux-x86_64  
+Checksum: `be7a532260a23a0263bbd6a6bec64c3a899dd84c`
+
+# FreeBSD
+Requirements: [FreeBSD 11.2 or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect with certain audio tracks (#12955)
+* (Metadata) Always use the first embedded image when preferring local metadata (#12946)
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/freebsd/PlexMediaServer-1.24.1.4931-1a38e63c6-FreeBSD-amd64.tar.bz2)  
+Build: freebsd-x86_64  
+Checksum: `f32bf297a71f4cd292b32a40a4642b61aead5983`
+
+# Synology
+Requirements: [Requires DSM 5.0 minimum to install.](Note:)  
+Extra Information: Guide: <a href="https://support.plex.tv/hc/en-us/articles/205165858" target="_blank">Add Plex as a trusted publisher for package installations</a>.  
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect with certain audio tracks (#12955)
+* (Metadata) Always use the first embedded image when preferring local metadata (#12946)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit (x10 Series, DS415play, and DS214play)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/synology/PlexMediaServer-1.24.1.4931-1a38e63c6-x86_DSM6.spk)  
+Build: linux-x86  
+Checksum: `4ce537e539b93e707f15296b2cf4bef21f640499`
+
+Distro: [Intel 64-bit (DSM 6.0 and newer)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/synology/PlexMediaServer-1.24.1.4931-1a38e63c6-x86_64_DSM6.spk)  
+Build: linux-x86_64  
+Checksum: `8b4e858a02deb788b656ee53bebd90a3294277d3`
+
+Distro: [ARMv8 (x18 Series)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/synology/PlexMediaServer-1.24.1.4931-1a38e63c6-aarch64_DSM6.spk)  
+Build: linux-aarch64  
+Checksum: `91b023f8054df8dda75170705f33b43f825a985a`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/synology/PlexMediaServer-1.24.1.4931-1a38e63c6-armv7hf_DSM6.spk)  
+Build: linux-armv7hf  
+Checksum: `64193d67623ae411477aaf898971ce13d9d88578`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/synology/PlexMediaServer-1.24.1.4931-1a38e63c6-armv7neon_DSM6.spk)  
+Build: linux-armv7neon  
+Checksum: `e9ad698c98acfdb7089f56fbddc39ae37d867bd5`
+
+# Synology (DSM 7)
+Requirements: [Requires DSM 7.0 minimum to install.](Note:)  
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect with certain audio tracks (#12955)
+* (Metadata) Always use the first embedded image when preferring local metadata (#12946)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/synology-dsm7/PlexMediaServer-1.24.1.4931-1a38e63c6-x86_DSM7.spk)  
+Build: linux-x86  
+Checksum: `e1ff374a99b1b796991f8bfaafe21389c3debe49`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/synology-dsm7/PlexMediaServer-1.24.1.4931-1a38e63c6-x86_64_DSM7.spk)  
+Build: linux-x86_64  
+Checksum: `125d06cc8f47f5bd2508c9b548f09f208a6bfa95`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/synology-dsm7/PlexMediaServer-1.24.1.4931-1a38e63c6-aarch64_DSM7.spk)  
+Build: linux-aarch64  
+Checksum: `2f61b2ea06e54902e6f09ced160ae0114e8ce482`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/synology-dsm7/PlexMediaServer-1.24.1.4931-1a38e63c6-armv7hf_DSM7.spk)  
+Build: linux-armv7hf  
+Checksum: `b43c5afaa4e85ea838863d84a21098eca4de4e2f`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/synology-dsm7/PlexMediaServer-1.24.1.4931-1a38e63c6-armv7neon_DSM7.spk)  
+Build: linux-armv7neon  
+Checksum: `ace85d86f3ef75332fb6f6f7440dbc8fecf6aa2b`
+
+# Netgear
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect with certain audio tracks (#12955)
+* (Metadata) Always use the first embedded image when preferring local metadata (#12946)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/netgear/plexmediaserver_1.24.1.4931-1a38e63c6_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `5db02a1f206998ce80f3cfcf9b5da57658d55295`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/netgear/plexmediaserver_1.24.1.4931-1a38e63c6_armel.deb)  
+Build: linux-armv7hf  
+Checksum: `7ebde25fb35b8aa107e09b0e9e05cfbbb26f8dbd`
+
+Distro: [ARMv7 (RN2xx Series)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/netgear/plexmediaserver-annapurna_1.24.1.4931-1a38e63c6_armel.deb)  
+Build: linux-armv7neon  
+Checksum: `139e439a5be9dc4783b75202705c3bf2d041b2bd`
+
+# QNAP
+Extra Information: <a href="http://www.qnap.com/i/en/trade_teach/con_show.php?op=showone&cid=72" target="_blank"><b>View the tutorial</b></a> on how to use a QNAP Turbo NAS as a Plex Media Server.  
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect with certain audio tracks (#12955)
+* (Metadata) Always use the first embedded image when preferring local metadata (#12946)
+
+## Releases
+{: .no_toc }
+Distro: [Intel/AMD 64-bit (QTS-4.3 and newer)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/qnap/PlexMediaServer-1.24.1.4931-1a38e63c6-x86_64.qpkg)  
+Build: linux-x86_64  
+Checksum: `cf454d51c57f54b7601ed8b78b539f65475b5626`
+
+Distro: [ARMv8 (TS-x28, and TS-x32 Series)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/qnap/PlexMediaServer-1.24.1.4931-1a38e63c6-aarch64.qpkg)  
+Build: linux-aarch64  
+Checksum: `1ca15e32f30b16f5a9bd7db31e714c0721d97a84`
+
+Distro: [ARMv7 (TS-x31, and TS-x31U Series)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/qnap/PlexMediaServer-1.24.1.4931-1a38e63c6-armv7hf.qpkg)  
+Build: linux-armv7hf  
+Checksum: `e43c8154f134737567e38a53ce27cdf34bfebde5`
+
+Distro: [ARMv7 (TS-x31+, TS-x31P, TS-x31P2, TS-x31X, and TS-x31XU Series)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/qnap/PlexMediaServer-1.24.1.4931-1a38e63c6-armv7neon.qpkg)  
+Build: linux-armv7neon  
+Checksum: `a517d0e0f06e46c21e193d7b14c88dae484de690`
+
+# unRAID
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect with certain audio tracks (#12955)
+* (Metadata) Always use the first embedded image when preferring local metadata (#12946)
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/unraid/PlexMediaServer-1.24.1.4931-1a38e63c6-x86_64.txz)  
+Build: linux-x86_64  
+Checksum: `a7a50b0ad1845f3f68022886ca5d86332b97a617`
+
+# Drobo
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect with certain audio tracks (#12955)
+* (Metadata) Always use the first embedded image when preferring local metadata (#12946)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/drobo/plex.tgz)  
+Build: linux-armv7hf  
+Checksum: `57943bfe08db12fe7c8cb67fd62f437b83ef035a`
+
+# ASUSTOR
+Extra Information: <a href="https://www.asustor.com/online/College_topic?topic=235" target="_blank"><b>View the tutorial</b></a> on how to use a ASUSTOR NAS as a Plex Media Server.  
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect with certain audio tracks (#12955)
+* (Metadata) Always use the first embedded image when preferring local metadata (#12946)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/asustor/PlexMediaServer-1.24.1.4931-1a38e63c6-x86.apk)  
+Build: linux-x86  
+Checksum: `2d19e89117ebdce352e3ff086c9197e767d80012`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/asustor/PlexMediaServer-1.24.1.4931-1a38e63c6-x86_64.apk)  
+Build: linux-x86_64  
+Checksum: `a34212ec69b982bb296657b2a7815db60a07f151`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/asustor/PlexMediaServer-1.24.1.4931-1a38e63c6-aarch64.apk)  
+Build: linux-aarch64  
+Checksum: `2ee441b9cc6e7038743a0a7feaca51beee8d6867`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/asustor/PlexMediaServer-1.24.1.4931-1a38e63c6-armv7neon.apk)  
+Build: linux-armv7neon  
+Checksum: `06eebb98ca3c85194227a3e80ec8412647295b32`
+
+# Seagate
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect with certain audio tracks (#12955)
+* (Metadata) Always use the first embedded image when preferring local metadata (#12946)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/seagate/PlexMediaServer-1.24.1.4931-1a38e63c6-x86_64.rbw)  
+Build: linux-x86_64  
+Checksum: `0858391500ed3b616221a12d8fdb24e1d65bdb68`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/seagate/PlexMediaServer-1.24.1.4931-1a38e63c6-armv7.rbw)  
+Build: linux-armv7hf  
+Checksum: `de6ecbedc45a669161df4e00a08c436c24ec8e77`
+
+# Western Digital
+Requirements: [Requires My Cloud OS 5. Older devices use &#39;Western Digital (OS3)&#39;.](Note:)  
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect with certain audio tracks (#12955)
+* (Metadata) Always use the first embedded image when preferring local metadata (#12946)
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud PR2100](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/wd/PlexMediaServer-1.24.1.4931-1a38e63c6-MyCloudPR2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `12e4d8d35d7a21f2aae3ed67aec972a51750ca96`
+
+Distro: [My Cloud PR4100](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/wd/PlexMediaServer-1.24.1.4931-1a38e63c6-MyCloudPR4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `2faaa6c0ef587c1c2719cf287e2670943bbcfaf5`
+
+Distro: [My Cloud EX2 Ultra](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/wd/PlexMediaServer-1.24.1.4931-1a38e63c6-MyCloudEX2Ultra_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `79cb9adb2599aa7ef87e341fe3c5e469b42c15ce`
+
+Distro: [My Cloud EX4100](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/wd/PlexMediaServer-1.24.1.4931-1a38e63c6-WDMyCloudEX4100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `230bd49a82f287616ee912869971959a473cfb1a`
+
+Distro: [My Cloud Mirror](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/wd/PlexMediaServer-1.24.1.4931-1a38e63c6-WDMyCloudMirror_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `91dc212313afe6ab00d0ede53c5dec7fc0c74572`
+
+Distro: [My Cloud EX2100](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/wd/PlexMediaServer-1.24.1.4931-1a38e63c6-WDMyCloudEX2100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `84cfd6a3be278c2d7a1f43dc4cf3abc8d7d838cf`
+
+Distro: [My Cloud DL2100](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/wd/PlexMediaServer-1.24.1.4931-1a38e63c6-WDMyCloudDL2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `9819a518ec4aa9cf621cacc74715ea232909002e`
+
+Distro: [My Cloud DL4100](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/wd/PlexMediaServer-1.24.1.4931-1a38e63c6-WDMyCloudDL4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `2cdabdd92e4a5dc9bdc8a6cbd039e8222a7295fd`
+
+Distro: [My Cloud (Single Bay)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/wd/PlexMediaServer-1.24.1.4931-1a38e63c6-WDMyCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `465930e244b8630e894e482220fc13d840beeada`
+
+Distro: [WD Cloud for Japan](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/wd/PlexMediaServer-1.24.1.4931-1a38e63c6-WDCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `0430f209b02eb5b44a579b46c90f19037dd257d5`
+
+# Western Digital (OS 3)
+
+Items Fixed:
+* (Analysis) Bitrate analysis was sometimes incorrect with certain audio tracks (#12955)
+* (Metadata) Always use the first embedded image when preferring local metadata (#12946)
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud DL2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/wd/PlexMediaServer-1.24.1.4931-1a38e63c6-WDMyCloudDL2100.bin)  
+Build: linux-x86_64  
+Checksum: `dc3db3d98e493bf3f1a78c088d0a3d776e7d99c2`
+
+Distro: [My Cloud DL4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/wd/PlexMediaServer-1.24.1.4931-1a38e63c6-WDMyCloudDL4100.bin)  
+Build: linux-x86_64  
+Checksum: `81ddf01eeadd5bae36756dc9594dc89ea3cee4f3`
+
+Distro: [My Cloud PR2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/wd/PlexMediaServer-1.24.1.4931-1a38e63c6-MyCloudPR2100.bin)  
+Build: linux-x86_64  
+Checksum: `cfb2dd55ab9936e17036869fb30ba5e348983b4e`
+
+Distro: [My Cloud PR4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/wd/PlexMediaServer-1.24.1.4931-1a38e63c6-MyCloudPR4100.bin)  
+Build: linux-x86_64  
+Checksum: `92a4016c147d9fff3303ce9a6eadca168cef022c`
+
+Distro: [My Cloud EX2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/wd/PlexMediaServer-1.24.1.4931-1a38e63c6-WDMyCloudEX2.bin)  
+Build: linux-armv7hf  
+Checksum: `6bbaeb672d0a5c9e060ed0684158fd0ac3aafcff`
+
+Distro: [My Cloud EX2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/wd/PlexMediaServer-1.24.1.4931-1a38e63c6-WDMyCloudEX2100.bin)  
+Build: linux-armv7hf  
+Checksum: `03fe9d85810dca266ae6f9473a7df57037489259`
+
+Distro: [My Cloud EX2 Ultra (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/wd/PlexMediaServer-1.24.1.4931-1a38e63c6-MyCloudEX2Ultra.bin)  
+Build: linux-armv7hf  
+Checksum: `c9b7bba46622d9a1f19efb72a6f861736127c5de`
+
+Distro: [My Cloud EX4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/wd/PlexMediaServer-1.24.1.4931-1a38e63c6-WDMyCloudEX4100.bin)  
+Build: linux-armv7hf  
+Checksum: `b2e354f905cf7358dea9dbf36051fcb4320480ef`
+
+Distro: [My Cloud Mirror (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/wd/PlexMediaServer-1.24.1.4931-1a38e63c6-WDMyCloudMirror.bin)  
+Build: linux-armv7hf  
+Checksum: `6ba8a453532071938cb145667315c37cd8d53b73`
+
+Distro: [My Cloud Mirror Gen2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.1.4931-1a38e63c6/wd/PlexMediaServer-1.24.1.4931-1a38e63c6-WDMyCloudMirrorGen2.bin)  
+Build: linux-armv7hf  
+Checksum: `e90f84e6ccfea8b4885aa3fd84eb0b5086e7b8d9`
+
