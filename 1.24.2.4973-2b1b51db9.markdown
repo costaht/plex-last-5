@@ -1,0 +1,432 @@
+---
+layout: page
+title: 1.24.2.4973-2b1b51db9
+description: Plex Media Server version 1.24.2.4973-2b1b51db9
+---
+## Released on 08/26/2021 13:23
+{: .no_toc }
+## Table of contents
+{: .no_toc .text-delta }
+* TOC
+{:toc}
+# Windows
+Requirements: [Windows 7 SP1 or newer (Intel or AMD processors only)](https://support.plex.tv/hc/en-us/articles/200375666)  
+Items Added:
+* (Synology) Use new 'PlexMediaServer' share as metadata storage structure on DSM 7
+* (TerraMaster) Update packaging to support manually installing on devices
+* (Web) Updated to 4.62.1
+
+Items Fixed:
+* (Debian) Improve Intel CPU model parsing during installation for hardware transcoding detection and user messaging
+* (Hubs) Related hubs would only show 6 items if they had a custom order (#13001)
+* (Library) The server could become unresponsive if certain HTTP requests were made simultaneously (#12844)
+* (Network) The server could get stuck in a state where it thinks there is no internet connectivity (#12635)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/windows/PlexMediaServer-1.24.2.4973-2b1b51db9-x86.exe)  
+Build: windows-x86  
+Checksum: `3c68fa1873c69a56efcfac3edab974b024db1b2e`
+
+# MacOS
+Requirements: [OS X 10.9 Mavericks or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+Items Added:
+* (Synology) Use new 'PlexMediaServer' share as metadata storage structure on DSM 7
+* (TerraMaster) Update packaging to support manually installing on devices
+* (Web) Updated to 4.62.1
+
+Items Fixed:
+* (Debian) Improve Intel CPU model parsing during installation for hardware transcoding detection and user messaging
+* (Hubs) Related hubs would only show 6 items if they had a custom order (#13001)
+* (Library) The server could become unresponsive if certain HTTP requests were made simultaneously (#12844)
+* (Network) The server could get stuck in a state where it thinks there is no internet connectivity (#12635)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/macos/PlexMediaServer-1.24.2.4973-2b1b51db9-x86_64.zip)  
+Build: darwin-x86_64  
+Checksum: `5f90c8474db5de6bacef06233e1f1bb7178cf584`
+
+# Linux
+Items Added:
+* (Synology) Use new 'PlexMediaServer' share as metadata storage structure on DSM 7
+* (TerraMaster) Update packaging to support manually installing on devices
+* (Web) Updated to 4.62.1
+
+Items Fixed:
+* (Debian) Improve Intel CPU model parsing during installation for hardware transcoding detection and user messaging
+* (Hubs) Related hubs would only show 6 items if they had a custom order (#13001)
+* (Library) The server could become unresponsive if certain HTTP requests were made simultaneously (#12844)
+* (Network) The server could get stuck in a state where it thinks there is no internet connectivity (#12635)
+
+## Releases
+{: .no_toc }
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/debian/plexmediaserver_1.24.2.4973-2b1b51db9_i386.deb)  
+Build: linux-x86  
+Checksum: `f14988f5e2cb405016e3fe0a77304b8bdba18e8f`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/debian/plexmediaserver_1.24.2.4973-2b1b51db9_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `9096b418d9730eed19a5f5ee95d5c9f6629cfe35`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv8](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/debian/plexmediaserver_1.24.2.4973-2b1b51db9_arm64.deb)  
+Build: linux-aarch64  
+Checksum: `2fefde9423587e0a321d10e47a3a49f9e2f8237c`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv7](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/debian/plexmediaserver_1.24.2.4973-2b1b51db9_armhf.deb)  
+Build: linux-armv7neon  
+Checksum: `e2ed28a04474759e29ace941342e61a90550dcb5`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/redhat/plexmediaserver-1.24.2.4973-2b1b51db9.i686.rpm)  
+Build: linux-x86  
+Checksum: `7211ec62777babdfed0bee82119170cbbb4f812f`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/redhat/plexmediaserver-1.24.2.4973-2b1b51db9.x86_64.rpm)  
+Build: linux-x86_64  
+Checksum: `1fe8dbdd460116eb5a23a949a4681df3bb86931c`
+
+# FreeBSD
+Requirements: [FreeBSD 11.2 or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+Items Added:
+* (Synology) Use new 'PlexMediaServer' share as metadata storage structure on DSM 7
+* (TerraMaster) Update packaging to support manually installing on devices
+* (Web) Updated to 4.62.1
+
+Items Fixed:
+* (Debian) Improve Intel CPU model parsing during installation for hardware transcoding detection and user messaging
+* (Hubs) Related hubs would only show 6 items if they had a custom order (#13001)
+* (Library) The server could become unresponsive if certain HTTP requests were made simultaneously (#12844)
+* (Network) The server could get stuck in a state where it thinks there is no internet connectivity (#12635)
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/freebsd/PlexMediaServer-1.24.2.4973-2b1b51db9-FreeBSD-amd64.tar.bz2)  
+Build: freebsd-x86_64  
+Checksum: `9698777b0a74e256a12425501bede558556015c5`
+
+# Synology
+Requirements: [Requires DSM 5.0 minimum to install.](Note:)  
+Extra Information: Guide: <a href="https://support.plex.tv/hc/en-us/articles/205165858" target="_blank">Add Plex as a trusted publisher for package installations</a>.  
+Items Added:
+* (Synology) Use new 'PlexMediaServer' share as metadata storage structure on DSM 7
+* (TerraMaster) Update packaging to support manually installing on devices
+* (Web) Updated to 4.62.1
+
+Items Fixed:
+* (Debian) Improve Intel CPU model parsing during installation for hardware transcoding detection and user messaging
+* (Hubs) Related hubs would only show 6 items if they had a custom order (#13001)
+* (Library) The server could become unresponsive if certain HTTP requests were made simultaneously (#12844)
+* (Network) The server could get stuck in a state where it thinks there is no internet connectivity (#12635)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit (x10 Series, DS415play, and DS214play)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/synology/PlexMediaServer-1.24.2.4973-2b1b51db9-x86_DSM6.spk)  
+Build: linux-x86  
+Checksum: `8755aa9a671ccbc9c47173e6f3f1ce170dd1bf8b`
+
+Distro: [Intel 64-bit (DSM 6.0 and newer)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/synology/PlexMediaServer-1.24.2.4973-2b1b51db9-x86_64_DSM6.spk)  
+Build: linux-x86_64  
+Checksum: `584bc042afedd3c33e5a044923880e47e948fcda`
+
+Distro: [ARMv8 (x18 Series)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/synology/PlexMediaServer-1.24.2.4973-2b1b51db9-aarch64_DSM6.spk)  
+Build: linux-aarch64  
+Checksum: `b04ebcf927601170fa03f75e78ab0523381ab273`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/synology/PlexMediaServer-1.24.2.4973-2b1b51db9-armv7hf_DSM6.spk)  
+Build: linux-armv7hf  
+Checksum: `408cebf8f5472b51281d16801a52f530d0d4e79e`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/synology/PlexMediaServer-1.24.2.4973-2b1b51db9-armv7neon_DSM6.spk)  
+Build: linux-armv7neon  
+Checksum: `69bc203b7f98ab8a6b91cd1ebf5cebe0b4e008aa`
+
+# Synology (DSM 7)
+Requirements: [Requires DSM 7.0 minimum to install.](Note:)  
+Items Added:
+* (Synology) Use new 'PlexMediaServer' share as metadata storage structure on DSM 7
+* (TerraMaster) Update packaging to support manually installing on devices
+* (Web) Updated to 4.62.1
+
+Items Fixed:
+* (Debian) Improve Intel CPU model parsing during installation for hardware transcoding detection and user messaging
+* (Hubs) Related hubs would only show 6 items if they had a custom order (#13001)
+* (Library) The server could become unresponsive if certain HTTP requests were made simultaneously (#12844)
+* (Network) The server could get stuck in a state where it thinks there is no internet connectivity (#12635)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/synology-dsm7/PlexMediaServer-1.24.2.4973-2b1b51db9-x86_DSM7.spk)  
+Build: linux-x86  
+Checksum: `1794da10fe472c08dd42fa1944b76d55bb0c48ac`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/synology-dsm7/PlexMediaServer-1.24.2.4973-2b1b51db9-x86_64_DSM7.spk)  
+Build: linux-x86_64  
+Checksum: `513536761451b2d48211d2917370fbcb7d689b29`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/synology-dsm7/PlexMediaServer-1.24.2.4973-2b1b51db9-aarch64_DSM7.spk)  
+Build: linux-aarch64  
+Checksum: `cd9254cd6ca2f4401e961760683e02bf04b04723`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/synology-dsm7/PlexMediaServer-1.24.2.4973-2b1b51db9-armv7hf_DSM7.spk)  
+Build: linux-armv7hf  
+Checksum: `51473feb9be076a3975b2973c2ceb124bb303dae`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/synology-dsm7/PlexMediaServer-1.24.2.4973-2b1b51db9-armv7neon_DSM7.spk)  
+Build: linux-armv7neon  
+Checksum: `f96b3defe844496aa6445d926a16db6b72c09e06`
+
+# Netgear
+Items Added:
+* (Synology) Use new 'PlexMediaServer' share as metadata storage structure on DSM 7
+* (TerraMaster) Update packaging to support manually installing on devices
+* (Web) Updated to 4.62.1
+
+Items Fixed:
+* (Debian) Improve Intel CPU model parsing during installation for hardware transcoding detection and user messaging
+* (Hubs) Related hubs would only show 6 items if they had a custom order (#13001)
+* (Library) The server could become unresponsive if certain HTTP requests were made simultaneously (#12844)
+* (Network) The server could get stuck in a state where it thinks there is no internet connectivity (#12635)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/netgear/plexmediaserver_1.24.2.4973-2b1b51db9_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `3aa0ab391e1414ee1e56a228d1b2701dfb0d43c0`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/netgear/plexmediaserver_1.24.2.4973-2b1b51db9_armel.deb)  
+Build: linux-armv7hf  
+Checksum: `a13221bb36ad09497da0980d473522f221d9d724`
+
+Distro: [ARMv7 (RN2xx Series)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/netgear/plexmediaserver-annapurna_1.24.2.4973-2b1b51db9_armel.deb)  
+Build: linux-armv7neon  
+Checksum: `0b60b627698a8194475d3e4626a5fddb55b0fa68`
+
+# QNAP
+Extra Information: <a href="http://www.qnap.com/i/en/trade_teach/con_show.php?op=showone&cid=72" target="_blank"><b>View the tutorial</b></a> on how to use a QNAP Turbo NAS as a Plex Media Server.  
+Items Added:
+* (Synology) Use new 'PlexMediaServer' share as metadata storage structure on DSM 7
+* (TerraMaster) Update packaging to support manually installing on devices
+* (Web) Updated to 4.62.1
+
+Items Fixed:
+* (Debian) Improve Intel CPU model parsing during installation for hardware transcoding detection and user messaging
+* (Hubs) Related hubs would only show 6 items if they had a custom order (#13001)
+* (Library) The server could become unresponsive if certain HTTP requests were made simultaneously (#12844)
+* (Network) The server could get stuck in a state where it thinks there is no internet connectivity (#12635)
+
+## Releases
+{: .no_toc }
+Distro: [Intel/AMD 64-bit (QTS-4.3 and newer)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/qnap/PlexMediaServer-1.24.2.4973-2b1b51db9-x86_64.qpkg)  
+Build: linux-x86_64  
+Checksum: `19c6ec3967157a810d67d14c2d992b30f39399d4`
+
+Distro: [ARMv8 (TS-x28, and TS-x32 Series)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/qnap/PlexMediaServer-1.24.2.4973-2b1b51db9-aarch64.qpkg)  
+Build: linux-aarch64  
+Checksum: `fcc7bab89f36700e0781f8ef697f4dee2ded3ce3`
+
+Distro: [ARMv7 (TS-x31, and TS-x31U Series)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/qnap/PlexMediaServer-1.24.2.4973-2b1b51db9-armv7hf.qpkg)  
+Build: linux-armv7hf  
+Checksum: `9d18ad2be08daf46ab297cb504e752ee5935052c`
+
+Distro: [ARMv7 (TS-x31+, TS-x31P, TS-x31P2, TS-x31X, and TS-x31XU Series)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/qnap/PlexMediaServer-1.24.2.4973-2b1b51db9-armv7neon.qpkg)  
+Build: linux-armv7neon  
+Checksum: `877d8569e26bcb0195daa80b8ad27a36e384871c`
+
+# unRAID
+Items Added:
+* (Synology) Use new 'PlexMediaServer' share as metadata storage structure on DSM 7
+* (TerraMaster) Update packaging to support manually installing on devices
+* (Web) Updated to 4.62.1
+
+Items Fixed:
+* (Debian) Improve Intel CPU model parsing during installation for hardware transcoding detection and user messaging
+* (Hubs) Related hubs would only show 6 items if they had a custom order (#13001)
+* (Library) The server could become unresponsive if certain HTTP requests were made simultaneously (#12844)
+* (Network) The server could get stuck in a state where it thinks there is no internet connectivity (#12635)
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/unraid/PlexMediaServer-1.24.2.4973-2b1b51db9-x86_64.txz)  
+Build: linux-x86_64  
+Checksum: `5cc6c8afcacd181491c15e2f3fbe5e633c7e426b`
+
+# Drobo
+Items Added:
+* (Synology) Use new 'PlexMediaServer' share as metadata storage structure on DSM 7
+* (TerraMaster) Update packaging to support manually installing on devices
+* (Web) Updated to 4.62.1
+
+Items Fixed:
+* (Debian) Improve Intel CPU model parsing during installation for hardware transcoding detection and user messaging
+* (Hubs) Related hubs would only show 6 items if they had a custom order (#13001)
+* (Library) The server could become unresponsive if certain HTTP requests were made simultaneously (#12844)
+* (Network) The server could get stuck in a state where it thinks there is no internet connectivity (#12635)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/drobo/plex.tgz)  
+Build: linux-armv7hf  
+Checksum: `e9207863d3e0ad1a06f60294b15bd74145dea11b`
+
+# ASUSTOR
+Extra Information: <a href="https://www.asustor.com/online/College_topic?topic=235" target="_blank"><b>View the tutorial</b></a> on how to use a ASUSTOR NAS as a Plex Media Server.  
+Items Added:
+* (Synology) Use new 'PlexMediaServer' share as metadata storage structure on DSM 7
+* (TerraMaster) Update packaging to support manually installing on devices
+* (Web) Updated to 4.62.1
+
+Items Fixed:
+* (Debian) Improve Intel CPU model parsing during installation for hardware transcoding detection and user messaging
+* (Hubs) Related hubs would only show 6 items if they had a custom order (#13001)
+* (Library) The server could become unresponsive if certain HTTP requests were made simultaneously (#12844)
+* (Network) The server could get stuck in a state where it thinks there is no internet connectivity (#12635)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/asustor/PlexMediaServer-1.24.2.4973-2b1b51db9-x86.apk)  
+Build: linux-x86  
+Checksum: `3ab88c328b267c1935fd9fcc991f7ced9851efe0`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/asustor/PlexMediaServer-1.24.2.4973-2b1b51db9-x86_64.apk)  
+Build: linux-x86_64  
+Checksum: `d389504fd649fa881338c11aa881cfbb7ab9f0c4`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/asustor/PlexMediaServer-1.24.2.4973-2b1b51db9-aarch64.apk)  
+Build: linux-aarch64  
+Checksum: `80d04253fc15bb353b1de72ab6c184a29922ca27`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/asustor/PlexMediaServer-1.24.2.4973-2b1b51db9-armv7neon.apk)  
+Build: linux-armv7neon  
+Checksum: `6b4e7f8d20c4ffda8fcf468ecf86d5a0ef7ec292`
+
+# Seagate
+Items Added:
+* (Synology) Use new 'PlexMediaServer' share as metadata storage structure on DSM 7
+* (TerraMaster) Update packaging to support manually installing on devices
+* (Web) Updated to 4.62.1
+
+Items Fixed:
+* (Debian) Improve Intel CPU model parsing during installation for hardware transcoding detection and user messaging
+* (Hubs) Related hubs would only show 6 items if they had a custom order (#13001)
+* (Library) The server could become unresponsive if certain HTTP requests were made simultaneously (#12844)
+* (Network) The server could get stuck in a state where it thinks there is no internet connectivity (#12635)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/seagate/PlexMediaServer-1.24.2.4973-2b1b51db9-x86_64.rbw)  
+Build: linux-x86_64  
+Checksum: `128b8b2f5617642f7d30087f577338ce055ed35d`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/seagate/PlexMediaServer-1.24.2.4973-2b1b51db9-armv7.rbw)  
+Build: linux-armv7hf  
+Checksum: `afcdfda1bc962d607d404f06d6012ebf6abf7576`
+
+# Western Digital
+Requirements: [Requires My Cloud OS 5. Older devices use &#39;Western Digital (OS3)&#39;.](Note:)  
+Items Added:
+* (Synology) Use new 'PlexMediaServer' share as metadata storage structure on DSM 7
+* (TerraMaster) Update packaging to support manually installing on devices
+* (Web) Updated to 4.62.1
+
+Items Fixed:
+* (Debian) Improve Intel CPU model parsing during installation for hardware transcoding detection and user messaging
+* (Hubs) Related hubs would only show 6 items if they had a custom order (#13001)
+* (Library) The server could become unresponsive if certain HTTP requests were made simultaneously (#12844)
+* (Network) The server could get stuck in a state where it thinks there is no internet connectivity (#12635)
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud PR2100](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/wd/PlexMediaServer-1.24.2.4973-2b1b51db9-MyCloudPR2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `b3bdce9e1070dc406c9ba27a53703f04fa9ea87e`
+
+Distro: [My Cloud PR4100](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/wd/PlexMediaServer-1.24.2.4973-2b1b51db9-MyCloudPR4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `5a0ebfa934cc13665cdb454cfebc8b05a08c5581`
+
+Distro: [My Cloud EX2 Ultra](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/wd/PlexMediaServer-1.24.2.4973-2b1b51db9-MyCloudEX2Ultra_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `93c8446ec6e4b67583899917e8f7a042425b28f6`
+
+Distro: [My Cloud EX4100](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/wd/PlexMediaServer-1.24.2.4973-2b1b51db9-WDMyCloudEX4100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `ba2644d523d30da36c1429d3c2eb5fdda7cec9d9`
+
+Distro: [My Cloud Mirror](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/wd/PlexMediaServer-1.24.2.4973-2b1b51db9-WDMyCloudMirror_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `a62c650f7555eba53090bc6fbb31e9ccce9b88d4`
+
+Distro: [My Cloud EX2100](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/wd/PlexMediaServer-1.24.2.4973-2b1b51db9-WDMyCloudEX2100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `11064f0c88f9eba0cebf2c1234287a3908a60a09`
+
+Distro: [My Cloud DL2100](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/wd/PlexMediaServer-1.24.2.4973-2b1b51db9-WDMyCloudDL2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `465dda9e4244238c57f62c3dc06d372fd06b27b6`
+
+Distro: [My Cloud DL4100](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/wd/PlexMediaServer-1.24.2.4973-2b1b51db9-WDMyCloudDL4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `a287ddc2b30532980fdb440052878767f071f408`
+
+Distro: [My Cloud (Single Bay)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/wd/PlexMediaServer-1.24.2.4973-2b1b51db9-WDMyCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `959663b870265ff0712327e70e7af2e6fe50a215`
+
+Distro: [WD Cloud for Japan](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/wd/PlexMediaServer-1.24.2.4973-2b1b51db9-WDCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `bfbc303447884fb3b7355d3c2d4b06b9c50be79b`
+
+# Western Digital (OS 3)
+Items Added:
+* (Synology) Use new 'PlexMediaServer' share as metadata storage structure on DSM 7
+* (TerraMaster) Update packaging to support manually installing on devices
+* (Web) Updated to 4.62.1
+
+Items Fixed:
+* (Debian) Improve Intel CPU model parsing during installation for hardware transcoding detection and user messaging
+* (Hubs) Related hubs would only show 6 items if they had a custom order (#13001)
+* (Library) The server could become unresponsive if certain HTTP requests were made simultaneously (#12844)
+* (Network) The server could get stuck in a state where it thinks there is no internet connectivity (#12635)
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud DL2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/wd/PlexMediaServer-1.24.2.4973-2b1b51db9-WDMyCloudDL2100.bin)  
+Build: linux-x86_64  
+Checksum: `f395159b11ebc654f4f535c02db93b2ac8f3ff07`
+
+Distro: [My Cloud DL4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/wd/PlexMediaServer-1.24.2.4973-2b1b51db9-WDMyCloudDL4100.bin)  
+Build: linux-x86_64  
+Checksum: `d037bee252a46c67c50a79b672e1a99e18eec142`
+
+Distro: [My Cloud PR2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/wd/PlexMediaServer-1.24.2.4973-2b1b51db9-MyCloudPR2100.bin)  
+Build: linux-x86_64  
+Checksum: `069a2fbbf861159994ce3d2d9c027d134bb5b066`
+
+Distro: [My Cloud PR4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/wd/PlexMediaServer-1.24.2.4973-2b1b51db9-MyCloudPR4100.bin)  
+Build: linux-x86_64  
+Checksum: `cfac120e223766eaf444e2627a1b9eb3ad06ec3d`
+
+Distro: [My Cloud EX2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/wd/PlexMediaServer-1.24.2.4973-2b1b51db9-WDMyCloudEX2.bin)  
+Build: linux-armv7hf  
+Checksum: `8c7eb32989b8f0e74a3a19d0618addc3cf8ca20c`
+
+Distro: [My Cloud EX2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/wd/PlexMediaServer-1.24.2.4973-2b1b51db9-WDMyCloudEX2100.bin)  
+Build: linux-armv7hf  
+Checksum: `3b1761789b00a87e6614fe0816eca57e2c705de7`
+
+Distro: [My Cloud EX2 Ultra (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/wd/PlexMediaServer-1.24.2.4973-2b1b51db9-MyCloudEX2Ultra.bin)  
+Build: linux-armv7hf  
+Checksum: `97c6afc0834472d6da446a8eba5712059b1e3684`
+
+Distro: [My Cloud EX4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/wd/PlexMediaServer-1.24.2.4973-2b1b51db9-WDMyCloudEX4100.bin)  
+Build: linux-armv7hf  
+Checksum: `414b2413611e851e3039f591b9874b84e42aef19`
+
+Distro: [My Cloud Mirror (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/wd/PlexMediaServer-1.24.2.4973-2b1b51db9-WDMyCloudMirror.bin)  
+Build: linux-armv7hf  
+Checksum: `d15ec562af6e552e03a86d2aae32175c5b3bca88`
+
+Distro: [My Cloud Mirror Gen2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.2.4973-2b1b51db9/wd/PlexMediaServer-1.24.2.4973-2b1b51db9-WDMyCloudMirrorGen2.bin)  
+Build: linux-armv7hf  
+Checksum: `bc26eaf2982d174598c80dfe59d9a5c52724e4c8`
+
