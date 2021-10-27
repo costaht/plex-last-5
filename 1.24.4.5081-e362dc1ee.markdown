@@ -1,0 +1,362 @@
+---
+layout: page
+title: 1.24.4.5081-e362dc1ee
+description: Plex Media Server version 1.24.4.5081-e362dc1ee
+---
+## Released on 09/24/2021 11:43
+{: .no_toc }
+## Table of contents
+{: .no_toc .text-delta }
+* TOC
+{:toc}
+# Windows
+Requirements: [Windows 7 SP1 or newer (Intel or AMD processors only)](https://support.plex.tv/hc/en-us/articles/200375666)  
+
+Items Fixed:
+* (EPG) DVR set up using XMLTV guide data could show overlapping airings in the grid.
+* (Library) Some albums could fail to load their metadata properly (#13100)
+* (Linux) Initial server setup and certain filesystem operations could fail on certain Linux systems (#13027)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/windows/PlexMediaServer-1.24.4.5081-e362dc1ee-x86.exe)  
+Build: windows-x86  
+Checksum: `76bf0b8a3186de917b2747a2279249232ea84650`
+
+# MacOS
+Requirements: [OS X 10.9 Mavericks or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+
+Items Fixed:
+* (EPG) DVR set up using XMLTV guide data could show overlapping airings in the grid.
+* (Library) Some albums could fail to load their metadata properly (#13100)
+* (Linux) Initial server setup and certain filesystem operations could fail on certain Linux systems (#13027)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/macos/PlexMediaServer-1.24.4.5081-e362dc1ee-x86_64.zip)  
+Build: darwin-x86_64  
+Checksum: `b3067fd9ff3ad9e641185cd09ac13d3d8af57af7`
+
+# Linux
+
+Items Fixed:
+* (EPG) DVR set up using XMLTV guide data could show overlapping airings in the grid.
+* (Library) Some albums could fail to load their metadata properly (#13100)
+* (Linux) Initial server setup and certain filesystem operations could fail on certain Linux systems (#13027)
+
+## Releases
+{: .no_toc }
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/debian/plexmediaserver_1.24.4.5081-e362dc1ee_i386.deb)  
+Build: linux-x86  
+Checksum: `5a4659467b37f92c22e64e8867a46314e8ec2eca`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/debian/plexmediaserver_1.24.4.5081-e362dc1ee_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `67ca826e6cfb8e1ea9caea84d158b5d56e25f2b0`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv8](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/debian/plexmediaserver_1.24.4.5081-e362dc1ee_arm64.deb)  
+Build: linux-aarch64  
+Checksum: `7b4be8ef2efdd3276d6654f3c69ba2e6f89bd8b6`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv7](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/debian/plexmediaserver_1.24.4.5081-e362dc1ee_armhf.deb)  
+Build: linux-armv7neon  
+Checksum: `49c3e9cacdfcc1240a24634e315baeb39ebe2395`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/redhat/plexmediaserver-1.24.4.5081-e362dc1ee.i686.rpm)  
+Build: linux-x86  
+Checksum: `3187493be30ae5686066bcf968fe869242914867`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/redhat/plexmediaserver-1.24.4.5081-e362dc1ee.x86_64.rpm)  
+Build: linux-x86_64  
+Checksum: `3a5836646e749a325a327b25d9e6e26ea5d77fd9`
+
+# FreeBSD
+Requirements: [FreeBSD 11.2 or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+
+Items Fixed:
+* (EPG) DVR set up using XMLTV guide data could show overlapping airings in the grid.
+* (Library) Some albums could fail to load their metadata properly (#13100)
+* (Linux) Initial server setup and certain filesystem operations could fail on certain Linux systems (#13027)
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/freebsd/PlexMediaServer-1.24.4.5081-e362dc1ee-FreeBSD-amd64.tar.bz2)  
+Build: freebsd-x86_64  
+Checksum: `349bfd52dbb0967a29ce18fcdece8be53bbf7edc`
+
+# Synology
+Requirements: [Requires DSM 5.0 minimum to install.](Note:)  
+Extra Information: Guide: <a href="https://support.plex.tv/hc/en-us/articles/205165858" target="_blank">Add Plex as a trusted publisher for package installations</a>.  
+
+Items Fixed:
+* (EPG) DVR set up using XMLTV guide data could show overlapping airings in the grid.
+* (Library) Some albums could fail to load their metadata properly (#13100)
+* (Linux) Initial server setup and certain filesystem operations could fail on certain Linux systems (#13027)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit (x10 Series, DS415play, and DS214play)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/synology/PlexMediaServer-1.24.4.5081-e362dc1ee-x86_DSM6.spk)  
+Build: linux-x86  
+Checksum: `5ee62e4d434c2fae7bff567905882ca3f3af8361`
+
+Distro: [Intel 64-bit (DSM 6.0 and newer)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/synology/PlexMediaServer-1.24.4.5081-e362dc1ee-x86_64_DSM6.spk)  
+Build: linux-x86_64  
+Checksum: `868875e42fa0b431b733df897afab754dc7863ac`
+
+Distro: [ARMv8 (x18 Series)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/synology/PlexMediaServer-1.24.4.5081-e362dc1ee-aarch64_DSM6.spk)  
+Build: linux-aarch64  
+Checksum: `3a2c9aabfc813530204a3d0088859bf1798bbaf9`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/synology/PlexMediaServer-1.24.4.5081-e362dc1ee-armv7hf_DSM6.spk)  
+Build: linux-armv7hf  
+Checksum: `d5d385dd698d2cb494cfb48092a2a73687b7d0d8`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/synology/PlexMediaServer-1.24.4.5081-e362dc1ee-armv7neon_DSM6.spk)  
+Build: linux-armv7neon  
+Checksum: `5b3dc51f757e883e68379170d59a2fb9d6f20d54`
+
+# Synology (DSM 7)
+Requirements: [Requires DSM 7.0 minimum to install.](Note:)  
+
+Items Fixed:
+* (EPG) DVR set up using XMLTV guide data could show overlapping airings in the grid.
+* (Library) Some albums could fail to load their metadata properly (#13100)
+* (Linux) Initial server setup and certain filesystem operations could fail on certain Linux systems (#13027)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/synology-dsm7/PlexMediaServer-1.24.4.5081-e362dc1ee-x86_DSM7.spk)  
+Build: linux-x86  
+Checksum: `6cc35fe24274602e0c91bff430300654904ad269`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/synology-dsm7/PlexMediaServer-1.24.4.5081-e362dc1ee-x86_64_DSM7.spk)  
+Build: linux-x86_64  
+Checksum: `350324c1faf0825a1e9320c8806e33aff693a197`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/synology-dsm7/PlexMediaServer-1.24.4.5081-e362dc1ee-aarch64_DSM7.spk)  
+Build: linux-aarch64  
+Checksum: `8e641a574ed3e1cb44dbab5702fe457e958f8901`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/synology-dsm7/PlexMediaServer-1.24.4.5081-e362dc1ee-armv7hf_DSM7.spk)  
+Build: linux-armv7hf  
+Checksum: `ebbfa4cf6802c5bd27efb09c330522a8de7bf8e5`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/synology-dsm7/PlexMediaServer-1.24.4.5081-e362dc1ee-armv7neon_DSM7.spk)  
+Build: linux-armv7neon  
+Checksum: `d56b96953d22eb941e079348ba67479667559b65`
+
+# Netgear
+
+Items Fixed:
+* (EPG) DVR set up using XMLTV guide data could show overlapping airings in the grid.
+* (Library) Some albums could fail to load their metadata properly (#13100)
+* (Linux) Initial server setup and certain filesystem operations could fail on certain Linux systems (#13027)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/netgear/plexmediaserver_1.24.4.5081-e362dc1ee_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `ead8774689c9b5f2339e6bbefd58bd39865c9b48`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/netgear/plexmediaserver_1.24.4.5081-e362dc1ee_armel.deb)  
+Build: linux-armv7hf  
+Checksum: `e645fabe0c01082ab2fefe9e66cc6823ee491518`
+
+Distro: [ARMv7 (RN2xx Series)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/netgear/plexmediaserver-annapurna_1.24.4.5081-e362dc1ee_armel.deb)  
+Build: linux-armv7neon  
+Checksum: `0273e778fba3ddf2d712baf0b1f02ee0dd7be864`
+
+# QNAP
+Extra Information: <a href="http://www.qnap.com/i/en/trade_teach/con_show.php?op=showone&cid=72" target="_blank"><b>View the tutorial</b></a> on how to use a QNAP Turbo NAS as a Plex Media Server.  
+
+Items Fixed:
+* (EPG) DVR set up using XMLTV guide data could show overlapping airings in the grid.
+* (Library) Some albums could fail to load their metadata properly (#13100)
+* (Linux) Initial server setup and certain filesystem operations could fail on certain Linux systems (#13027)
+
+## Releases
+{: .no_toc }
+Distro: [Intel/AMD 64-bit (QTS-4.3 and newer)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/qnap/PlexMediaServer-1.24.4.5081-e362dc1ee-x86_64.qpkg)  
+Build: linux-x86_64  
+Checksum: `7cc3aa9d7bf609019c661dc0a8b6e11b90c118c9`
+
+Distro: [ARMv8 (TS-x28, and TS-x32 Series)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/qnap/PlexMediaServer-1.24.4.5081-e362dc1ee-aarch64.qpkg)  
+Build: linux-aarch64  
+Checksum: `a5a38062cf9182b68d4db2b39a6520f98dd34f35`
+
+Distro: [ARMv7 (TS-x31, and TS-x31U Series)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/qnap/PlexMediaServer-1.24.4.5081-e362dc1ee-armv7hf.qpkg)  
+Build: linux-armv7hf  
+Checksum: `e0060b255ed845c53abb5805743e7e948d2eaf4f`
+
+Distro: [ARMv7 (TS-x31+, TS-x31P, TS-x31P2, TS-x31X, and TS-x31XU Series)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/qnap/PlexMediaServer-1.24.4.5081-e362dc1ee-armv7neon.qpkg)  
+Build: linux-armv7neon  
+Checksum: `82567e51d4f691d9652b331a7dc97a343b90c512`
+
+# unRAID
+
+Items Fixed:
+* (EPG) DVR set up using XMLTV guide data could show overlapping airings in the grid.
+* (Library) Some albums could fail to load their metadata properly (#13100)
+* (Linux) Initial server setup and certain filesystem operations could fail on certain Linux systems (#13027)
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/unraid/PlexMediaServer-1.24.4.5081-e362dc1ee-x86_64.txz)  
+Build: linux-x86_64  
+Checksum: `950c648c578068ab5075d813f0fb80c338109776`
+
+# Drobo
+
+Items Fixed:
+* (EPG) DVR set up using XMLTV guide data could show overlapping airings in the grid.
+* (Library) Some albums could fail to load their metadata properly (#13100)
+* (Linux) Initial server setup and certain filesystem operations could fail on certain Linux systems (#13027)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/drobo/plex.tgz)  
+Build: linux-armv7hf  
+Checksum: `709ae0c41fbfbadc99827e5d5fcdc7364f98e482`
+
+# ASUSTOR
+Extra Information: <a href="https://www.asustor.com/online/College_topic?topic=235" target="_blank"><b>View the tutorial</b></a> on how to use a ASUSTOR NAS as a Plex Media Server.  
+
+Items Fixed:
+* (EPG) DVR set up using XMLTV guide data could show overlapping airings in the grid.
+* (Library) Some albums could fail to load their metadata properly (#13100)
+* (Linux) Initial server setup and certain filesystem operations could fail on certain Linux systems (#13027)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/asustor/PlexMediaServer-1.24.4.5081-e362dc1ee-x86.apk)  
+Build: linux-x86  
+Checksum: `791041b752c33dd3cc907e512c8aea252012f298`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/asustor/PlexMediaServer-1.24.4.5081-e362dc1ee-x86_64.apk)  
+Build: linux-x86_64  
+Checksum: `318b70ecc537c06cd98e655af2348365839dee45`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/asustor/PlexMediaServer-1.24.4.5081-e362dc1ee-aarch64.apk)  
+Build: linux-aarch64  
+Checksum: `95c3d1efecfb87f59c3a5f782fce30f8f1de9304`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/asustor/PlexMediaServer-1.24.4.5081-e362dc1ee-armv7neon.apk)  
+Build: linux-armv7neon  
+Checksum: `dadbc6a283dd47bb7798be26ccd9d39c42e5209b`
+
+# Seagate
+
+Items Fixed:
+* (EPG) DVR set up using XMLTV guide data could show overlapping airings in the grid.
+* (Library) Some albums could fail to load their metadata properly (#13100)
+* (Linux) Initial server setup and certain filesystem operations could fail on certain Linux systems (#13027)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/seagate/PlexMediaServer-1.24.4.5081-e362dc1ee-x86_64.rbw)  
+Build: linux-x86_64  
+Checksum: `8e712b1bd020d69f97e9f0faaf4930f0589ccad6`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/seagate/PlexMediaServer-1.24.4.5081-e362dc1ee-armv7.rbw)  
+Build: linux-armv7hf  
+Checksum: `5e53afb735f6d9144552409e59fbef56e8ed4125`
+
+# Western Digital
+Requirements: [Requires My Cloud OS 5. Older devices use &#39;Western Digital (OS3)&#39;.](Note:)  
+
+Items Fixed:
+* (EPG) DVR set up using XMLTV guide data could show overlapping airings in the grid.
+* (Library) Some albums could fail to load their metadata properly (#13100)
+* (Linux) Initial server setup and certain filesystem operations could fail on certain Linux systems (#13027)
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud PR2100](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/wd/PlexMediaServer-1.24.4.5081-e362dc1ee-MyCloudPR2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `7d83a58b22432e07f836b490c59f2856db27b747`
+
+Distro: [My Cloud PR4100](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/wd/PlexMediaServer-1.24.4.5081-e362dc1ee-MyCloudPR4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `6e0e17273da3df7f8afa095d6b4bdb0fdb6959e5`
+
+Distro: [My Cloud EX2 Ultra](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/wd/PlexMediaServer-1.24.4.5081-e362dc1ee-MyCloudEX2Ultra_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `72699fc452540c1c2b66d45d416843dc8dcfe2e6`
+
+Distro: [My Cloud EX4100](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/wd/PlexMediaServer-1.24.4.5081-e362dc1ee-WDMyCloudEX4100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `28f56a5d425edd37d408d5217d61b57fb4bee1ef`
+
+Distro: [My Cloud Mirror](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/wd/PlexMediaServer-1.24.4.5081-e362dc1ee-WDMyCloudMirror_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `f464abfa3a1c6183c8e788626087fa22b319fe04`
+
+Distro: [My Cloud EX2100](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/wd/PlexMediaServer-1.24.4.5081-e362dc1ee-WDMyCloudEX2100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `0b51315b6e7b3c62641685344eef6a2441253405`
+
+Distro: [My Cloud DL2100](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/wd/PlexMediaServer-1.24.4.5081-e362dc1ee-WDMyCloudDL2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `3c492a6718334707a187f75eb86f78080b5a8d4e`
+
+Distro: [My Cloud DL4100](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/wd/PlexMediaServer-1.24.4.5081-e362dc1ee-WDMyCloudDL4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `89d45fed715311edf42a1f7fbeef3a9632119a64`
+
+Distro: [My Cloud (Single Bay)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/wd/PlexMediaServer-1.24.4.5081-e362dc1ee-WDMyCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `ccb6c4ca7c21a8e6f5c93d39ccf51bddbee9e968`
+
+Distro: [WD Cloud for Japan](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/wd/PlexMediaServer-1.24.4.5081-e362dc1ee-WDCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `185e59f2908e1160100edcf92caa25be8f5fc16b`
+
+# Western Digital (OS 3)
+
+Items Fixed:
+* (EPG) DVR set up using XMLTV guide data could show overlapping airings in the grid.
+* (Library) Some albums could fail to load their metadata properly (#13100)
+* (Linux) Initial server setup and certain filesystem operations could fail on certain Linux systems (#13027)
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud DL2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/wd/PlexMediaServer-1.24.4.5081-e362dc1ee-WDMyCloudDL2100.bin)  
+Build: linux-x86_64  
+Checksum: `2e91538d039756d4158e568e071017cf2e14d536`
+
+Distro: [My Cloud DL4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/wd/PlexMediaServer-1.24.4.5081-e362dc1ee-WDMyCloudDL4100.bin)  
+Build: linux-x86_64  
+Checksum: `7e7d8a37537d5104fafe91b4ec91e9001d632172`
+
+Distro: [My Cloud PR2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/wd/PlexMediaServer-1.24.4.5081-e362dc1ee-MyCloudPR2100.bin)  
+Build: linux-x86_64  
+Checksum: `dfd11f659070887409643c4cfedd9b7b3916fa75`
+
+Distro: [My Cloud PR4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/wd/PlexMediaServer-1.24.4.5081-e362dc1ee-MyCloudPR4100.bin)  
+Build: linux-x86_64  
+Checksum: `a861d81430d323565e328eded04121d05fa6dc9d`
+
+Distro: [My Cloud EX2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/wd/PlexMediaServer-1.24.4.5081-e362dc1ee-WDMyCloudEX2.bin)  
+Build: linux-armv7hf  
+Checksum: `3ee347c13e0efc98e2a32896c95eb9e213643c6e`
+
+Distro: [My Cloud EX2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/wd/PlexMediaServer-1.24.4.5081-e362dc1ee-WDMyCloudEX2100.bin)  
+Build: linux-armv7hf  
+Checksum: `1657bbff1243167776f2f4aa061072f6ae9c796d`
+
+Distro: [My Cloud EX2 Ultra (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/wd/PlexMediaServer-1.24.4.5081-e362dc1ee-MyCloudEX2Ultra.bin)  
+Build: linux-armv7hf  
+Checksum: `770f7c4337903346f25ffdce5d2bec781430c660`
+
+Distro: [My Cloud EX4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/wd/PlexMediaServer-1.24.4.5081-e362dc1ee-WDMyCloudEX4100.bin)  
+Build: linux-armv7hf  
+Checksum: `fbf95c9ecd04820b84a611842b8d04f6121ac107`
+
+Distro: [My Cloud Mirror (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/wd/PlexMediaServer-1.24.4.5081-e362dc1ee-WDMyCloudMirror.bin)  
+Build: linux-armv7hf  
+Checksum: `f2fef975609ed763359ef214d30b9efaaa95ccbc`
+
+Distro: [My Cloud Mirror Gen2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.24.4.5081-e362dc1ee/wd/PlexMediaServer-1.24.4.5081-e362dc1ee-WDMyCloudMirrorGen2.bin)  
+Build: linux-armv7hf  
+Checksum: `8a4b05fc834c478aee77051a0f4d93e775c67b8a`
+
