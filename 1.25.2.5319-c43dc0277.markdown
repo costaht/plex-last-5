@@ -1,0 +1,456 @@
+---
+layout: page
+title: 1.25.2.5319-c43dc0277
+description: Plex Media Server version 1.25.2.5319-c43dc0277
+---
+## Released on 12/08/2021 14:04
+{: .no_toc }
+## Table of contents
+{: .no_toc .text-delta }
+* TOC
+{:toc}
+# Windows
+Requirements: [Windows 7 SP1 or newer (Intel or AMD processors only)](https://support.plex.tv/hc/en-us/articles/200375666)  
+
+Items Fixed:
+* (Library) Server could exit if trying to delete non-existent items (#13190)
+* (Metadata) Embedded metadata would be ignored on video files with non-lowercase extensions (#13195)
+* (Optimized Versions) Conversions would fail on Windows if the item title contained trailing spaces (#13128)
+* (PlayQueue) Playing DVR library item could result in playback of wrong item. (#12932)
+* (QNAP) Ignore '@Recently-Snapshot' folders during scanning (#13162)
+* (Scanner) Improved distinction between episode numbers and numbers within a series title (#13210)
+* (Scanner) Improved distinction between series titles and auxiliary metadata in file and directory names (#13210)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/windows/PlexMediaServer-1.25.2.5319-c43dc0277-x86.exe)  
+Build: windows-x86  
+Checksum: `22074774b7c8b67be33fd8eaf0281140e88bccda`
+
+# MacOS
+Requirements: [OS X 10.9 Mavericks or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+
+Items Fixed:
+* (Library) Server could exit if trying to delete non-existent items (#13190)
+* (Metadata) Embedded metadata would be ignored on video files with non-lowercase extensions (#13195)
+* (Optimized Versions) Conversions would fail on Windows if the item title contained trailing spaces (#13128)
+* (PlayQueue) Playing DVR library item could result in playback of wrong item. (#12932)
+* (QNAP) Ignore '@Recently-Snapshot' folders during scanning (#13162)
+* (Scanner) Improved distinction between episode numbers and numbers within a series title (#13210)
+* (Scanner) Improved distinction between series titles and auxiliary metadata in file and directory names (#13210)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/macos/PlexMediaServer-1.25.2.5319-c43dc0277-x86_64.zip)  
+Build: darwin-x86_64  
+Checksum: `48deb045383e2071d7018b3de42b82310b6bd6c9`
+
+# Linux
+
+Items Fixed:
+* (Library) Server could exit if trying to delete non-existent items (#13190)
+* (Metadata) Embedded metadata would be ignored on video files with non-lowercase extensions (#13195)
+* (Optimized Versions) Conversions would fail on Windows if the item title contained trailing spaces (#13128)
+* (PlayQueue) Playing DVR library item could result in playback of wrong item. (#12932)
+* (QNAP) Ignore '@Recently-Snapshot' folders during scanning (#13162)
+* (Scanner) Improved distinction between episode numbers and numbers within a series title (#13210)
+* (Scanner) Improved distinction between series titles and auxiliary metadata in file and directory names (#13210)
+
+## Releases
+{: .no_toc }
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/debian/plexmediaserver_1.25.2.5319-c43dc0277_i386.deb)  
+Build: linux-x86  
+Checksum: `26e96e9800b9b0e6ed0494c0fc5b69522f384217`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/debian/plexmediaserver_1.25.2.5319-c43dc0277_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `ce1d038512531aa0dae49a3f5753748ae4cc8cda`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv8](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/debian/plexmediaserver_1.25.2.5319-c43dc0277_arm64.deb)  
+Build: linux-aarch64  
+Checksum: `86253ffd692aa13c0c5af763b38993e9e850de46`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv7](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/debian/plexmediaserver_1.25.2.5319-c43dc0277_armhf.deb)  
+Build: linux-armv7neon  
+Checksum: `95a592747acc689dfec4f26f1385184c33315116`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/redhat/plexmediaserver-1.25.2.5319-c43dc0277.i686.rpm)  
+Build: linux-x86  
+Checksum: `28730ebb9a2b4e23b40cefd6ad500d724c3fdde2`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/redhat/plexmediaserver-1.25.2.5319-c43dc0277.x86_64.rpm)  
+Build: linux-x86_64  
+Checksum: `7461280af7b2fee330cf59a9d0ba95ff6c58555f`
+
+# FreeBSD
+Requirements: [FreeBSD 11.2 or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+
+Items Fixed:
+* (Library) Server could exit if trying to delete non-existent items (#13190)
+* (Metadata) Embedded metadata would be ignored on video files with non-lowercase extensions (#13195)
+* (Optimized Versions) Conversions would fail on Windows if the item title contained trailing spaces (#13128)
+* (PlayQueue) Playing DVR library item could result in playback of wrong item. (#12932)
+* (QNAP) Ignore '@Recently-Snapshot' folders during scanning (#13162)
+* (Scanner) Improved distinction between episode numbers and numbers within a series title (#13210)
+* (Scanner) Improved distinction between series titles and auxiliary metadata in file and directory names (#13210)
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/freebsd/PlexMediaServer-1.25.2.5319-c43dc0277-FreeBSD-amd64.tar.bz2)  
+Build: freebsd-x86_64  
+Checksum: `14f5f8f49b7802aa93790dcc25c44a38891e0dd5`
+
+# Synology
+Requirements: [Requires DSM 5.0 minimum to install.](Note:)  
+Extra Information: Guide: <a href="https://support.plex.tv/hc/en-us/articles/205165858" target="_blank">Add Plex as a trusted publisher for package installations</a>.  
+
+Items Fixed:
+* (Library) Server could exit if trying to delete non-existent items (#13190)
+* (Metadata) Embedded metadata would be ignored on video files with non-lowercase extensions (#13195)
+* (Optimized Versions) Conversions would fail on Windows if the item title contained trailing spaces (#13128)
+* (PlayQueue) Playing DVR library item could result in playback of wrong item. (#12932)
+* (QNAP) Ignore '@Recently-Snapshot' folders during scanning (#13162)
+* (Scanner) Improved distinction between episode numbers and numbers within a series title (#13210)
+* (Scanner) Improved distinction between series titles and auxiliary metadata in file and directory names (#13210)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit (x10 Series, DS415play, and DS214play)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/synology/PlexMediaServer-1.25.2.5319-c43dc0277-x86_DSM6.spk)  
+Build: linux-x86  
+Checksum: `078b0eac5408bb605884ffd31f478a11e4080ea0`
+
+Distro: [Intel 64-bit (DSM 6.0 and newer)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/synology/PlexMediaServer-1.25.2.5319-c43dc0277-x86_64_DSM6.spk)  
+Build: linux-x86_64  
+Checksum: `b4d24ee07be7b101b194e8eb6533ea37311f31ab`
+
+Distro: [ARMv8 (x18 Series)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/synology/PlexMediaServer-1.25.2.5319-c43dc0277-aarch64_DSM6.spk)  
+Build: linux-aarch64  
+Checksum: `9653e9d41f359af22f26c378a200cdf40fc74653`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/synology/PlexMediaServer-1.25.2.5319-c43dc0277-armv7hf_DSM6.spk)  
+Build: linux-armv7hf  
+Checksum: `247da2210f6c94fb658dc6db20ea1f4a711b2319`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/synology/PlexMediaServer-1.25.2.5319-c43dc0277-armv7neon_DSM6.spk)  
+Build: linux-armv7neon  
+Checksum: `663714aab8ac3192600e408bbe905298bc64a68f`
+
+# Synology (DSM 7)
+Requirements: [Requires DSM 7.0 minimum to install.](Note:)  
+
+Items Fixed:
+* (Library) Server could exit if trying to delete non-existent items (#13190)
+* (Metadata) Embedded metadata would be ignored on video files with non-lowercase extensions (#13195)
+* (Optimized Versions) Conversions would fail on Windows if the item title contained trailing spaces (#13128)
+* (PlayQueue) Playing DVR library item could result in playback of wrong item. (#12932)
+* (QNAP) Ignore '@Recently-Snapshot' folders during scanning (#13162)
+* (Scanner) Improved distinction between episode numbers and numbers within a series title (#13210)
+* (Scanner) Improved distinction between series titles and auxiliary metadata in file and directory names (#13210)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/synology-dsm7/PlexMediaServer-1.25.2.5319-c43dc0277-x86_DSM7.spk)  
+Build: linux-x86  
+Checksum: `486e6a6a0b2497da53f2953400a0ebf81f94127e`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/synology-dsm7/PlexMediaServer-1.25.2.5319-c43dc0277-x86_64_DSM7.spk)  
+Build: linux-x86_64  
+Checksum: `0b9d0aa4831c0d6b24ffbc9150c4d80cf9d6049f`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/synology-dsm7/PlexMediaServer-1.25.2.5319-c43dc0277-aarch64_DSM7.spk)  
+Build: linux-aarch64  
+Checksum: `aed991a8a5bd8aa0a7f5e78c3e3a249419e42b98`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/synology-dsm7/PlexMediaServer-1.25.2.5319-c43dc0277-armv7hf_DSM7.spk)  
+Build: linux-armv7hf  
+Checksum: `dbfb55e1383e0a2e4fb8ae96db08a629ccc64a78`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/synology-dsm7/PlexMediaServer-1.25.2.5319-c43dc0277-armv7neon_DSM7.spk)  
+Build: linux-armv7neon  
+Checksum: `db6dc3e1db618a2cac8523621e1cfe08c1ee67d9`
+
+# Netgear
+
+Items Fixed:
+* (Library) Server could exit if trying to delete non-existent items (#13190)
+* (Metadata) Embedded metadata would be ignored on video files with non-lowercase extensions (#13195)
+* (Optimized Versions) Conversions would fail on Windows if the item title contained trailing spaces (#13128)
+* (PlayQueue) Playing DVR library item could result in playback of wrong item. (#12932)
+* (QNAP) Ignore '@Recently-Snapshot' folders during scanning (#13162)
+* (Scanner) Improved distinction between episode numbers and numbers within a series title (#13210)
+* (Scanner) Improved distinction between series titles and auxiliary metadata in file and directory names (#13210)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/netgear/plexmediaserver_1.25.2.5319-c43dc0277_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `bbe2f599342702cd6b6871d0dbdd06d2854422ee`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/netgear/plexmediaserver_1.25.2.5319-c43dc0277_armel.deb)  
+Build: linux-armv7hf  
+Checksum: `ed184e434ad9164f93f1985c384e8d653fc79174`
+
+Distro: [ARMv7 (RN2xx Series)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/netgear/plexmediaserver-annapurna_1.25.2.5319-c43dc0277_armel.deb)  
+Build: linux-armv7neon  
+Checksum: `b5f6306c790e7543cdddb586bbdfa1e9420e2c5f`
+
+# QNAP
+Extra Information: <a href="http://www.qnap.com/i/en/trade_teach/con_show.php?op=showone&cid=72" target="_blank"><b>View the tutorial</b></a> on how to use a QNAP Turbo NAS as a Plex Media Server.  
+
+Items Fixed:
+* (Library) Server could exit if trying to delete non-existent items (#13190)
+* (Metadata) Embedded metadata would be ignored on video files with non-lowercase extensions (#13195)
+* (Optimized Versions) Conversions would fail on Windows if the item title contained trailing spaces (#13128)
+* (PlayQueue) Playing DVR library item could result in playback of wrong item. (#12932)
+* (QNAP) Ignore '@Recently-Snapshot' folders during scanning (#13162)
+* (Scanner) Improved distinction between episode numbers and numbers within a series title (#13210)
+* (Scanner) Improved distinction between series titles and auxiliary metadata in file and directory names (#13210)
+
+## Releases
+{: .no_toc }
+Distro: [Intel/AMD 64-bit (QTS-4.3 and newer)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/qnap/PlexMediaServer-1.25.2.5319-c43dc0277-x86_64.qpkg)  
+Build: linux-x86_64  
+Checksum: `fe3186a7d44dfcbe47d08683828030ca0afd115a`
+
+Distro: [ARMv8 (TS-x28, and TS-x32 Series)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/qnap/PlexMediaServer-1.25.2.5319-c43dc0277-aarch64.qpkg)  
+Build: linux-aarch64  
+Checksum: `2416a812bf069fa3772a79d6732134e909f11403`
+
+Distro: [ARMv7 (TS-x31, and TS-x31U Series)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/qnap/PlexMediaServer-1.25.2.5319-c43dc0277-armv7hf.qpkg)  
+Build: linux-armv7hf  
+Checksum: `68280fda4dc0ae7e5b4304ce99ce2a627c6e8d32`
+
+Distro: [ARMv7 (TS-x31+, TS-x31P, TS-x31P2, TS-x31X, and TS-x31XU Series)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/qnap/PlexMediaServer-1.25.2.5319-c43dc0277-armv7neon.qpkg)  
+Build: linux-armv7neon  
+Checksum: `9155be7166466b667e5172022083e792c46d62ae`
+
+# unRAID
+
+Items Fixed:
+* (Library) Server could exit if trying to delete non-existent items (#13190)
+* (Metadata) Embedded metadata would be ignored on video files with non-lowercase extensions (#13195)
+* (Optimized Versions) Conversions would fail on Windows if the item title contained trailing spaces (#13128)
+* (PlayQueue) Playing DVR library item could result in playback of wrong item. (#12932)
+* (QNAP) Ignore '@Recently-Snapshot' folders during scanning (#13162)
+* (Scanner) Improved distinction between episode numbers and numbers within a series title (#13210)
+* (Scanner) Improved distinction between series titles and auxiliary metadata in file and directory names (#13210)
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/unraid/PlexMediaServer-1.25.2.5319-c43dc0277-x86_64.txz)  
+Build: linux-x86_64  
+Checksum: `2ca22d81444911952492f3609d5fb77e56f40a65`
+
+# Drobo
+
+Items Fixed:
+* (Library) Server could exit if trying to delete non-existent items (#13190)
+* (Metadata) Embedded metadata would be ignored on video files with non-lowercase extensions (#13195)
+* (Optimized Versions) Conversions would fail on Windows if the item title contained trailing spaces (#13128)
+* (PlayQueue) Playing DVR library item could result in playback of wrong item. (#12932)
+* (QNAP) Ignore '@Recently-Snapshot' folders during scanning (#13162)
+* (Scanner) Improved distinction between episode numbers and numbers within a series title (#13210)
+* (Scanner) Improved distinction between series titles and auxiliary metadata in file and directory names (#13210)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/drobo/plex.tgz)  
+Build: linux-armv7hf  
+Checksum: `36427c77151f4c5b77753345d719a2c3b28d8964`
+
+# ASUSTOR
+Extra Information: <a href="https://www.asustor.com/online/College_topic?topic=235" target="_blank"><b>View the tutorial</b></a> on how to use a ASUSTOR NAS as a Plex Media Server.  
+
+Items Fixed:
+* (Library) Server could exit if trying to delete non-existent items (#13190)
+* (Metadata) Embedded metadata would be ignored on video files with non-lowercase extensions (#13195)
+* (Optimized Versions) Conversions would fail on Windows if the item title contained trailing spaces (#13128)
+* (PlayQueue) Playing DVR library item could result in playback of wrong item. (#12932)
+* (QNAP) Ignore '@Recently-Snapshot' folders during scanning (#13162)
+* (Scanner) Improved distinction between episode numbers and numbers within a series title (#13210)
+* (Scanner) Improved distinction between series titles and auxiliary metadata in file and directory names (#13210)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/asustor/PlexMediaServer-1.25.2.5319-c43dc0277-x86.apk)  
+Build: linux-x86  
+Checksum: `b98181f3aec7d744048881d6c2b6c472d5a145d6`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/asustor/PlexMediaServer-1.25.2.5319-c43dc0277-x86_64.apk)  
+Build: linux-x86_64  
+Checksum: `dbeb113cde799c0fe0895d21404a24de5eab8e3c`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/asustor/PlexMediaServer-1.25.2.5319-c43dc0277-aarch64.apk)  
+Build: linux-aarch64  
+Checksum: `4db35a07ec44898f07cdb1eaf4af0409a9595bb9`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/asustor/PlexMediaServer-1.25.2.5319-c43dc0277-armv7neon.apk)  
+Build: linux-armv7neon  
+Checksum: `b0bb31cbb2f50fb30a5cbd5665fa8c1acb795923`
+
+# TerraMaster
+
+Items Fixed:
+* (Library) Server could exit if trying to delete non-existent items (#13190)
+* (Metadata) Embedded metadata would be ignored on video files with non-lowercase extensions (#13195)
+* (Optimized Versions) Conversions would fail on Windows if the item title contained trailing spaces (#13128)
+* (PlayQueue) Playing DVR library item could result in playback of wrong item. (#12932)
+* (QNAP) Ignore '@Recently-Snapshot' folders during scanning (#13162)
+* (Scanner) Improved distinction between episode numbers and numbers within a series title (#13210)
+* (Scanner) Improved distinction between series titles and auxiliary metadata in file and directory names (#13210)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/terramaster/PlexMediaServer-1.25.2.5319-c43dc0277-x86_64.tpk)  
+Build: linux-x86_64  
+Checksum: `0d4d80db4792ba3bfb01968525f3ebaf1d331f19`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/terramaster/PlexMediaServer-1.25.2.5319-c43dc0277-aarch64.tpk)  
+Build: linux-aarch64  
+Checksum: `923bdc88f9624c940e26eb55c04a10705aeec5c5`
+
+# Thecus
+
+Items Fixed:
+* (Library) Server could exit if trying to delete non-existent items (#13190)
+* (Metadata) Embedded metadata would be ignored on video files with non-lowercase extensions (#13195)
+* (Optimized Versions) Conversions would fail on Windows if the item title contained trailing spaces (#13128)
+* (PlayQueue) Playing DVR library item could result in playback of wrong item. (#12932)
+* (QNAP) Ignore '@Recently-Snapshot' folders during scanning (#13162)
+* (Scanner) Improved distinction between episode numbers and numbers within a series title (#13210)
+* (Scanner) Improved distinction between series titles and auxiliary metadata in file and directory names (#13210)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/thecus/PlexMediaServer-1.25.2.5319-c43dc0277-x64.mod)  
+Build: linux-x86_64  
+Checksum: `0f7ea0526dc0635df0956485f37c67795ee7c8b4`
+
+# Seagate
+
+Items Fixed:
+* (Library) Server could exit if trying to delete non-existent items (#13190)
+* (Metadata) Embedded metadata would be ignored on video files with non-lowercase extensions (#13195)
+* (Optimized Versions) Conversions would fail on Windows if the item title contained trailing spaces (#13128)
+* (PlayQueue) Playing DVR library item could result in playback of wrong item. (#12932)
+* (QNAP) Ignore '@Recently-Snapshot' folders during scanning (#13162)
+* (Scanner) Improved distinction between episode numbers and numbers within a series title (#13210)
+* (Scanner) Improved distinction between series titles and auxiliary metadata in file and directory names (#13210)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/seagate/PlexMediaServer-1.25.2.5319-c43dc0277-x86_64.rbw)  
+Build: linux-x86_64  
+Checksum: `7b878bee422b83bf9f14441bf2e7d608f1500382`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/seagate/PlexMediaServer-1.25.2.5319-c43dc0277-armv7.rbw)  
+Build: linux-armv7hf  
+Checksum: `c6137e941aa998d2f59dd7d51424f7562aa87001`
+
+# Western Digital
+Requirements: [Requires My Cloud OS 5. Older devices use &#39;Western Digital (OS3)&#39;.](Note:)  
+
+Items Fixed:
+* (Library) Server could exit if trying to delete non-existent items (#13190)
+* (Metadata) Embedded metadata would be ignored on video files with non-lowercase extensions (#13195)
+* (Optimized Versions) Conversions would fail on Windows if the item title contained trailing spaces (#13128)
+* (PlayQueue) Playing DVR library item could result in playback of wrong item. (#12932)
+* (QNAP) Ignore '@Recently-Snapshot' folders during scanning (#13162)
+* (Scanner) Improved distinction between episode numbers and numbers within a series title (#13210)
+* (Scanner) Improved distinction between series titles and auxiliary metadata in file and directory names (#13210)
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud PR2100](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/wd/PlexMediaServer-1.25.2.5319-c43dc0277-MyCloudPR2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `3aa2b9b560918c7ba04edc187da29981c325019b`
+
+Distro: [My Cloud PR4100](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/wd/PlexMediaServer-1.25.2.5319-c43dc0277-MyCloudPR4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `f590fa70cb1b7e5235a597438724595b6026c586`
+
+Distro: [My Cloud EX2 Ultra](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/wd/PlexMediaServer-1.25.2.5319-c43dc0277-MyCloudEX2Ultra_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `e229a89362cad5a99bf9ef4b6b8b730ff357dcbb`
+
+Distro: [My Cloud EX4100](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/wd/PlexMediaServer-1.25.2.5319-c43dc0277-WDMyCloudEX4100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `eeb21f908b89d24011261697cc4219d231b995cf`
+
+Distro: [My Cloud Mirror](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/wd/PlexMediaServer-1.25.2.5319-c43dc0277-WDMyCloudMirror_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `26ab68a27329296bda281797e6edae9edb36d595`
+
+Distro: [My Cloud EX2100](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/wd/PlexMediaServer-1.25.2.5319-c43dc0277-WDMyCloudEX2100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `502a57fda1a34994b54dd83eaeb46e110477f618`
+
+Distro: [My Cloud DL2100](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/wd/PlexMediaServer-1.25.2.5319-c43dc0277-WDMyCloudDL2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `581857ece299f2c873e132924cb296209e178796`
+
+Distro: [My Cloud DL4100](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/wd/PlexMediaServer-1.25.2.5319-c43dc0277-WDMyCloudDL4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `4cc18684a40d0042603415def98570b02b0881bf`
+
+Distro: [My Cloud (Single Bay)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/wd/PlexMediaServer-1.25.2.5319-c43dc0277-WDMyCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `a88e53585b7bc3dea88c9b777c278dfb7f8821bc`
+
+Distro: [WD Cloud for Japan](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/wd/PlexMediaServer-1.25.2.5319-c43dc0277-WDCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `cadbbb8f81d65ab2623c7ac9db82cbf6d81bdc1b`
+
+# Western Digital (OS 3)
+
+Items Fixed:
+* (Library) Server could exit if trying to delete non-existent items (#13190)
+* (Metadata) Embedded metadata would be ignored on video files with non-lowercase extensions (#13195)
+* (Optimized Versions) Conversions would fail on Windows if the item title contained trailing spaces (#13128)
+* (PlayQueue) Playing DVR library item could result in playback of wrong item. (#12932)
+* (QNAP) Ignore '@Recently-Snapshot' folders during scanning (#13162)
+* (Scanner) Improved distinction between episode numbers and numbers within a series title (#13210)
+* (Scanner) Improved distinction between series titles and auxiliary metadata in file and directory names (#13210)
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud DL2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/wd/PlexMediaServer-1.25.2.5319-c43dc0277-WDMyCloudDL2100.bin)  
+Build: linux-x86_64  
+Checksum: `a41481f5239675e0ba2eba0e386e156eb41fc23e`
+
+Distro: [My Cloud DL4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/wd/PlexMediaServer-1.25.2.5319-c43dc0277-WDMyCloudDL4100.bin)  
+Build: linux-x86_64  
+Checksum: `4c2cbdea5e301899ff25d365a9b8ac34c2250ad1`
+
+Distro: [My Cloud PR2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/wd/PlexMediaServer-1.25.2.5319-c43dc0277-MyCloudPR2100.bin)  
+Build: linux-x86_64  
+Checksum: `4a9f999c85809022efc462184c7ac712447f9f99`
+
+Distro: [My Cloud PR4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/wd/PlexMediaServer-1.25.2.5319-c43dc0277-MyCloudPR4100.bin)  
+Build: linux-x86_64  
+Checksum: `ee37a2ff233b1ac673355138d97326c0158cd26f`
+
+Distro: [My Cloud EX2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/wd/PlexMediaServer-1.25.2.5319-c43dc0277-WDMyCloudEX2.bin)  
+Build: linux-armv7hf  
+Checksum: `2a8546f618910f2b992e92cdfb6dd0822e82ef8a`
+
+Distro: [My Cloud EX2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/wd/PlexMediaServer-1.25.2.5319-c43dc0277-WDMyCloudEX2100.bin)  
+Build: linux-armv7hf  
+Checksum: `e35f892c5fe3d43ae0eeaeb9156b3c2623af871e`
+
+Distro: [My Cloud EX2 Ultra (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/wd/PlexMediaServer-1.25.2.5319-c43dc0277-MyCloudEX2Ultra.bin)  
+Build: linux-armv7hf  
+Checksum: `451fa113bd394e35e7d150c19eedb034f20ebf37`
+
+Distro: [My Cloud EX4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/wd/PlexMediaServer-1.25.2.5319-c43dc0277-WDMyCloudEX4100.bin)  
+Build: linux-armv7hf  
+Checksum: `ac8adebef939743386cc0fef94a3079cea850b75`
+
+Distro: [My Cloud Mirror (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/wd/PlexMediaServer-1.25.2.5319-c43dc0277-WDMyCloudMirror.bin)  
+Build: linux-armv7hf  
+Checksum: `fdaedb96943f7c7014a00376c91264f961186e8f`
+
+Distro: [My Cloud Mirror Gen2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.2.5319-c43dc0277/wd/PlexMediaServer-1.25.2.5319-c43dc0277-WDMyCloudMirrorGen2.bin)  
+Build: linux-armv7hf  
+Checksum: `5fef227beaa4675f248c516082660ad05818a474`
+
