@@ -1,0 +1,456 @@
+---
+layout: page
+title: 1.25.3.5409-f11334058
+description: Plex Media Server version 1.25.3.5409-f11334058
+---
+## Released on 01/13/2022 02:26
+{: .no_toc }
+## Table of contents
+{: .no_toc .text-delta }
+* TOC
+{:toc}
+# Windows
+Requirements: [Windows 7 SP1 or newer (Intel or AMD processors only)](https://support.plex.tv/hc/en-us/articles/200375666)  
+
+Items Fixed:
+* (Hubs) Fix potential serialization issue of CW hubs (#13237)
+* (Metadata) Some episodes could fail to get metadata when using the legacy TVDB agent
+* (Scanner) Hidden files inside media paths could cause unexpected issues with certain local assets (#13240)
+* (Scanner) Improve detection of filename changes which should result in rematching items (#13220)
+* (Scanner) Movie items with mis-matched agents could re-match unnecessarily during scanning (#13292)
+* (Scanner) Some file paths could prevent movies from scanning in correctly (#12980)
+* (Series Scanner) Improved matching of season directory names including codec or resolution details (#13235)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/windows/PlexMediaServer-1.25.3.5409-f11334058-x86.exe)  
+Build: windows-x86  
+Checksum: `a03b68f7b5da33498f2b693b0cd2254ffe078a5f`
+
+# MacOS
+Requirements: [OS X 10.9 Mavericks or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+
+Items Fixed:
+* (Hubs) Fix potential serialization issue of CW hubs (#13237)
+* (Metadata) Some episodes could fail to get metadata when using the legacy TVDB agent
+* (Scanner) Hidden files inside media paths could cause unexpected issues with certain local assets (#13240)
+* (Scanner) Improve detection of filename changes which should result in rematching items (#13220)
+* (Scanner) Movie items with mis-matched agents could re-match unnecessarily during scanning (#13292)
+* (Scanner) Some file paths could prevent movies from scanning in correctly (#12980)
+* (Series Scanner) Improved matching of season directory names including codec or resolution details (#13235)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/macos/PlexMediaServer-1.25.3.5409-f11334058-x86_64.zip)  
+Build: darwin-x86_64  
+Checksum: `1a3908b24a3f98bba1322c0312ffdfd94ef9fa61`
+
+# Linux
+
+Items Fixed:
+* (Hubs) Fix potential serialization issue of CW hubs (#13237)
+* (Metadata) Some episodes could fail to get metadata when using the legacy TVDB agent
+* (Scanner) Hidden files inside media paths could cause unexpected issues with certain local assets (#13240)
+* (Scanner) Improve detection of filename changes which should result in rematching items (#13220)
+* (Scanner) Movie items with mis-matched agents could re-match unnecessarily during scanning (#13292)
+* (Scanner) Some file paths could prevent movies from scanning in correctly (#12980)
+* (Series Scanner) Improved matching of season directory names including codec or resolution details (#13235)
+
+## Releases
+{: .no_toc }
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/debian/plexmediaserver_1.25.3.5409-f11334058_i386.deb)  
+Build: linux-x86  
+Checksum: `732eb2185311c5f1321f8c90204b4bd50dc84556`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/debian/plexmediaserver_1.25.3.5409-f11334058_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `58b2accdabc0e03209041b71253cdc2e853f54e6`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv8](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/debian/plexmediaserver_1.25.3.5409-f11334058_arm64.deb)  
+Build: linux-aarch64  
+Checksum: `13d5af32c72d018f86870ad6e9ec0fcc826e7a61`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv7](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/debian/plexmediaserver_1.25.3.5409-f11334058_armhf.deb)  
+Build: linux-armv7neon  
+Checksum: `9801c5b479a97cd9d4bafeec4812e7c95b0fa96b`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/redhat/plexmediaserver-1.25.3.5409-f11334058.i686.rpm)  
+Build: linux-x86  
+Checksum: `bd80a8cd1d47e11a52f3587b1c465b7b3703b488`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/redhat/plexmediaserver-1.25.3.5409-f11334058.x86_64.rpm)  
+Build: linux-x86_64  
+Checksum: `b079d7892ca3ffaf0d379c3e0d5a92700b86d9dd`
+
+# FreeBSD
+Requirements: [FreeBSD 11.2 or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+
+Items Fixed:
+* (Hubs) Fix potential serialization issue of CW hubs (#13237)
+* (Metadata) Some episodes could fail to get metadata when using the legacy TVDB agent
+* (Scanner) Hidden files inside media paths could cause unexpected issues with certain local assets (#13240)
+* (Scanner) Improve detection of filename changes which should result in rematching items (#13220)
+* (Scanner) Movie items with mis-matched agents could re-match unnecessarily during scanning (#13292)
+* (Scanner) Some file paths could prevent movies from scanning in correctly (#12980)
+* (Series Scanner) Improved matching of season directory names including codec or resolution details (#13235)
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/freebsd/PlexMediaServer-1.25.3.5409-f11334058-FreeBSD-amd64.tar.bz2)  
+Build: freebsd-x86_64  
+Checksum: `d00600378ac87e9d8468b3aca7359fb40a4adc91`
+
+# Synology
+Requirements: [Requires DSM 5.0 minimum to install.](Note:)  
+Extra Information: Guide: <a href="https://support.plex.tv/hc/en-us/articles/205165858" target="_blank">Add Plex as a trusted publisher for package installations</a>.  
+
+Items Fixed:
+* (Hubs) Fix potential serialization issue of CW hubs (#13237)
+* (Metadata) Some episodes could fail to get metadata when using the legacy TVDB agent
+* (Scanner) Hidden files inside media paths could cause unexpected issues with certain local assets (#13240)
+* (Scanner) Improve detection of filename changes which should result in rematching items (#13220)
+* (Scanner) Movie items with mis-matched agents could re-match unnecessarily during scanning (#13292)
+* (Scanner) Some file paths could prevent movies from scanning in correctly (#12980)
+* (Series Scanner) Improved matching of season directory names including codec or resolution details (#13235)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit (x10 Series, DS415play, and DS214play)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/synology/PlexMediaServer-1.25.3.5409-f11334058-x86_DSM6.spk)  
+Build: linux-x86  
+Checksum: `fa2eb08b3aff21ec845af4193d3f14fe18c88411`
+
+Distro: [Intel 64-bit (DSM 6.0 and newer)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/synology/PlexMediaServer-1.25.3.5409-f11334058-x86_64_DSM6.spk)  
+Build: linux-x86_64  
+Checksum: `4166e18daf807ec0c55030bc6da12f333321e728`
+
+Distro: [ARMv8 (x18 Series)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/synology/PlexMediaServer-1.25.3.5409-f11334058-aarch64_DSM6.spk)  
+Build: linux-aarch64  
+Checksum: `40f4a6c81a88ad96ebd7c833c3b3925ad7608e58`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/synology/PlexMediaServer-1.25.3.5409-f11334058-armv7hf_DSM6.spk)  
+Build: linux-armv7hf  
+Checksum: `397b246adab8f123c119bf37b832f3906c5d86dd`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/synology/PlexMediaServer-1.25.3.5409-f11334058-armv7neon_DSM6.spk)  
+Build: linux-armv7neon  
+Checksum: `c9da93d8a5c68c2669567e7dd9c15c9eac6721f5`
+
+# Synology (DSM 7)
+Requirements: [Requires DSM 7.0 minimum to install.](Note:)  
+
+Items Fixed:
+* (Hubs) Fix potential serialization issue of CW hubs (#13237)
+* (Metadata) Some episodes could fail to get metadata when using the legacy TVDB agent
+* (Scanner) Hidden files inside media paths could cause unexpected issues with certain local assets (#13240)
+* (Scanner) Improve detection of filename changes which should result in rematching items (#13220)
+* (Scanner) Movie items with mis-matched agents could re-match unnecessarily during scanning (#13292)
+* (Scanner) Some file paths could prevent movies from scanning in correctly (#12980)
+* (Series Scanner) Improved matching of season directory names including codec or resolution details (#13235)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/synology-dsm7/PlexMediaServer-1.25.3.5409-f11334058-x86_DSM7.spk)  
+Build: linux-x86  
+Checksum: `95b8b8b86285df01298c463bc5057526023496ae`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/synology-dsm7/PlexMediaServer-1.25.3.5409-f11334058-x86_64_DSM7.spk)  
+Build: linux-x86_64  
+Checksum: `fd5b5a68fa40690cfce136a3d17abfdd43bb237d`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/synology-dsm7/PlexMediaServer-1.25.3.5409-f11334058-aarch64_DSM7.spk)  
+Build: linux-aarch64  
+Checksum: `084e11d3cb89416717d0a74af85e9dac87010a9c`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/synology-dsm7/PlexMediaServer-1.25.3.5409-f11334058-armv7hf_DSM7.spk)  
+Build: linux-armv7hf  
+Checksum: `93f6c494f6ae7b63e584ee6414a9ff916703d627`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/synology-dsm7/PlexMediaServer-1.25.3.5409-f11334058-armv7neon_DSM7.spk)  
+Build: linux-armv7neon  
+Checksum: `05faaa323972faf0fee6d370ad0e29319dc59e43`
+
+# Netgear
+
+Items Fixed:
+* (Hubs) Fix potential serialization issue of CW hubs (#13237)
+* (Metadata) Some episodes could fail to get metadata when using the legacy TVDB agent
+* (Scanner) Hidden files inside media paths could cause unexpected issues with certain local assets (#13240)
+* (Scanner) Improve detection of filename changes which should result in rematching items (#13220)
+* (Scanner) Movie items with mis-matched agents could re-match unnecessarily during scanning (#13292)
+* (Scanner) Some file paths could prevent movies from scanning in correctly (#12980)
+* (Series Scanner) Improved matching of season directory names including codec or resolution details (#13235)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/netgear/plexmediaserver_1.25.3.5409-f11334058_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `736796f75e589699d51e41b3bbecb2dadb85df3f`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/netgear/plexmediaserver_1.25.3.5409-f11334058_armel.deb)  
+Build: linux-armv7hf  
+Checksum: `b22d4b8cc7c0e8acbc8b71b9d57427c946444d1b`
+
+Distro: [ARMv7 (RN2xx Series)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/netgear/plexmediaserver-annapurna_1.25.3.5409-f11334058_armel.deb)  
+Build: linux-armv7neon  
+Checksum: `0751855ebf1f955a0b6206d994d978474718bb08`
+
+# QNAP
+Extra Information: <a href="http://www.qnap.com/i/en/trade_teach/con_show.php?op=showone&cid=72" target="_blank"><b>View the tutorial</b></a> on how to use a QNAP Turbo NAS as a Plex Media Server.  
+
+Items Fixed:
+* (Hubs) Fix potential serialization issue of CW hubs (#13237)
+* (Metadata) Some episodes could fail to get metadata when using the legacy TVDB agent
+* (Scanner) Hidden files inside media paths could cause unexpected issues with certain local assets (#13240)
+* (Scanner) Improve detection of filename changes which should result in rematching items (#13220)
+* (Scanner) Movie items with mis-matched agents could re-match unnecessarily during scanning (#13292)
+* (Scanner) Some file paths could prevent movies from scanning in correctly (#12980)
+* (Series Scanner) Improved matching of season directory names including codec or resolution details (#13235)
+
+## Releases
+{: .no_toc }
+Distro: [Intel/AMD 64-bit (QTS-4.3 and newer)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/qnap/PlexMediaServer-1.25.3.5409-f11334058-x86_64.qpkg)  
+Build: linux-x86_64  
+Checksum: `175c0c29eadd013f7fc1e2de0abbed8f3044bcad`
+
+Distro: [ARMv8 (TS-x28, and TS-x32 Series)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/qnap/PlexMediaServer-1.25.3.5409-f11334058-aarch64.qpkg)  
+Build: linux-aarch64  
+Checksum: `bedd0a84ccb9ff9c22f8676b661dd08a60119050`
+
+Distro: [ARMv7 (TS-x31, and TS-x31U Series)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/qnap/PlexMediaServer-1.25.3.5409-f11334058-armv7hf.qpkg)  
+Build: linux-armv7hf  
+Checksum: `3e13e35a0ee5374c5f1ac7b02daafb3401abab0e`
+
+Distro: [ARMv7 (TS-x31+, TS-x31P, TS-x31P2, TS-x31X, and TS-x31XU Series)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/qnap/PlexMediaServer-1.25.3.5409-f11334058-armv7neon.qpkg)  
+Build: linux-armv7neon  
+Checksum: `ec321cee89bdfe228fc413d5078890f0218d17e4`
+
+# unRAID
+
+Items Fixed:
+* (Hubs) Fix potential serialization issue of CW hubs (#13237)
+* (Metadata) Some episodes could fail to get metadata when using the legacy TVDB agent
+* (Scanner) Hidden files inside media paths could cause unexpected issues with certain local assets (#13240)
+* (Scanner) Improve detection of filename changes which should result in rematching items (#13220)
+* (Scanner) Movie items with mis-matched agents could re-match unnecessarily during scanning (#13292)
+* (Scanner) Some file paths could prevent movies from scanning in correctly (#12980)
+* (Series Scanner) Improved matching of season directory names including codec or resolution details (#13235)
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/unraid/PlexMediaServer-1.25.3.5409-f11334058-x86_64.txz)  
+Build: linux-x86_64  
+Checksum: `93598d05ccd703953daf3d51075a0c97674ae8c2`
+
+# Drobo
+
+Items Fixed:
+* (Hubs) Fix potential serialization issue of CW hubs (#13237)
+* (Metadata) Some episodes could fail to get metadata when using the legacy TVDB agent
+* (Scanner) Hidden files inside media paths could cause unexpected issues with certain local assets (#13240)
+* (Scanner) Improve detection of filename changes which should result in rematching items (#13220)
+* (Scanner) Movie items with mis-matched agents could re-match unnecessarily during scanning (#13292)
+* (Scanner) Some file paths could prevent movies from scanning in correctly (#12980)
+* (Series Scanner) Improved matching of season directory names including codec or resolution details (#13235)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/drobo/plex.tgz)  
+Build: linux-armv7hf  
+Checksum: `64619e76509157d3c6e6f250db02f28585ba5e76`
+
+# ASUSTOR
+Extra Information: <a href="https://www.asustor.com/online/College_topic?topic=235" target="_blank"><b>View the tutorial</b></a> on how to use a ASUSTOR NAS as a Plex Media Server.  
+
+Items Fixed:
+* (Hubs) Fix potential serialization issue of CW hubs (#13237)
+* (Metadata) Some episodes could fail to get metadata when using the legacy TVDB agent
+* (Scanner) Hidden files inside media paths could cause unexpected issues with certain local assets (#13240)
+* (Scanner) Improve detection of filename changes which should result in rematching items (#13220)
+* (Scanner) Movie items with mis-matched agents could re-match unnecessarily during scanning (#13292)
+* (Scanner) Some file paths could prevent movies from scanning in correctly (#12980)
+* (Series Scanner) Improved matching of season directory names including codec or resolution details (#13235)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/asustor/PlexMediaServer-1.25.3.5409-f11334058-x86.apk)  
+Build: linux-x86  
+Checksum: `1f99c5090952604943965afb7714458579acccbf`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/asustor/PlexMediaServer-1.25.3.5409-f11334058-x86_64.apk)  
+Build: linux-x86_64  
+Checksum: `3c298e8ce83734880ea090c3d101eca9d6249f16`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/asustor/PlexMediaServer-1.25.3.5409-f11334058-aarch64.apk)  
+Build: linux-aarch64  
+Checksum: `b2bdf8aa6a51284a3aafa74f8aff7f9c8f75aa70`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/asustor/PlexMediaServer-1.25.3.5409-f11334058-armv7neon.apk)  
+Build: linux-armv7neon  
+Checksum: `a31f5d8e457fba8d566a5e404f8086d26894247d`
+
+# TerraMaster
+
+Items Fixed:
+* (Hubs) Fix potential serialization issue of CW hubs (#13237)
+* (Metadata) Some episodes could fail to get metadata when using the legacy TVDB agent
+* (Scanner) Hidden files inside media paths could cause unexpected issues with certain local assets (#13240)
+* (Scanner) Improve detection of filename changes which should result in rematching items (#13220)
+* (Scanner) Movie items with mis-matched agents could re-match unnecessarily during scanning (#13292)
+* (Scanner) Some file paths could prevent movies from scanning in correctly (#12980)
+* (Series Scanner) Improved matching of season directory names including codec or resolution details (#13235)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/terramaster/PlexMediaServer-1.25.3.5409-f11334058-x86_64.tpk)  
+Build: linux-x86_64  
+Checksum: `b32574f7c9580217253dc869f19ffa29ea303c42`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/terramaster/PlexMediaServer-1.25.3.5409-f11334058-aarch64.tpk)  
+Build: linux-aarch64  
+Checksum: `d3890038bd4f3996db4b8b62817e7d2e0aaddfc5`
+
+# Thecus
+
+Items Fixed:
+* (Hubs) Fix potential serialization issue of CW hubs (#13237)
+* (Metadata) Some episodes could fail to get metadata when using the legacy TVDB agent
+* (Scanner) Hidden files inside media paths could cause unexpected issues with certain local assets (#13240)
+* (Scanner) Improve detection of filename changes which should result in rematching items (#13220)
+* (Scanner) Movie items with mis-matched agents could re-match unnecessarily during scanning (#13292)
+* (Scanner) Some file paths could prevent movies from scanning in correctly (#12980)
+* (Series Scanner) Improved matching of season directory names including codec or resolution details (#13235)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/thecus/PlexMediaServer-1.25.3.5409-f11334058-x64.mod)  
+Build: linux-x86_64  
+Checksum: `d5f0fe7a8394b856484d639cf476008115583683`
+
+# Seagate
+
+Items Fixed:
+* (Hubs) Fix potential serialization issue of CW hubs (#13237)
+* (Metadata) Some episodes could fail to get metadata when using the legacy TVDB agent
+* (Scanner) Hidden files inside media paths could cause unexpected issues with certain local assets (#13240)
+* (Scanner) Improve detection of filename changes which should result in rematching items (#13220)
+* (Scanner) Movie items with mis-matched agents could re-match unnecessarily during scanning (#13292)
+* (Scanner) Some file paths could prevent movies from scanning in correctly (#12980)
+* (Series Scanner) Improved matching of season directory names including codec or resolution details (#13235)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/seagate/PlexMediaServer-1.25.3.5409-f11334058-x86_64.rbw)  
+Build: linux-x86_64  
+Checksum: `d2196818fa35d18832e70155d1ea26b7729f03cc`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/seagate/PlexMediaServer-1.25.3.5409-f11334058-armv7.rbw)  
+Build: linux-armv7hf  
+Checksum: `8ad184d81ef714f51b99cd90d7c63a4f53739d28`
+
+# Western Digital
+Requirements: [Requires My Cloud OS 5. Older devices use &#39;Western Digital (OS3)&#39;.](Note:)  
+
+Items Fixed:
+* (Hubs) Fix potential serialization issue of CW hubs (#13237)
+* (Metadata) Some episodes could fail to get metadata when using the legacy TVDB agent
+* (Scanner) Hidden files inside media paths could cause unexpected issues with certain local assets (#13240)
+* (Scanner) Improve detection of filename changes which should result in rematching items (#13220)
+* (Scanner) Movie items with mis-matched agents could re-match unnecessarily during scanning (#13292)
+* (Scanner) Some file paths could prevent movies from scanning in correctly (#12980)
+* (Series Scanner) Improved matching of season directory names including codec or resolution details (#13235)
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud PR2100](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/wd/PlexMediaServer-1.25.3.5409-f11334058-MyCloudPR2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `9bfdd8031a8e0ac50ad2189eb35479b128f899a0`
+
+Distro: [My Cloud PR4100](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/wd/PlexMediaServer-1.25.3.5409-f11334058-MyCloudPR4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `eb6752657f98fb4c5d1a93865d66a795835cab0c`
+
+Distro: [My Cloud EX2 Ultra](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/wd/PlexMediaServer-1.25.3.5409-f11334058-MyCloudEX2Ultra_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `b00dd39f703bbb081d228872787247d85e006b47`
+
+Distro: [My Cloud EX4100](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/wd/PlexMediaServer-1.25.3.5409-f11334058-WDMyCloudEX4100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `349ae5b2b0478499bad0ca42c8f7d8e5ebb03408`
+
+Distro: [My Cloud Mirror](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/wd/PlexMediaServer-1.25.3.5409-f11334058-WDMyCloudMirror_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `ebba452070155fe4e56956aeb7f654ba1433c4d0`
+
+Distro: [My Cloud EX2100](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/wd/PlexMediaServer-1.25.3.5409-f11334058-WDMyCloudEX2100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `ef60b060e9a594f4925ee8053e65664b7e3e4840`
+
+Distro: [My Cloud DL2100](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/wd/PlexMediaServer-1.25.3.5409-f11334058-WDMyCloudDL2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `e858df7513b95aa7f30536cc5f5dceeb4c304389`
+
+Distro: [My Cloud DL4100](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/wd/PlexMediaServer-1.25.3.5409-f11334058-WDMyCloudDL4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `24df94d73f81fa32e01c53211c1a7c84fcfa0a51`
+
+Distro: [My Cloud (Single Bay)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/wd/PlexMediaServer-1.25.3.5409-f11334058-WDMyCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `b8823580a1629d6e738154e87ebd87e09dad8dbc`
+
+Distro: [WD Cloud for Japan](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/wd/PlexMediaServer-1.25.3.5409-f11334058-WDCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `b10953319a15a22b942fdef29331ce19664b02d5`
+
+# Western Digital (OS 3)
+
+Items Fixed:
+* (Hubs) Fix potential serialization issue of CW hubs (#13237)
+* (Metadata) Some episodes could fail to get metadata when using the legacy TVDB agent
+* (Scanner) Hidden files inside media paths could cause unexpected issues with certain local assets (#13240)
+* (Scanner) Improve detection of filename changes which should result in rematching items (#13220)
+* (Scanner) Movie items with mis-matched agents could re-match unnecessarily during scanning (#13292)
+* (Scanner) Some file paths could prevent movies from scanning in correctly (#12980)
+* (Series Scanner) Improved matching of season directory names including codec or resolution details (#13235)
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud DL2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/wd/PlexMediaServer-1.25.3.5409-f11334058-WDMyCloudDL2100.bin)  
+Build: linux-x86_64  
+Checksum: `c6f1f08ab810d4fc7bfe5bc638fb0839d23d66b8`
+
+Distro: [My Cloud DL4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/wd/PlexMediaServer-1.25.3.5409-f11334058-WDMyCloudDL4100.bin)  
+Build: linux-x86_64  
+Checksum: `ac0f46cfff37e1fd67f90f9c6ecbe4f4d69b3214`
+
+Distro: [My Cloud PR2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/wd/PlexMediaServer-1.25.3.5409-f11334058-MyCloudPR2100.bin)  
+Build: linux-x86_64  
+Checksum: `5278dcf6eb6e2e308e34d577aa3c3f529c4c457d`
+
+Distro: [My Cloud PR4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/wd/PlexMediaServer-1.25.3.5409-f11334058-MyCloudPR4100.bin)  
+Build: linux-x86_64  
+Checksum: `07d26719ff72e76059127888fcbfe9ce8c08ba93`
+
+Distro: [My Cloud EX2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/wd/PlexMediaServer-1.25.3.5409-f11334058-WDMyCloudEX2.bin)  
+Build: linux-armv7hf  
+Checksum: `4756b8032cf42edd205a0af5e45fb8909435befb`
+
+Distro: [My Cloud EX2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/wd/PlexMediaServer-1.25.3.5409-f11334058-WDMyCloudEX2100.bin)  
+Build: linux-armv7hf  
+Checksum: `4880a49bb0837c95073b4dcb91476658f16ea7c3`
+
+Distro: [My Cloud EX2 Ultra (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/wd/PlexMediaServer-1.25.3.5409-f11334058-MyCloudEX2Ultra.bin)  
+Build: linux-armv7hf  
+Checksum: `54b33de25c28245198400ce31b2593f8860e7462`
+
+Distro: [My Cloud EX4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/wd/PlexMediaServer-1.25.3.5409-f11334058-WDMyCloudEX4100.bin)  
+Build: linux-armv7hf  
+Checksum: `34ec060dcd2da17cb4fd15d465323f10677b3025`
+
+Distro: [My Cloud Mirror (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/wd/PlexMediaServer-1.25.3.5409-f11334058-WDMyCloudMirror.bin)  
+Build: linux-armv7hf  
+Checksum: `4ab16917a4131aeefce537bd73891e6cb7b353ca`
+
+Distro: [My Cloud Mirror Gen2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/wd/PlexMediaServer-1.25.3.5409-f11334058-WDMyCloudMirrorGen2.bin)  
+Build: linux-armv7hf  
+Checksum: `c126b4224f0c7ef2893d3148877f57b0d06afccf`
+
