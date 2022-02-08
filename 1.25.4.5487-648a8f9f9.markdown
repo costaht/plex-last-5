@@ -1,0 +1,520 @@
+---
+layout: page
+title: 1.25.4.5487-648a8f9f9
+description: Plex Media Server version 1.25.4.5487-648a8f9f9
+---
+## Released on 02/01/2022 01:43
+{: .no_toc }
+## Table of contents
+{: .no_toc .text-delta }
+* TOC
+{:toc}
+# Windows
+Requirements: [Windows 7 SP1 or newer (Intel or AMD processors only)](https://support.plex.tv/hc/en-us/articles/200375666)  
+Items Added:
+* (Library) Refresh movie metadata periodically during scheduled tasks (#13250)
+* (Metadata) Add Bulgarian language option for modern movie and TV agents (#13263)
+* (TLS) Server-side HTTPS connection support is now always enabled for signed-in users; plaintext connections will continue to be supported as well by default (#13257)
+
+Items Fixed:
+* (HttpClient) The server may quit unexpectedly if internal HTTP requests are made with certain timings (#13231)
+* (Library) Requesting the list of items starting with special characters could give unexpected results (#13251)
+* (Metadata) Some users could end up with massive amounts of duplicate extras (#13241)
+* (Optimized Versions) New versions shouldn't be encoded from existing optimized versions (#13254)
+* (Subtitles) On-demand subtitles would not work on optimized versions (#13218)
+* (Transcode) The transcoder process could fail to complete when encoding E-AC-3
+* (Windows) The relay executable would not launch.
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/windows/PlexMediaServer-1.25.4.5487-648a8f9f9-x86.exe)  
+Build: windows-x86  
+Checksum: `a386dfe197a932f2b0e5597ae0f38e0fac1b7fc5`
+
+# MacOS
+Requirements: [OS X 10.9 Mavericks or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+Items Added:
+* (Library) Refresh movie metadata periodically during scheduled tasks (#13250)
+* (Metadata) Add Bulgarian language option for modern movie and TV agents (#13263)
+* (TLS) Server-side HTTPS connection support is now always enabled for signed-in users; plaintext connections will continue to be supported as well by default (#13257)
+
+Items Fixed:
+* (HttpClient) The server may quit unexpectedly if internal HTTP requests are made with certain timings (#13231)
+* (Library) Requesting the list of items starting with special characters could give unexpected results (#13251)
+* (Metadata) Some users could end up with massive amounts of duplicate extras (#13241)
+* (Optimized Versions) New versions shouldn't be encoded from existing optimized versions (#13254)
+* (Subtitles) On-demand subtitles would not work on optimized versions (#13218)
+* (Transcode) The transcoder process could fail to complete when encoding E-AC-3
+* (Windows) The relay executable would not launch.
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/macos/PlexMediaServer-1.25.4.5487-648a8f9f9-x86_64.zip)  
+Build: darwin-x86_64  
+Checksum: `caef95d03b837aab827b094f79796b2f49b7a3f2`
+
+# Linux
+Items Added:
+* (Library) Refresh movie metadata periodically during scheduled tasks (#13250)
+* (Metadata) Add Bulgarian language option for modern movie and TV agents (#13263)
+* (TLS) Server-side HTTPS connection support is now always enabled for signed-in users; plaintext connections will continue to be supported as well by default (#13257)
+
+Items Fixed:
+* (HttpClient) The server may quit unexpectedly if internal HTTP requests are made with certain timings (#13231)
+* (Library) Requesting the list of items starting with special characters could give unexpected results (#13251)
+* (Metadata) Some users could end up with massive amounts of duplicate extras (#13241)
+* (Optimized Versions) New versions shouldn't be encoded from existing optimized versions (#13254)
+* (Subtitles) On-demand subtitles would not work on optimized versions (#13218)
+* (Transcode) The transcoder process could fail to complete when encoding E-AC-3
+* (Windows) The relay executable would not launch.
+
+## Releases
+{: .no_toc }
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/debian/plexmediaserver_1.25.4.5487-648a8f9f9_i386.deb)  
+Build: linux-x86  
+Checksum: `38aa9572aa775833d8bae0b96732250640b5f2ab`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/debian/plexmediaserver_1.25.4.5487-648a8f9f9_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `2ae22bc776ab2384f8a41a327f3592570716ffd3`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv8](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/debian/plexmediaserver_1.25.4.5487-648a8f9f9_arm64.deb)  
+Build: linux-aarch64  
+Checksum: `29e9bf52d002734ab5b1de2a1e9ad3ed9f6a3930`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv7](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/debian/plexmediaserver_1.25.4.5487-648a8f9f9_armhf.deb)  
+Build: linux-armv7neon  
+Checksum: `26ae12e057f894cd3fb8e7a7626bee2ad67bffd6`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/redhat/plexmediaserver-1.25.4.5487-648a8f9f9.i686.rpm)  
+Build: linux-x86  
+Checksum: `b05c555dc0fae671cc4e97d4869f505b372ae6ed`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/redhat/plexmediaserver-1.25.4.5487-648a8f9f9.x86_64.rpm)  
+Build: linux-x86_64  
+Checksum: `434b6e508ea655d224babedf7482a86ddfd83216`
+
+# FreeBSD
+Requirements: [FreeBSD 11.2 or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+Items Added:
+* (Library) Refresh movie metadata periodically during scheduled tasks (#13250)
+* (Metadata) Add Bulgarian language option for modern movie and TV agents (#13263)
+* (TLS) Server-side HTTPS connection support is now always enabled for signed-in users; plaintext connections will continue to be supported as well by default (#13257)
+
+Items Fixed:
+* (HttpClient) The server may quit unexpectedly if internal HTTP requests are made with certain timings (#13231)
+* (Library) Requesting the list of items starting with special characters could give unexpected results (#13251)
+* (Metadata) Some users could end up with massive amounts of duplicate extras (#13241)
+* (Optimized Versions) New versions shouldn't be encoded from existing optimized versions (#13254)
+* (Subtitles) On-demand subtitles would not work on optimized versions (#13218)
+* (Transcode) The transcoder process could fail to complete when encoding E-AC-3
+* (Windows) The relay executable would not launch.
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/freebsd/PlexMediaServer-1.25.4.5487-648a8f9f9-FreeBSD-amd64.tar.bz2)  
+Build: freebsd-x86_64  
+Checksum: `6f54f449391422040afe0fe609a1973b2e6bbb4b`
+
+# Synology
+Requirements: [Requires DSM 5.0 minimum to install.](Note:)  
+Extra Information: Guide: <a href="https://support.plex.tv/hc/en-us/articles/205165858" target="_blank">Add Plex as a trusted publisher for package installations</a>.  
+Items Added:
+* (Library) Refresh movie metadata periodically during scheduled tasks (#13250)
+* (Metadata) Add Bulgarian language option for modern movie and TV agents (#13263)
+* (TLS) Server-side HTTPS connection support is now always enabled for signed-in users; plaintext connections will continue to be supported as well by default (#13257)
+
+Items Fixed:
+* (HttpClient) The server may quit unexpectedly if internal HTTP requests are made with certain timings (#13231)
+* (Library) Requesting the list of items starting with special characters could give unexpected results (#13251)
+* (Metadata) Some users could end up with massive amounts of duplicate extras (#13241)
+* (Optimized Versions) New versions shouldn't be encoded from existing optimized versions (#13254)
+* (Subtitles) On-demand subtitles would not work on optimized versions (#13218)
+* (Transcode) The transcoder process could fail to complete when encoding E-AC-3
+* (Windows) The relay executable would not launch.
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit (x10 Series, DS415play, and DS214play)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/synology/PlexMediaServer-1.25.4.5487-648a8f9f9-x86_DSM6.spk)  
+Build: linux-x86  
+Checksum: `d5849db5c7fdc2328b559f1a1fd5393998e8b97f`
+
+Distro: [Intel 64-bit (DSM 6.0 and newer)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/synology/PlexMediaServer-1.25.4.5487-648a8f9f9-x86_64_DSM6.spk)  
+Build: linux-x86_64  
+Checksum: `93a4226012e3ae1478858899b6cd956abc5918bb`
+
+Distro: [ARMv8 (x18 Series)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/synology/PlexMediaServer-1.25.4.5487-648a8f9f9-aarch64_DSM6.spk)  
+Build: linux-aarch64  
+Checksum: `47b7049a1c953c8619973ce4911cd353ce92ece5`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/synology/PlexMediaServer-1.25.4.5487-648a8f9f9-armv7hf_DSM6.spk)  
+Build: linux-armv7hf  
+Checksum: `97752583eb352dbea77c734e1966111680cc40f4`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/synology/PlexMediaServer-1.25.4.5487-648a8f9f9-armv7neon_DSM6.spk)  
+Build: linux-armv7neon  
+Checksum: `20bbce1ad5361fe0449831a8cceaee3345ba8b2a`
+
+# Synology (DSM 7)
+Requirements: [Requires DSM 7.0 minimum to install.](Note:)  
+Items Added:
+* (Library) Refresh movie metadata periodically during scheduled tasks (#13250)
+* (Metadata) Add Bulgarian language option for modern movie and TV agents (#13263)
+* (TLS) Server-side HTTPS connection support is now always enabled for signed-in users; plaintext connections will continue to be supported as well by default (#13257)
+
+Items Fixed:
+* (HttpClient) The server may quit unexpectedly if internal HTTP requests are made with certain timings (#13231)
+* (Library) Requesting the list of items starting with special characters could give unexpected results (#13251)
+* (Metadata) Some users could end up with massive amounts of duplicate extras (#13241)
+* (Optimized Versions) New versions shouldn't be encoded from existing optimized versions (#13254)
+* (Subtitles) On-demand subtitles would not work on optimized versions (#13218)
+* (Transcode) The transcoder process could fail to complete when encoding E-AC-3
+* (Windows) The relay executable would not launch.
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/synology-dsm7/PlexMediaServer-1.25.4.5487-648a8f9f9-x86_DSM7.spk)  
+Build: linux-x86  
+Checksum: `db153c3b40ff9785730a4209c1ccf0bb7b493385`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/synology-dsm7/PlexMediaServer-1.25.4.5487-648a8f9f9-x86_64_DSM7.spk)  
+Build: linux-x86_64  
+Checksum: `439ec645498e19a459b898fa56d42e75a2c29eaf`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/synology-dsm7/PlexMediaServer-1.25.4.5487-648a8f9f9-aarch64_DSM7.spk)  
+Build: linux-aarch64  
+Checksum: `5d098e1f069edf2e1ea036f551643c15e9157733`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/synology-dsm7/PlexMediaServer-1.25.4.5487-648a8f9f9-armv7hf_DSM7.spk)  
+Build: linux-armv7hf  
+Checksum: `9fbf3f32947b731228ba27035c6a4bf30c496e58`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/synology-dsm7/PlexMediaServer-1.25.4.5487-648a8f9f9-armv7neon_DSM7.spk)  
+Build: linux-armv7neon  
+Checksum: `7e113f98adcd43a1fb0d33c2f571bdc573a809b8`
+
+# Netgear
+Items Added:
+* (Library) Refresh movie metadata periodically during scheduled tasks (#13250)
+* (Metadata) Add Bulgarian language option for modern movie and TV agents (#13263)
+* (TLS) Server-side HTTPS connection support is now always enabled for signed-in users; plaintext connections will continue to be supported as well by default (#13257)
+
+Items Fixed:
+* (HttpClient) The server may quit unexpectedly if internal HTTP requests are made with certain timings (#13231)
+* (Library) Requesting the list of items starting with special characters could give unexpected results (#13251)
+* (Metadata) Some users could end up with massive amounts of duplicate extras (#13241)
+* (Optimized Versions) New versions shouldn't be encoded from existing optimized versions (#13254)
+* (Subtitles) On-demand subtitles would not work on optimized versions (#13218)
+* (Transcode) The transcoder process could fail to complete when encoding E-AC-3
+* (Windows) The relay executable would not launch.
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/netgear/plexmediaserver_1.25.4.5487-648a8f9f9_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `dbee7ba7903058bf161cb3f1ed710701d8c941b3`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/netgear/plexmediaserver_1.25.4.5487-648a8f9f9_armel.deb)  
+Build: linux-armv7hf  
+Checksum: `8667643fc0d6cb0729ca934624750f63cc2abb12`
+
+Distro: [ARMv7 (RN2xx Series)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/netgear/plexmediaserver-annapurna_1.25.4.5487-648a8f9f9_armel.deb)  
+Build: linux-armv7neon  
+Checksum: `3001f9a6228079d4822945829d9b70f3bdde79a4`
+
+# QNAP
+Extra Information: <a href="http://www.qnap.com/i/en/trade_teach/con_show.php?op=showone&cid=72" target="_blank"><b>View the tutorial</b></a> on how to use a QNAP Turbo NAS as a Plex Media Server.  
+Items Added:
+* (Library) Refresh movie metadata periodically during scheduled tasks (#13250)
+* (Metadata) Add Bulgarian language option for modern movie and TV agents (#13263)
+* (TLS) Server-side HTTPS connection support is now always enabled for signed-in users; plaintext connections will continue to be supported as well by default (#13257)
+
+Items Fixed:
+* (HttpClient) The server may quit unexpectedly if internal HTTP requests are made with certain timings (#13231)
+* (Library) Requesting the list of items starting with special characters could give unexpected results (#13251)
+* (Metadata) Some users could end up with massive amounts of duplicate extras (#13241)
+* (Optimized Versions) New versions shouldn't be encoded from existing optimized versions (#13254)
+* (Subtitles) On-demand subtitles would not work on optimized versions (#13218)
+* (Transcode) The transcoder process could fail to complete when encoding E-AC-3
+* (Windows) The relay executable would not launch.
+
+## Releases
+{: .no_toc }
+Distro: [Intel/AMD 64-bit (QTS-4.3 and newer)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/qnap/PlexMediaServer-1.25.4.5487-648a8f9f9-x86_64.qpkg)  
+Build: linux-x86_64  
+Checksum: `4e9972fb1ed976e5afd31b85726f3cd8a5d0543d`
+
+Distro: [ARMv8 (TS-x28, and TS-x32 Series)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/qnap/PlexMediaServer-1.25.4.5487-648a8f9f9-aarch64.qpkg)  
+Build: linux-aarch64  
+Checksum: `f2e78f668fd99917ec54eede194cf5f8bc1cfe8e`
+
+Distro: [ARMv7 (TS-x31, and TS-x31U Series)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/qnap/PlexMediaServer-1.25.4.5487-648a8f9f9-armv7hf.qpkg)  
+Build: linux-armv7hf  
+Checksum: `fce5a2bf177cbffccd574b39c6fa72c53d369b72`
+
+Distro: [ARMv7 (TS-x31+, TS-x31P, TS-x31P2, TS-x31X, and TS-x31XU Series)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/qnap/PlexMediaServer-1.25.4.5487-648a8f9f9-armv7neon.qpkg)  
+Build: linux-armv7neon  
+Checksum: `cd738ab6ed40d6f5a2ace688c479c3df7f8fbea8`
+
+# unRAID
+Items Added:
+* (Library) Refresh movie metadata periodically during scheduled tasks (#13250)
+* (Metadata) Add Bulgarian language option for modern movie and TV agents (#13263)
+* (TLS) Server-side HTTPS connection support is now always enabled for signed-in users; plaintext connections will continue to be supported as well by default (#13257)
+
+Items Fixed:
+* (HttpClient) The server may quit unexpectedly if internal HTTP requests are made with certain timings (#13231)
+* (Library) Requesting the list of items starting with special characters could give unexpected results (#13251)
+* (Metadata) Some users could end up with massive amounts of duplicate extras (#13241)
+* (Optimized Versions) New versions shouldn't be encoded from existing optimized versions (#13254)
+* (Subtitles) On-demand subtitles would not work on optimized versions (#13218)
+* (Transcode) The transcoder process could fail to complete when encoding E-AC-3
+* (Windows) The relay executable would not launch.
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/unraid/PlexMediaServer-1.25.4.5487-648a8f9f9-x86_64.txz)  
+Build: linux-x86_64  
+Checksum: `aec026082b21a8f99e1fe262fbaeef288b5f054d`
+
+# Drobo
+Items Added:
+* (Library) Refresh movie metadata periodically during scheduled tasks (#13250)
+* (Metadata) Add Bulgarian language option for modern movie and TV agents (#13263)
+* (TLS) Server-side HTTPS connection support is now always enabled for signed-in users; plaintext connections will continue to be supported as well by default (#13257)
+
+Items Fixed:
+* (HttpClient) The server may quit unexpectedly if internal HTTP requests are made with certain timings (#13231)
+* (Library) Requesting the list of items starting with special characters could give unexpected results (#13251)
+* (Metadata) Some users could end up with massive amounts of duplicate extras (#13241)
+* (Optimized Versions) New versions shouldn't be encoded from existing optimized versions (#13254)
+* (Subtitles) On-demand subtitles would not work on optimized versions (#13218)
+* (Transcode) The transcoder process could fail to complete when encoding E-AC-3
+* (Windows) The relay executable would not launch.
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/drobo/plex.tgz)  
+Build: linux-armv7hf  
+Checksum: `304f828e70000c3fdb9e3684242e92a38945abba`
+
+# ASUSTOR
+Extra Information: <a href="https://www.asustor.com/online/College_topic?topic=235" target="_blank"><b>View the tutorial</b></a> on how to use a ASUSTOR NAS as a Plex Media Server.  
+Items Added:
+* (Library) Refresh movie metadata periodically during scheduled tasks (#13250)
+* (Metadata) Add Bulgarian language option for modern movie and TV agents (#13263)
+* (TLS) Server-side HTTPS connection support is now always enabled for signed-in users; plaintext connections will continue to be supported as well by default (#13257)
+
+Items Fixed:
+* (HttpClient) The server may quit unexpectedly if internal HTTP requests are made with certain timings (#13231)
+* (Library) Requesting the list of items starting with special characters could give unexpected results (#13251)
+* (Metadata) Some users could end up with massive amounts of duplicate extras (#13241)
+* (Optimized Versions) New versions shouldn't be encoded from existing optimized versions (#13254)
+* (Subtitles) On-demand subtitles would not work on optimized versions (#13218)
+* (Transcode) The transcoder process could fail to complete when encoding E-AC-3
+* (Windows) The relay executable would not launch.
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/asustor/PlexMediaServer-1.25.4.5487-648a8f9f9-x86.apk)  
+Build: linux-x86  
+Checksum: `2169a4a65f94d5e8a3225725c3014e91653dbaef`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/asustor/PlexMediaServer-1.25.4.5487-648a8f9f9-x86_64.apk)  
+Build: linux-x86_64  
+Checksum: `37285b67c18d4a2555284967b3c5472ed43312d3`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/asustor/PlexMediaServer-1.25.4.5487-648a8f9f9-aarch64.apk)  
+Build: linux-aarch64  
+Checksum: `05ba33ed78f86ff3b2a401391532232c6e2039c6`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/asustor/PlexMediaServer-1.25.4.5487-648a8f9f9-armv7neon.apk)  
+Build: linux-armv7neon  
+Checksum: `86903810ebbdea0559d9e225e449aaa7c2a55da6`
+
+# TerraMaster
+Items Added:
+* (Library) Refresh movie metadata periodically during scheduled tasks (#13250)
+* (Metadata) Add Bulgarian language option for modern movie and TV agents (#13263)
+* (TLS) Server-side HTTPS connection support is now always enabled for signed-in users; plaintext connections will continue to be supported as well by default (#13257)
+
+Items Fixed:
+* (HttpClient) The server may quit unexpectedly if internal HTTP requests are made with certain timings (#13231)
+* (Library) Requesting the list of items starting with special characters could give unexpected results (#13251)
+* (Metadata) Some users could end up with massive amounts of duplicate extras (#13241)
+* (Optimized Versions) New versions shouldn't be encoded from existing optimized versions (#13254)
+* (Subtitles) On-demand subtitles would not work on optimized versions (#13218)
+* (Transcode) The transcoder process could fail to complete when encoding E-AC-3
+* (Windows) The relay executable would not launch.
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/terramaster/PlexMediaServer-1.25.4.5487-648a8f9f9-x86_64.tpk)  
+Build: linux-x86_64  
+Checksum: `6164b0396fd541c0ae1abd93270611c24e86fb5c`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/terramaster/PlexMediaServer-1.25.4.5487-648a8f9f9-aarch64.tpk)  
+Build: linux-aarch64  
+Checksum: `1450ff1ecc08f65a1d37c6b8d7bae26eb003a764`
+
+# Thecus
+Items Added:
+* (Library) Refresh movie metadata periodically during scheduled tasks (#13250)
+* (Metadata) Add Bulgarian language option for modern movie and TV agents (#13263)
+* (TLS) Server-side HTTPS connection support is now always enabled for signed-in users; plaintext connections will continue to be supported as well by default (#13257)
+
+Items Fixed:
+* (HttpClient) The server may quit unexpectedly if internal HTTP requests are made with certain timings (#13231)
+* (Library) Requesting the list of items starting with special characters could give unexpected results (#13251)
+* (Metadata) Some users could end up with massive amounts of duplicate extras (#13241)
+* (Optimized Versions) New versions shouldn't be encoded from existing optimized versions (#13254)
+* (Subtitles) On-demand subtitles would not work on optimized versions (#13218)
+* (Transcode) The transcoder process could fail to complete when encoding E-AC-3
+* (Windows) The relay executable would not launch.
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/thecus/PlexMediaServer-1.25.4.5487-648a8f9f9-x64.mod)  
+Build: linux-x86_64  
+Checksum: `0c10110fbaa1aa6820ec7a1b45fe82062d422fc9`
+
+# Seagate
+Items Added:
+* (Library) Refresh movie metadata periodically during scheduled tasks (#13250)
+* (Metadata) Add Bulgarian language option for modern movie and TV agents (#13263)
+* (TLS) Server-side HTTPS connection support is now always enabled for signed-in users; plaintext connections will continue to be supported as well by default (#13257)
+
+Items Fixed:
+* (HttpClient) The server may quit unexpectedly if internal HTTP requests are made with certain timings (#13231)
+* (Library) Requesting the list of items starting with special characters could give unexpected results (#13251)
+* (Metadata) Some users could end up with massive amounts of duplicate extras (#13241)
+* (Optimized Versions) New versions shouldn't be encoded from existing optimized versions (#13254)
+* (Subtitles) On-demand subtitles would not work on optimized versions (#13218)
+* (Transcode) The transcoder process could fail to complete when encoding E-AC-3
+* (Windows) The relay executable would not launch.
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/seagate/PlexMediaServer-1.25.4.5487-648a8f9f9-x86_64.rbw)  
+Build: linux-x86_64  
+Checksum: `05496072ce495e512b1607edd7b55fb4f7241748`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/seagate/PlexMediaServer-1.25.4.5487-648a8f9f9-armv7.rbw)  
+Build: linux-armv7hf  
+Checksum: `1bd503650be2c9b6db26e5ac792c28ea87cbdc43`
+
+# Western Digital
+Requirements: [Requires My Cloud OS 5. Older devices use &#39;Western Digital (OS3)&#39;.](Note:)  
+Items Added:
+* (Library) Refresh movie metadata periodically during scheduled tasks (#13250)
+* (Metadata) Add Bulgarian language option for modern movie and TV agents (#13263)
+* (TLS) Server-side HTTPS connection support is now always enabled for signed-in users; plaintext connections will continue to be supported as well by default (#13257)
+
+Items Fixed:
+* (HttpClient) The server may quit unexpectedly if internal HTTP requests are made with certain timings (#13231)
+* (Library) Requesting the list of items starting with special characters could give unexpected results (#13251)
+* (Metadata) Some users could end up with massive amounts of duplicate extras (#13241)
+* (Optimized Versions) New versions shouldn't be encoded from existing optimized versions (#13254)
+* (Subtitles) On-demand subtitles would not work on optimized versions (#13218)
+* (Transcode) The transcoder process could fail to complete when encoding E-AC-3
+* (Windows) The relay executable would not launch.
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud PR2100](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/wd/PlexMediaServer-1.25.4.5487-648a8f9f9-MyCloudPR2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `36bdf2e52e29995cde1c94b722a92ba0643c02c4`
+
+Distro: [My Cloud PR4100](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/wd/PlexMediaServer-1.25.4.5487-648a8f9f9-MyCloudPR4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `09db1503ad59bb76286cf5caf4e357e092e7e8ed`
+
+Distro: [My Cloud EX2 Ultra](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/wd/PlexMediaServer-1.25.4.5487-648a8f9f9-MyCloudEX2Ultra_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `c3add4b138cc51c18f0aa8929bd53deee05a1c3d`
+
+Distro: [My Cloud EX4100](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/wd/PlexMediaServer-1.25.4.5487-648a8f9f9-WDMyCloudEX4100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `d4b4c050be0d46e1dda56e24345ec9802442974f`
+
+Distro: [My Cloud Mirror](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/wd/PlexMediaServer-1.25.4.5487-648a8f9f9-WDMyCloudMirror_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `568056b68dd127b70bedcef4332945104e52e1da`
+
+Distro: [My Cloud EX2100](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/wd/PlexMediaServer-1.25.4.5487-648a8f9f9-WDMyCloudEX2100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `0dfebe1a6077882c4f28108aa7a9dd18a25dc6f5`
+
+Distro: [My Cloud DL2100](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/wd/PlexMediaServer-1.25.4.5487-648a8f9f9-WDMyCloudDL2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `0b796f3fe1936e2263fc49e5690af5f4bf5e9739`
+
+Distro: [My Cloud DL4100](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/wd/PlexMediaServer-1.25.4.5487-648a8f9f9-WDMyCloudDL4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `05995f9f0a33c8d3f96fda68e67665be701f57a1`
+
+Distro: [My Cloud (Single Bay)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/wd/PlexMediaServer-1.25.4.5487-648a8f9f9-WDMyCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `f332ac89619ebca0d5d1499690866062dd591142`
+
+Distro: [WD Cloud for Japan](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/wd/PlexMediaServer-1.25.4.5487-648a8f9f9-WDCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `6634de09bf459a8bc5df960a67e83d476095f021`
+
+# Western Digital (OS 3)
+Items Added:
+* (Library) Refresh movie metadata periodically during scheduled tasks (#13250)
+* (Metadata) Add Bulgarian language option for modern movie and TV agents (#13263)
+* (TLS) Server-side HTTPS connection support is now always enabled for signed-in users; plaintext connections will continue to be supported as well by default (#13257)
+
+Items Fixed:
+* (HttpClient) The server may quit unexpectedly if internal HTTP requests are made with certain timings (#13231)
+* (Library) Requesting the list of items starting with special characters could give unexpected results (#13251)
+* (Metadata) Some users could end up with massive amounts of duplicate extras (#13241)
+* (Optimized Versions) New versions shouldn't be encoded from existing optimized versions (#13254)
+* (Subtitles) On-demand subtitles would not work on optimized versions (#13218)
+* (Transcode) The transcoder process could fail to complete when encoding E-AC-3
+* (Windows) The relay executable would not launch.
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud DL2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/wd/PlexMediaServer-1.25.4.5487-648a8f9f9-WDMyCloudDL2100.bin)  
+Build: linux-x86_64  
+Checksum: `da1fa19008ca54c211f96e2523bf4ca06c8bdd4c`
+
+Distro: [My Cloud DL4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/wd/PlexMediaServer-1.25.4.5487-648a8f9f9-WDMyCloudDL4100.bin)  
+Build: linux-x86_64  
+Checksum: `9697bb60292dd33b11d6062b14f8c3e845c5dc20`
+
+Distro: [My Cloud PR2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/wd/PlexMediaServer-1.25.4.5487-648a8f9f9-MyCloudPR2100.bin)  
+Build: linux-x86_64  
+Checksum: `7a3f921d314e9edca64c4bea2ebdbe8cbf71e53f`
+
+Distro: [My Cloud PR4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/wd/PlexMediaServer-1.25.4.5487-648a8f9f9-MyCloudPR4100.bin)  
+Build: linux-x86_64  
+Checksum: `ebdd4fe37a7a209034fd65683c7062f9f288f775`
+
+Distro: [My Cloud EX2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/wd/PlexMediaServer-1.25.4.5487-648a8f9f9-WDMyCloudEX2.bin)  
+Build: linux-armv7hf  
+Checksum: `d1c2dae7d6118b9d3395bd90f5b0c6424f3d293f`
+
+Distro: [My Cloud EX2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/wd/PlexMediaServer-1.25.4.5487-648a8f9f9-WDMyCloudEX2100.bin)  
+Build: linux-armv7hf  
+Checksum: `02b3aa3d6ad94a3e246a851c72fafb8d2f96c0b2`
+
+Distro: [My Cloud EX2 Ultra (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/wd/PlexMediaServer-1.25.4.5487-648a8f9f9-MyCloudEX2Ultra.bin)  
+Build: linux-armv7hf  
+Checksum: `adc9dc3048593af98a0efbc8bd25e4455cb08798`
+
+Distro: [My Cloud EX4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/wd/PlexMediaServer-1.25.4.5487-648a8f9f9-WDMyCloudEX4100.bin)  
+Build: linux-armv7hf  
+Checksum: `30ae365d848932ae658f60cb78b305af2ae54d0e`
+
+Distro: [My Cloud Mirror (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/wd/PlexMediaServer-1.25.4.5487-648a8f9f9-WDMyCloudMirror.bin)  
+Build: linux-armv7hf  
+Checksum: `93ad65fd985979898040dc518155145d94bcd0b1`
+
+Distro: [My Cloud Mirror Gen2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.25.4.5487-648a8f9f9/wd/PlexMediaServer-1.25.4.5487-648a8f9f9-WDMyCloudMirrorGen2.bin)  
+Build: linux-armv7hf  
+Checksum: `f9f92515531c577bc1281e11650ba172f4d77c38`
+
