@@ -1,3 +1,15 @@
 .search-input {
   color: $body-text-color;
 }
+.utterances {
+  max-width: 100%;
+}
+
+.giscus, .giscus-frame {
+  width: 100%;
+}
+
+.giscus-frame {
+  border: none;
+}
+

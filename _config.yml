@@ -69,3 +69,15 @@ aux_links:
   - "https://forums.plex.tv/u/costaht/summary"
 aux_links_new_tab: true
 
+comments:
+  provider: giscus
+
+giscus:
+  repo:                "costaht/plex-last-5"
+  repo-id:             "MDEwOlJlcG9zaXRvcnkzNzMwNDczMzI="
+  category:            "Announcements"
+  category-id:         "DIC_kwDOFjxAJM4CPPHL"
+  mapping:             "title"
+  reaction-enabled:    "1"
+  theme:               "light"
+  crossorigin:         "anonymous"
