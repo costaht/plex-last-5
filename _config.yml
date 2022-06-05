@@ -79,5 +79,5 @@ giscus:
   category-id:         "DIC_kwDOFjxAJM4CPPHL"
   mapping:             "title"
   reaction-enabled:    "1"
-  theme:               "light"
+  theme:               "transparent_dark"
   crossorigin:         "anonymous"
