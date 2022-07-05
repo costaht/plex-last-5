@@ -1,0 +1,393 @@
+---
+layout: page
+title: 1.27.1.5916-6b0e31a64
+description: Plex Media Server version 1.27.1.5916-6b0e31a64
+nav_order: -9
+---
+## Released on 06/21/2022 12:06
+{: .no_toc }
+## Table of contents
+{: .no_toc .text-delta }
+* TOC
+{:toc}
+# Windows
+Requirements: [Windows 7 SP1 or newer (Intel or AMD processors only)](https://support.plex.tv/hc/en-us/articles/200375666)  
+
+Items Fixed:
+* (Library) When media was deleted it could leave behind its sidecar files (#13479)
+* (Music) Album year and date fields could differ when preferring local metadata (#13591)
+* (Transcoder) Audio could drop out partway through playback when remuxing videos with very long keyframe intervals to DASH (#13411)
+
+## Releases
+{: .no_toc }
+Distro: [Windows 32-bit](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/windows/PlexMediaServer-1.27.1.5916-6b0e31a64-x86.exe)  
+Build: windows-x86  
+Checksum: `2cab5dce70ccc169d88e4e59cd402ce97d350de1`
+
+# MacOS
+Requirements: [OS X 10.9 Mavericks or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+
+Items Fixed:
+* (Library) When media was deleted it could leave behind its sidecar files (#13479)
+* (Music) Album year and date fields could differ when preferring local metadata (#13591)
+* (Transcoder) Audio could drop out partway through playback when remuxing videos with very long keyframe intervals to DASH (#13411)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/macos/PlexMediaServer-1.27.1.5916-6b0e31a64-x86_64.zip)  
+Build: darwin-x86_64  
+Checksum: `a7cb77ccc6b0f83d61b085b58560e774dbfa5c34`
+
+# Linux
+
+Items Fixed:
+* (Library) When media was deleted it could leave behind its sidecar files (#13479)
+* (Music) Album year and date fields could differ when preferring local metadata (#13591)
+* (Transcoder) Audio could drop out partway through playback when remuxing videos with very long keyframe intervals to DASH (#13411)
+
+## Releases
+{: .no_toc }
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/debian/plexmediaserver_1.27.1.5916-6b0e31a64_i386.deb)  
+Build: linux-x86  
+Checksum: `beefee053c3988e63aa6145abe5b61f8b9e060aa`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/debian/plexmediaserver_1.27.1.5916-6b0e31a64_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `fc56f867747baef01dc7de4bcbfd778cb6e6356f`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv8](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/debian/plexmediaserver_1.27.1.5916-6b0e31a64_arm64.deb)  
+Build: linux-aarch64  
+Checksum: `bde97baef3714e4ec826b03b54400ae3a1e87134`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv7](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/debian/plexmediaserver_1.27.1.5916-6b0e31a64_armhf.deb)  
+Build: linux-armv7neon  
+Checksum: `ed1ec098ae29147a749a28c114bdea85b2f8f83a`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/redhat/plexmediaserver-1.27.1.5916-6b0e31a64.i686.rpm)  
+Build: linux-x86  
+Checksum: `73f90fed8af5078b68baf3d2e8e3ef6d0e2134de`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/redhat/plexmediaserver-1.27.1.5916-6b0e31a64.x86_64.rpm)  
+Build: linux-x86_64  
+Checksum: `b44d77ec0f01d99c646e3432499bb7b80c4b4fb9`
+
+# FreeBSD
+Requirements: [FreeBSD 11.2 or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+
+Items Fixed:
+* (Library) When media was deleted it could leave behind its sidecar files (#13479)
+* (Music) Album year and date fields could differ when preferring local metadata (#13591)
+* (Transcoder) Audio could drop out partway through playback when remuxing videos with very long keyframe intervals to DASH (#13411)
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/freebsd/PlexMediaServer-1.27.1.5916-6b0e31a64-FreeBSD-amd64.tar.bz2)  
+Build: freebsd-x86_64  
+Checksum: `4af4f10d398244a0e3b97439777add2d63e14071`
+
+# Synology
+Requirements: [Requires DSM 5.0 minimum to install.](Note:)  
+Extra Information: Guide: <a href="https://support.plex.tv/hc/en-us/articles/205165858" target="_blank">Add Plex as a trusted publisher for package installations</a>.  
+
+Items Fixed:
+* (Library) When media was deleted it could leave behind its sidecar files (#13479)
+* (Music) Album year and date fields could differ when preferring local metadata (#13591)
+* (Transcoder) Audio could drop out partway through playback when remuxing videos with very long keyframe intervals to DASH (#13411)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit (x10 Series, DS415play, and DS214play)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/synology/PlexMediaServer-1.27.1.5916-6b0e31a64-x86_DSM6.spk)  
+Build: linux-x86  
+Checksum: `ef576f2a70b6eaab312efcd8b7bd2b95ca59311a`
+
+Distro: [Intel 64-bit (DSM 6.0 and newer)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/synology/PlexMediaServer-1.27.1.5916-6b0e31a64-x86_64_DSM6.spk)  
+Build: linux-x86_64  
+Checksum: `17ff487a6bfeb09c1c3799fd4a9c93d06c101102`
+
+Distro: [ARMv8 (x18 Series)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/synology/PlexMediaServer-1.27.1.5916-6b0e31a64-aarch64_DSM6.spk)  
+Build: linux-aarch64  
+Checksum: `2efd3702b599222ca02b4bfaaf00b3a9ec61d0a9`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/synology/PlexMediaServer-1.27.1.5916-6b0e31a64-armv7hf_DSM6.spk)  
+Build: linux-armv7hf  
+Checksum: `9b20ae6af152a6a89b4865dd8d0c98b0ff6fee71`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/synology/PlexMediaServer-1.27.1.5916-6b0e31a64-armv7neon_DSM6.spk)  
+Build: linux-armv7neon  
+Checksum: `a57e09b4e63dd8c64dfb910133850f5c505f7417`
+
+# Synology (DSM 7)
+Requirements: [Requires DSM 7.0 minimum to install.](Note:)  
+
+Items Fixed:
+* (Library) When media was deleted it could leave behind its sidecar files (#13479)
+* (Music) Album year and date fields could differ when preferring local metadata (#13591)
+* (Transcoder) Audio could drop out partway through playback when remuxing videos with very long keyframe intervals to DASH (#13411)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/synology-dsm7/PlexMediaServer-1.27.1.5916-6b0e31a64-x86_DSM7.spk)  
+Build: linux-x86  
+Checksum: `990635968b47174129008ff88a828e3e1d5050dc`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/synology-dsm7/PlexMediaServer-1.27.1.5916-6b0e31a64-x86_64_DSM7.spk)  
+Build: linux-x86_64  
+Checksum: `bfe16fb5d7a2300b77f24152f682faaa7adbf6f2`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/synology-dsm7/PlexMediaServer-1.27.1.5916-6b0e31a64-aarch64_DSM7.spk)  
+Build: linux-aarch64  
+Checksum: `71befb299339576937bcc50d5192d5f1ff9ffa75`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/synology-dsm7/PlexMediaServer-1.27.1.5916-6b0e31a64-armv7hf_DSM7.spk)  
+Build: linux-armv7hf  
+Checksum: `6372ccb7f0cd3c885f2de2bf2750f7572ed77676`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/synology-dsm7/PlexMediaServer-1.27.1.5916-6b0e31a64-armv7neon_DSM7.spk)  
+Build: linux-armv7neon  
+Checksum: `d9ac0df137aab14b022e9054b52e13fbb21bc54c`
+
+# Netgear
+
+Items Fixed:
+* (Library) When media was deleted it could leave behind its sidecar files (#13479)
+* (Music) Album year and date fields could differ when preferring local metadata (#13591)
+* (Transcoder) Audio could drop out partway through playback when remuxing videos with very long keyframe intervals to DASH (#13411)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/netgear/plexmediaserver_1.27.1.5916-6b0e31a64_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `0a5d67d50e58fd36e8948432652935240946c284`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/netgear/plexmediaserver_1.27.1.5916-6b0e31a64_armel.deb)  
+Build: linux-armv7hf  
+Checksum: `cb753ace3e709c557dc4ec3d26f0b38383422d35`
+
+Distro: [ARMv7 (RN2xx Series)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/netgear/plexmediaserver-annapurna_1.27.1.5916-6b0e31a64_armel.deb)  
+Build: linux-armv7neon  
+Checksum: `a73c40c5003540501d7170461dac8ff9eafedd67`
+
+# QNAP
+Extra Information: <a href="http://www.qnap.com/i/en/trade_teach/con_show.php?op=showone&cid=72" target="_blank"><b>View the tutorial</b></a> on how to use a QNAP Turbo NAS as a Plex Media Server.  
+
+Items Fixed:
+* (Library) When media was deleted it could leave behind its sidecar files (#13479)
+* (Music) Album year and date fields could differ when preferring local metadata (#13591)
+* (Transcoder) Audio could drop out partway through playback when remuxing videos with very long keyframe intervals to DASH (#13411)
+
+## Releases
+{: .no_toc }
+Distro: [Intel/AMD 64-bit (QTS-4.3 and newer)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/qnap/PlexMediaServer-1.27.1.5916-6b0e31a64-x86_64.qpkg)  
+Build: linux-x86_64  
+Checksum: `555eaa05dff77e0d166a2a3968de3bfeff56509a`
+
+Distro: [ARMv8 (TS-x28, and TS-x32 Series)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/qnap/PlexMediaServer-1.27.1.5916-6b0e31a64-aarch64.qpkg)  
+Build: linux-aarch64  
+Checksum: `8a086c56c95b419bcae72218a945c4f4a12b3b61`
+
+Distro: [ARMv7 (TS-x31, and TS-x31U Series)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/qnap/PlexMediaServer-1.27.1.5916-6b0e31a64-armv7hf.qpkg)  
+Build: linux-armv7hf  
+Checksum: `251f3db1697d91a566ce521037426205126415f4`
+
+Distro: [ARMv7 (TS-x31+, TS-x31P, TS-x31P2, TS-x31X, and TS-x31XU Series)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/qnap/PlexMediaServer-1.27.1.5916-6b0e31a64-armv7neon.qpkg)  
+Build: linux-armv7neon  
+Checksum: `74dab9cfdbe318c2fde7624b83cf4a19bfd59be6`
+
+# unRAID
+
+Items Fixed:
+* (Library) When media was deleted it could leave behind its sidecar files (#13479)
+* (Music) Album year and date fields could differ when preferring local metadata (#13591)
+* (Transcoder) Audio could drop out partway through playback when remuxing videos with very long keyframe intervals to DASH (#13411)
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/unraid/PlexMediaServer-1.27.1.5916-6b0e31a64-x86_64.txz)  
+Build: linux-x86_64  
+Checksum: `94a96a4eacdc564bf8288c23ab274d17233d74b9`
+
+# Drobo
+
+Items Fixed:
+* (Library) When media was deleted it could leave behind its sidecar files (#13479)
+* (Music) Album year and date fields could differ when preferring local metadata (#13591)
+* (Transcoder) Audio could drop out partway through playback when remuxing videos with very long keyframe intervals to DASH (#13411)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/drobo/plex.tgz)  
+Build: linux-armv7hf  
+Checksum: `0b67f81f525ae7183dfaf10e9f1e1e657b22d084`
+
+# ASUSTOR
+Extra Information: <a href="https://www.asustor.com/online/College_topic?topic=235" target="_blank"><b>View the tutorial</b></a> on how to use a ASUSTOR NAS as a Plex Media Server.  
+
+Items Fixed:
+* (Library) When media was deleted it could leave behind its sidecar files (#13479)
+* (Music) Album year and date fields could differ when preferring local metadata (#13591)
+* (Transcoder) Audio could drop out partway through playback when remuxing videos with very long keyframe intervals to DASH (#13411)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/asustor/PlexMediaServer-1.27.1.5916-6b0e31a64-x86.apk)  
+Build: linux-x86  
+Checksum: `2f25c1001366b69429c10ea36d4d0d23f9b6fa60`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/asustor/PlexMediaServer-1.27.1.5916-6b0e31a64-x86_64.apk)  
+Build: linux-x86_64  
+Checksum: `e76e3707fb459f2d4e9cbd5931a8b1000c497ebd`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/asustor/PlexMediaServer-1.27.1.5916-6b0e31a64-aarch64.apk)  
+Build: linux-aarch64  
+Checksum: `6a660962be28c7f2837cf3dc4e7c6ae5f1f10aa9`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/asustor/PlexMediaServer-1.27.1.5916-6b0e31a64-armv7neon.apk)  
+Build: linux-armv7neon  
+Checksum: `51ba8f853f2204c248e70b53312e264259ad7bfc`
+
+# TerraMaster
+
+Items Fixed:
+* (Library) When media was deleted it could leave behind its sidecar files (#13479)
+* (Music) Album year and date fields could differ when preferring local metadata (#13591)
+* (Transcoder) Audio could drop out partway through playback when remuxing videos with very long keyframe intervals to DASH (#13411)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/terramaster/PlexMediaServer-1.27.1.5916-6b0e31a64-x86_64.tpk)  
+Build: linux-x86_64  
+Checksum: `3c23dcdd6b68ae1acee64b74a0283d551e8ac215`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/terramaster/PlexMediaServer-1.27.1.5916-6b0e31a64-aarch64.tpk)  
+Build: linux-aarch64  
+Checksum: `687b2fed748ace00ad6a8c29f39efc50ad23a9a3`
+
+# Thecus
+
+Items Fixed:
+* (Library) When media was deleted it could leave behind its sidecar files (#13479)
+* (Music) Album year and date fields could differ when preferring local metadata (#13591)
+* (Transcoder) Audio could drop out partway through playback when remuxing videos with very long keyframe intervals to DASH (#13411)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/thecus/PlexMediaServer-1.27.1.5916-6b0e31a64-x64.mod)  
+Build: linux-x86_64  
+Checksum: `5cc0f03131c4a94740161a3048c3f29a5c04dd6d`
+
+# Seagate
+
+Items Fixed:
+* (Library) When media was deleted it could leave behind its sidecar files (#13479)
+* (Music) Album year and date fields could differ when preferring local metadata (#13591)
+* (Transcoder) Audio could drop out partway through playback when remuxing videos with very long keyframe intervals to DASH (#13411)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/seagate/PlexMediaServer-1.27.1.5916-6b0e31a64-x86_64.rbw)  
+Build: linux-x86_64  
+Checksum: `f2cff8b1da32818e8ce1f63e83facf08aecdbf02`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/seagate/PlexMediaServer-1.27.1.5916-6b0e31a64-armv7.rbw)  
+Build: linux-armv7hf  
+Checksum: `615f5d2679483e92a1033ab23a4d4e9507ba8544`
+
+# Western Digital
+Requirements: [Requires My Cloud OS 5. Older devices use &#39;Western Digital (OS3)&#39;.](Note:)  
+
+Items Fixed:
+* (Library) When media was deleted it could leave behind its sidecar files (#13479)
+* (Music) Album year and date fields could differ when preferring local metadata (#13591)
+* (Transcoder) Audio could drop out partway through playback when remuxing videos with very long keyframe intervals to DASH (#13411)
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud PR2100](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/wd/PlexMediaServer-1.27.1.5916-6b0e31a64-MyCloudPR2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `a490685d4099ed1acb9a40767b12a440c534140e`
+
+Distro: [My Cloud PR4100](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/wd/PlexMediaServer-1.27.1.5916-6b0e31a64-MyCloudPR4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `889a83c70826280b1a3e5f145d841aebfba603c8`
+
+Distro: [My Cloud EX2 Ultra](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/wd/PlexMediaServer-1.27.1.5916-6b0e31a64-MyCloudEX2Ultra_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `5b983b4c6a6b98067b2ba150b0b9260004c76884`
+
+Distro: [My Cloud EX4100](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/wd/PlexMediaServer-1.27.1.5916-6b0e31a64-WDMyCloudEX4100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `b2950208d79fcee4541e7dd53f4e3212aa42a7df`
+
+Distro: [My Cloud Mirror](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/wd/PlexMediaServer-1.27.1.5916-6b0e31a64-WDMyCloudMirror_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `71e1c54162554e11c4947e061197994d0c21a040`
+
+Distro: [My Cloud EX2100](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/wd/PlexMediaServer-1.27.1.5916-6b0e31a64-WDMyCloudEX2100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `20aea9b117a65c06a0fd17e76773d982af7030d7`
+
+Distro: [My Cloud DL2100](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/wd/PlexMediaServer-1.27.1.5916-6b0e31a64-WDMyCloudDL2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `452d61b894aa8f304bee1faf320c29c68c351c90`
+
+Distro: [My Cloud DL4100](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/wd/PlexMediaServer-1.27.1.5916-6b0e31a64-WDMyCloudDL4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `5c73303c9af553cd25209905328cb311520643a2`
+
+Distro: [My Cloud (Single Bay)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/wd/PlexMediaServer-1.27.1.5916-6b0e31a64-WDMyCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `e99d00c89717b60c03b95873c989faa50eefcb4e`
+
+Distro: [WD Cloud for Japan](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/wd/PlexMediaServer-1.27.1.5916-6b0e31a64-WDCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `f87f26a560ec8a6a0efd2fec1d0c44ec21f52d3b`
+
+# Western Digital (OS 3)
+
+Items Fixed:
+* (Library) When media was deleted it could leave behind its sidecar files (#13479)
+* (Music) Album year and date fields could differ when preferring local metadata (#13591)
+* (Transcoder) Audio could drop out partway through playback when remuxing videos with very long keyframe intervals to DASH (#13411)
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud DL2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/wd/PlexMediaServer-1.27.1.5916-6b0e31a64-WDMyCloudDL2100.bin)  
+Build: linux-x86_64  
+Checksum: `7d118e190506caff212633b42ed96edd6b3502e7`
+
+Distro: [My Cloud DL4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/wd/PlexMediaServer-1.27.1.5916-6b0e31a64-WDMyCloudDL4100.bin)  
+Build: linux-x86_64  
+Checksum: `4c3629524b45c596e1b8f2012e3e8e34fc0185f6`
+
+Distro: [My Cloud PR2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/wd/PlexMediaServer-1.27.1.5916-6b0e31a64-MyCloudPR2100.bin)  
+Build: linux-x86_64  
+Checksum: `a83af40449fedf859bb9d3155aa670f3d76f8494`
+
+Distro: [My Cloud PR4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/wd/PlexMediaServer-1.27.1.5916-6b0e31a64-MyCloudPR4100.bin)  
+Build: linux-x86_64  
+Checksum: `17632262b8dcebba81c051fa5d36986eca3c81c1`
+
+Distro: [My Cloud EX2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/wd/PlexMediaServer-1.27.1.5916-6b0e31a64-WDMyCloudEX2.bin)  
+Build: linux-armv7hf  
+Checksum: `a4d75d7375f9cabe53277106ce832690291757cc`
+
+Distro: [My Cloud EX2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/wd/PlexMediaServer-1.27.1.5916-6b0e31a64-WDMyCloudEX2100.bin)  
+Build: linux-armv7hf  
+Checksum: `40a6daa04c42de4732f75055290bcc3823fbb2c2`
+
+Distro: [My Cloud EX2 Ultra (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/wd/PlexMediaServer-1.27.1.5916-6b0e31a64-MyCloudEX2Ultra.bin)  
+Build: linux-armv7hf  
+Checksum: `a707ae1108908fb2e9ce826d8375412376da0df0`
+
+Distro: [My Cloud EX4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/wd/PlexMediaServer-1.27.1.5916-6b0e31a64-WDMyCloudEX4100.bin)  
+Build: linux-armv7hf  
+Checksum: `9b9c59bcdc496f93c5c1367caaf5e470a2c2b20e`
+
+Distro: [My Cloud Mirror (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/wd/PlexMediaServer-1.27.1.5916-6b0e31a64-WDMyCloudMirror.bin)  
+Build: linux-armv7hf  
+Checksum: `2cb7350235bbe655d0bc724e5bbaa90a61b5c106`
+
+Distro: [My Cloud Mirror Gen2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.27.1.5916-6b0e31a64/wd/PlexMediaServer-1.27.1.5916-6b0e31a64-WDMyCloudMirrorGen2.bin)  
+Build: linux-armv7hf  
+Checksum: `5219467cdb6d3305c2a522004d6a81f9c87f558f`
+
