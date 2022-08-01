@@ -1,0 +1,441 @@
+---
+layout: page
+title: 1.27.2.5929-a806c5905
+description: Plex Media Server version 1.27.2.5929-a806c5905
+nav_order: -10
+---
+## Released on 06/27/2022 14:21
+{: .no_toc }
+## Table of contents
+{: .no_toc .text-delta }
+* TOC
+{:toc}
+# Windows
+Requirements: [Windows 7 SP1 or newer (Intel or AMD processors only)](https://support.plex.tv/hc/en-us/articles/200375666)  
+Items Added:
+* (Logging) Improved context provided in log lines related to asynchronous HTTP request processing (#13530)
+* (Music) Support for Musicbrainz release type embedded tags (#13593)
+
+Items Fixed:
+* (Linux) Improve Intel Compute Runtime version detection in packaging on Ubuntu 22.04 and newer.
+* (MDE) Remuxes could be rejected unnecessarily on files with certain color spaces (#13634)
+* (Scanner) Album release date tags could be imported incorrectly from tags when using the legacy music scanner (#13560)
+
+## Releases
+{: .no_toc }
+Distro: [Windows 32-bit](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/windows/PlexMediaServer-1.27.2.5929-a806c5905-x86.exe)  
+Build: windows-x86  
+Checksum: `639878e892c56ce1d04a651c14dddd59802f1292`
+
+# MacOS
+Requirements: [OS X 10.9 Mavericks or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+Items Added:
+* (Logging) Improved context provided in log lines related to asynchronous HTTP request processing (#13530)
+* (Music) Support for Musicbrainz release type embedded tags (#13593)
+
+Items Fixed:
+* (Linux) Improve Intel Compute Runtime version detection in packaging on Ubuntu 22.04 and newer.
+* (MDE) Remuxes could be rejected unnecessarily on files with certain color spaces (#13634)
+* (Scanner) Album release date tags could be imported incorrectly from tags when using the legacy music scanner (#13560)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/macos/PlexMediaServer-1.27.2.5929-a806c5905-x86_64.zip)  
+Build: darwin-x86_64  
+Checksum: `b9a0f9421137d25543b21c754825fe72f21b8eda`
+
+# Linux
+Items Added:
+* (Logging) Improved context provided in log lines related to asynchronous HTTP request processing (#13530)
+* (Music) Support for Musicbrainz release type embedded tags (#13593)
+
+Items Fixed:
+* (Linux) Improve Intel Compute Runtime version detection in packaging on Ubuntu 22.04 and newer.
+* (MDE) Remuxes could be rejected unnecessarily on files with certain color spaces (#13634)
+* (Scanner) Album release date tags could be imported incorrectly from tags when using the legacy music scanner (#13560)
+
+## Releases
+{: .no_toc }
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/debian/plexmediaserver_1.27.2.5929-a806c5905_i386.deb)  
+Build: linux-x86  
+Checksum: `491bc8f57aa5ffb0268e137bbc82b8ccdc58cd9e`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/debian/plexmediaserver_1.27.2.5929-a806c5905_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `eb6b8367a867e6ea8fa8b17013415366c49aa9ca`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv8](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/debian/plexmediaserver_1.27.2.5929-a806c5905_arm64.deb)  
+Build: linux-aarch64  
+Checksum: `81f4b087d1a12c44dd904085f8c461ffae54eb02`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv7](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/debian/plexmediaserver_1.27.2.5929-a806c5905_armhf.deb)  
+Build: linux-armv7neon  
+Checksum: `b055d3d5e64804da6150274a030a02926d481d8d`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/redhat/plexmediaserver-1.27.2.5929-a806c5905.i686.rpm)  
+Build: linux-x86  
+Checksum: `0aa88c47c18be1369eff937abf24c53405096650`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/redhat/plexmediaserver-1.27.2.5929-a806c5905.x86_64.rpm)  
+Build: linux-x86_64  
+Checksum: `0746167cfae15e1960d97d975c071008845b3097`
+
+# FreeBSD
+Requirements: [FreeBSD 11.2 or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+Items Added:
+* (Logging) Improved context provided in log lines related to asynchronous HTTP request processing (#13530)
+* (Music) Support for Musicbrainz release type embedded tags (#13593)
+
+Items Fixed:
+* (Linux) Improve Intel Compute Runtime version detection in packaging on Ubuntu 22.04 and newer.
+* (MDE) Remuxes could be rejected unnecessarily on files with certain color spaces (#13634)
+* (Scanner) Album release date tags could be imported incorrectly from tags when using the legacy music scanner (#13560)
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/freebsd/PlexMediaServer-1.27.2.5929-a806c5905-FreeBSD-amd64.tar.bz2)  
+Build: freebsd-x86_64  
+Checksum: `d9e3689a3d77d6055ea8f490d7db813946c0035a`
+
+# Synology
+Requirements: [Requires DSM 5.0 minimum to install.](Note:)  
+Extra Information: Guide: <a href="https://support.plex.tv/hc/en-us/articles/205165858" target="_blank">Add Plex as a trusted publisher for package installations</a>.  
+Items Added:
+* (Logging) Improved context provided in log lines related to asynchronous HTTP request processing (#13530)
+* (Music) Support for Musicbrainz release type embedded tags (#13593)
+
+Items Fixed:
+* (Linux) Improve Intel Compute Runtime version detection in packaging on Ubuntu 22.04 and newer.
+* (MDE) Remuxes could be rejected unnecessarily on files with certain color spaces (#13634)
+* (Scanner) Album release date tags could be imported incorrectly from tags when using the legacy music scanner (#13560)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit (x10 Series, DS415play, and DS214play)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/synology/PlexMediaServer-1.27.2.5929-a806c5905-x86_DSM6.spk)  
+Build: linux-x86  
+Checksum: `e43a863e8aeb4af842c26173e442f70809c38938`
+
+Distro: [Intel 64-bit (DSM 6.0 and newer)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/synology/PlexMediaServer-1.27.2.5929-a806c5905-x86_64_DSM6.spk)  
+Build: linux-x86_64  
+Checksum: `cd983938da96ff15123fe97aeb0111871ea0c393`
+
+Distro: [ARMv8 (x18 Series)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/synology/PlexMediaServer-1.27.2.5929-a806c5905-aarch64_DSM6.spk)  
+Build: linux-aarch64  
+Checksum: `a45141f7884f98eb4d295e4603ccbd2349865c5a`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/synology/PlexMediaServer-1.27.2.5929-a806c5905-armv7hf_DSM6.spk)  
+Build: linux-armv7hf  
+Checksum: `80ac9fb7adb8a08c6677b3612cd2b79a59cf33e6`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/synology/PlexMediaServer-1.27.2.5929-a806c5905-armv7neon_DSM6.spk)  
+Build: linux-armv7neon  
+Checksum: `ef0eb06676cce2fdfbedd313074f7f682c137e35`
+
+# Synology (DSM 7)
+Requirements: [Requires DSM 7.0 minimum to install.](Note:)  
+Items Added:
+* (Logging) Improved context provided in log lines related to asynchronous HTTP request processing (#13530)
+* (Music) Support for Musicbrainz release type embedded tags (#13593)
+
+Items Fixed:
+* (Linux) Improve Intel Compute Runtime version detection in packaging on Ubuntu 22.04 and newer.
+* (MDE) Remuxes could be rejected unnecessarily on files with certain color spaces (#13634)
+* (Scanner) Album release date tags could be imported incorrectly from tags when using the legacy music scanner (#13560)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/synology-dsm7/PlexMediaServer-1.27.2.5929-a806c5905-x86_DSM7.spk)  
+Build: linux-x86  
+Checksum: `3a61b36f90242277ad8c9d3544deb5bc269a68b0`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/synology-dsm7/PlexMediaServer-1.27.2.5929-a806c5905-x86_64_DSM7.spk)  
+Build: linux-x86_64  
+Checksum: `869e99d802b42693a3a0489b42e2c3080ca9d29e`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/synology-dsm7/PlexMediaServer-1.27.2.5929-a806c5905-aarch64_DSM7.spk)  
+Build: linux-aarch64  
+Checksum: `700ccf1ee4217936cb418d683b9301956b852825`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/synology-dsm7/PlexMediaServer-1.27.2.5929-a806c5905-armv7hf_DSM7.spk)  
+Build: linux-armv7hf  
+Checksum: `b4f1869abe826147ec6e055088bbe71e8bf720f9`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/synology-dsm7/PlexMediaServer-1.27.2.5929-a806c5905-armv7neon_DSM7.spk)  
+Build: linux-armv7neon  
+Checksum: `57bc44b8ae4fe0a34adaa6d7e6542bc69381c76f`
+
+# Netgear
+Items Added:
+* (Logging) Improved context provided in log lines related to asynchronous HTTP request processing (#13530)
+* (Music) Support for Musicbrainz release type embedded tags (#13593)
+
+Items Fixed:
+* (Linux) Improve Intel Compute Runtime version detection in packaging on Ubuntu 22.04 and newer.
+* (MDE) Remuxes could be rejected unnecessarily on files with certain color spaces (#13634)
+* (Scanner) Album release date tags could be imported incorrectly from tags when using the legacy music scanner (#13560)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/netgear/plexmediaserver_1.27.2.5929-a806c5905_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `c18a8f9539162a160ccacc5876dffecff488c499`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/netgear/plexmediaserver_1.27.2.5929-a806c5905_armel.deb)  
+Build: linux-armv7hf  
+Checksum: `9f45416a957723239009dca61da77dac3e19ee90`
+
+Distro: [ARMv7 (RN2xx Series)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/netgear/plexmediaserver-annapurna_1.27.2.5929-a806c5905_armel.deb)  
+Build: linux-armv7neon  
+Checksum: `92402529cea066d1c09acd3c28e95a3248ba142b`
+
+# QNAP
+Extra Information: <a href="http://www.qnap.com/i/en/trade_teach/con_show.php?op=showone&cid=72" target="_blank"><b>View the tutorial</b></a> on how to use a QNAP Turbo NAS as a Plex Media Server.  
+Items Added:
+* (Logging) Improved context provided in log lines related to asynchronous HTTP request processing (#13530)
+* (Music) Support for Musicbrainz release type embedded tags (#13593)
+
+Items Fixed:
+* (Linux) Improve Intel Compute Runtime version detection in packaging on Ubuntu 22.04 and newer.
+* (MDE) Remuxes could be rejected unnecessarily on files with certain color spaces (#13634)
+* (Scanner) Album release date tags could be imported incorrectly from tags when using the legacy music scanner (#13560)
+
+## Releases
+{: .no_toc }
+Distro: [Intel/AMD 64-bit (QTS-4.3 and newer)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/qnap/PlexMediaServer-1.27.2.5929-a806c5905-x86_64.qpkg)  
+Build: linux-x86_64  
+Checksum: `75938207bd0f92d9739c9ad5728abcb45ad13abb`
+
+Distro: [ARMv8 (TS-x28, and TS-x32 Series)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/qnap/PlexMediaServer-1.27.2.5929-a806c5905-aarch64.qpkg)  
+Build: linux-aarch64  
+Checksum: `e75ae68caa5cf02f4abcb58995afd1ed1d0a2cd1`
+
+Distro: [ARMv7 (TS-x31, and TS-x31U Series)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/qnap/PlexMediaServer-1.27.2.5929-a806c5905-armv7hf.qpkg)  
+Build: linux-armv7hf  
+Checksum: `90bff72838b9a5e88b2f711b31a8776606843293`
+
+Distro: [ARMv7 (TS-x31+, TS-x31P, TS-x31P2, TS-x31X, and TS-x31XU Series)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/qnap/PlexMediaServer-1.27.2.5929-a806c5905-armv7neon.qpkg)  
+Build: linux-armv7neon  
+Checksum: `81e73fe1d499f480b1896ccaa008cc932ec1436d`
+
+# unRAID
+Items Added:
+* (Logging) Improved context provided in log lines related to asynchronous HTTP request processing (#13530)
+* (Music) Support for Musicbrainz release type embedded tags (#13593)
+
+Items Fixed:
+* (Linux) Improve Intel Compute Runtime version detection in packaging on Ubuntu 22.04 and newer.
+* (MDE) Remuxes could be rejected unnecessarily on files with certain color spaces (#13634)
+* (Scanner) Album release date tags could be imported incorrectly from tags when using the legacy music scanner (#13560)
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/unraid/PlexMediaServer-1.27.2.5929-a806c5905-x86_64.txz)  
+Build: linux-x86_64  
+Checksum: `9b85839c208e1f1cb8a0f3db0a1cdeb97f60cc7c`
+
+# Drobo
+Items Added:
+* (Logging) Improved context provided in log lines related to asynchronous HTTP request processing (#13530)
+* (Music) Support for Musicbrainz release type embedded tags (#13593)
+
+Items Fixed:
+* (Linux) Improve Intel Compute Runtime version detection in packaging on Ubuntu 22.04 and newer.
+* (MDE) Remuxes could be rejected unnecessarily on files with certain color spaces (#13634)
+* (Scanner) Album release date tags could be imported incorrectly from tags when using the legacy music scanner (#13560)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/drobo/plex.tgz)  
+Build: linux-armv7hf  
+Checksum: `4dc45bf2d958f22f84df1a7e2cc3fa79aa7e4941`
+
+# ASUSTOR
+Extra Information: <a href="https://www.asustor.com/online/College_topic?topic=235" target="_blank"><b>View the tutorial</b></a> on how to use a ASUSTOR NAS as a Plex Media Server.  
+Items Added:
+* (Logging) Improved context provided in log lines related to asynchronous HTTP request processing (#13530)
+* (Music) Support for Musicbrainz release type embedded tags (#13593)
+
+Items Fixed:
+* (Linux) Improve Intel Compute Runtime version detection in packaging on Ubuntu 22.04 and newer.
+* (MDE) Remuxes could be rejected unnecessarily on files with certain color spaces (#13634)
+* (Scanner) Album release date tags could be imported incorrectly from tags when using the legacy music scanner (#13560)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/asustor/PlexMediaServer-1.27.2.5929-a806c5905-x86.apk)  
+Build: linux-x86  
+Checksum: `382db11762081aa1647f19fb9123c6ac8a8b4963`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/asustor/PlexMediaServer-1.27.2.5929-a806c5905-x86_64.apk)  
+Build: linux-x86_64  
+Checksum: `b853c9179244ee0cfc56f34be9023a24ba412fb7`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/asustor/PlexMediaServer-1.27.2.5929-a806c5905-aarch64.apk)  
+Build: linux-aarch64  
+Checksum: `410f3217e57ce90e88f314cfdbc7857c8d5c5e58`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/asustor/PlexMediaServer-1.27.2.5929-a806c5905-armv7neon.apk)  
+Build: linux-armv7neon  
+Checksum: `d3cbcb525357a2bddce9420c39a2c91b1252c992`
+
+# TerraMaster
+Items Added:
+* (Logging) Improved context provided in log lines related to asynchronous HTTP request processing (#13530)
+* (Music) Support for Musicbrainz release type embedded tags (#13593)
+
+Items Fixed:
+* (Linux) Improve Intel Compute Runtime version detection in packaging on Ubuntu 22.04 and newer.
+* (MDE) Remuxes could be rejected unnecessarily on files with certain color spaces (#13634)
+* (Scanner) Album release date tags could be imported incorrectly from tags when using the legacy music scanner (#13560)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/terramaster/PlexMediaServer-1.27.2.5929-a806c5905-x86_64.tpk)  
+Build: linux-x86_64  
+Checksum: `8f7088d82204f29a336310ac22593a62e63cad30`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/terramaster/PlexMediaServer-1.27.2.5929-a806c5905-aarch64.tpk)  
+Build: linux-aarch64  
+Checksum: `2bf367549bafecd87c79eefc5261de8e1d29bc08`
+
+# Thecus
+Items Added:
+* (Logging) Improved context provided in log lines related to asynchronous HTTP request processing (#13530)
+* (Music) Support for Musicbrainz release type embedded tags (#13593)
+
+Items Fixed:
+* (Linux) Improve Intel Compute Runtime version detection in packaging on Ubuntu 22.04 and newer.
+* (MDE) Remuxes could be rejected unnecessarily on files with certain color spaces (#13634)
+* (Scanner) Album release date tags could be imported incorrectly from tags when using the legacy music scanner (#13560)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/thecus/PlexMediaServer-1.27.2.5929-a806c5905-x64.mod)  
+Build: linux-x86_64  
+Checksum: `d400a57c898e25700a0ea3a5523679e0f024e00b`
+
+# Seagate
+Items Added:
+* (Logging) Improved context provided in log lines related to asynchronous HTTP request processing (#13530)
+* (Music) Support for Musicbrainz release type embedded tags (#13593)
+
+Items Fixed:
+* (Linux) Improve Intel Compute Runtime version detection in packaging on Ubuntu 22.04 and newer.
+* (MDE) Remuxes could be rejected unnecessarily on files with certain color spaces (#13634)
+* (Scanner) Album release date tags could be imported incorrectly from tags when using the legacy music scanner (#13560)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/seagate/PlexMediaServer-1.27.2.5929-a806c5905-x86_64.rbw)  
+Build: linux-x86_64  
+Checksum: `fa425209119fc7638e1a85a4613d7adb1a2c17b7`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/seagate/PlexMediaServer-1.27.2.5929-a806c5905-armv7.rbw)  
+Build: linux-armv7hf  
+Checksum: `1b7b7f9ca7a71fe4054ecf58f2af222f20fb6435`
+
+# Western Digital
+Requirements: [Requires My Cloud OS 5. Older devices use &#39;Western Digital (OS3)&#39;.](Note:)  
+Items Added:
+* (Logging) Improved context provided in log lines related to asynchronous HTTP request processing (#13530)
+* (Music) Support for Musicbrainz release type embedded tags (#13593)
+
+Items Fixed:
+* (Linux) Improve Intel Compute Runtime version detection in packaging on Ubuntu 22.04 and newer.
+* (MDE) Remuxes could be rejected unnecessarily on files with certain color spaces (#13634)
+* (Scanner) Album release date tags could be imported incorrectly from tags when using the legacy music scanner (#13560)
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud PR2100](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/wd/PlexMediaServer-1.27.2.5929-a806c5905-MyCloudPR2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `a36c5095b3ba0c2b88fe161ade5a13e361c68041`
+
+Distro: [My Cloud PR4100](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/wd/PlexMediaServer-1.27.2.5929-a806c5905-MyCloudPR4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `b3b99970d9681c25a2b0b204941a66e2ef45cde4`
+
+Distro: [My Cloud EX2 Ultra](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/wd/PlexMediaServer-1.27.2.5929-a806c5905-MyCloudEX2Ultra_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `b35cae33beeb8e3f6dfa8ad16079c94d4cebad5c`
+
+Distro: [My Cloud EX4100](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/wd/PlexMediaServer-1.27.2.5929-a806c5905-WDMyCloudEX4100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `cc289b91237953b8964a76c33e17d5f6ec612416`
+
+Distro: [My Cloud Mirror](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/wd/PlexMediaServer-1.27.2.5929-a806c5905-WDMyCloudMirror_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `c63003773d532ff044204a052be05d2d2c8dff43`
+
+Distro: [My Cloud EX2100](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/wd/PlexMediaServer-1.27.2.5929-a806c5905-WDMyCloudEX2100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `3b621f0961cfcadb0bf70d6187ef67c7e0b2c9a9`
+
+Distro: [My Cloud DL2100](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/wd/PlexMediaServer-1.27.2.5929-a806c5905-WDMyCloudDL2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `20b21be6a3c4c050773d754fab9266ca2c0331d0`
+
+Distro: [My Cloud DL4100](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/wd/PlexMediaServer-1.27.2.5929-a806c5905-WDMyCloudDL4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `bfd34a73678c4c9b49b72e4712a3946aaf0bd834`
+
+Distro: [My Cloud (Single Bay)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/wd/PlexMediaServer-1.27.2.5929-a806c5905-WDMyCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `944a4a448cc8bae5f34e363d61c669f876969f91`
+
+Distro: [WD Cloud for Japan](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/wd/PlexMediaServer-1.27.2.5929-a806c5905-WDCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `b424944e0185f5f93fa4896e83a9fab3d96784c2`
+
+# Western Digital (OS 3)
+Items Added:
+* (Logging) Improved context provided in log lines related to asynchronous HTTP request processing (#13530)
+* (Music) Support for Musicbrainz release type embedded tags (#13593)
+
+Items Fixed:
+* (Linux) Improve Intel Compute Runtime version detection in packaging on Ubuntu 22.04 and newer.
+* (MDE) Remuxes could be rejected unnecessarily on files with certain color spaces (#13634)
+* (Scanner) Album release date tags could be imported incorrectly from tags when using the legacy music scanner (#13560)
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud DL2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/wd/PlexMediaServer-1.27.2.5929-a806c5905-WDMyCloudDL2100.bin)  
+Build: linux-x86_64  
+Checksum: `87efe6e683db36e87b062d381fd42bf5d7cfeb60`
+
+Distro: [My Cloud DL4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/wd/PlexMediaServer-1.27.2.5929-a806c5905-WDMyCloudDL4100.bin)  
+Build: linux-x86_64  
+Checksum: `0f0ddb99c406f023b058f219ed531fd7049f65e1`
+
+Distro: [My Cloud PR2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/wd/PlexMediaServer-1.27.2.5929-a806c5905-MyCloudPR2100.bin)  
+Build: linux-x86_64  
+Checksum: `7292b4138c46904f638586ae557424b12b7a29ce`
+
+Distro: [My Cloud PR4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/wd/PlexMediaServer-1.27.2.5929-a806c5905-MyCloudPR4100.bin)  
+Build: linux-x86_64  
+Checksum: `1d41af85c0dbf4d8f865c01d137cfec1adf881c1`
+
+Distro: [My Cloud EX2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/wd/PlexMediaServer-1.27.2.5929-a806c5905-WDMyCloudEX2.bin)  
+Build: linux-armv7hf  
+Checksum: `bab6e64dad8f42885ec2f153eba6fa56b0047ce1`
+
+Distro: [My Cloud EX2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/wd/PlexMediaServer-1.27.2.5929-a806c5905-WDMyCloudEX2100.bin)  
+Build: linux-armv7hf  
+Checksum: `f2001e53ceceda2c65c87b097b76ada04f3d66b5`
+
+Distro: [My Cloud EX2 Ultra (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/wd/PlexMediaServer-1.27.2.5929-a806c5905-MyCloudEX2Ultra.bin)  
+Build: linux-armv7hf  
+Checksum: `79b06a0a6290b0daa86b78dc58263164113099e0`
+
+Distro: [My Cloud EX4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/wd/PlexMediaServer-1.27.2.5929-a806c5905-WDMyCloudEX4100.bin)  
+Build: linux-armv7hf  
+Checksum: `2482928a8de3bdb9739c2dc309dc8d615bc90473`
+
+Distro: [My Cloud Mirror (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/wd/PlexMediaServer-1.27.2.5929-a806c5905-WDMyCloudMirror.bin)  
+Build: linux-armv7hf  
+Checksum: `f1c5f48da633841961f9fb6f2100ee7ac195bbc8`
+
+Distro: [My Cloud Mirror Gen2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.27.2.5929-a806c5905/wd/PlexMediaServer-1.27.2.5929-a806c5905-WDMyCloudMirrorGen2.bin)  
+Build: linux-armv7hf  
+Checksum: `129a09a19a48fb2bb92afc41f7a5f2a6f1887551`
+
