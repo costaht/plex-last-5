@@ -1,0 +1,489 @@
+---
+layout: page
+title: 1.28.0.5999-97678ded3
+description: Plex Media Server version 1.28.0.5999-97678ded3
+nav_order: -11
+---
+## Released on 07/29/2022 10:58
+{: .no_toc }
+## Table of contents
+{: .no_toc .text-delta }
+* TOC
+{:toc}
+# Windows
+Requirements: [Windows 7 SP1 or newer (Intel or AMD processors only)](https://support.plex.tv/hc/en-us/articles/200375666)  
+Items Added:
+Native support for Apple Silicon.
+
+Items Fixed:
+* (Android) Music artwork on Android based servers could disappear after refreshing metadata (#13677)
+* (Hubs) The "Most Played in Month" music hub could fail to populate (#13660)
+* (Library) Release dates before 1901 could be saved incorrectly on Windows (#13661)
+* (Linux) Improve handling of Intel Compute Runtime (ICR) vs Beignet requirement detection.
+* (Music) Read in album-sort tags (#13653)
+* (Music) Setting artwork from the edit dialog could result in low quality images getting set (#13677)
+* (Music) Track titles could sometimes become blank after scanning the library (#13615)
+
+## Releases
+{: .no_toc }
+Distro: [Windows 32-bit](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/windows/PlexMediaServer-1.28.0.5999-97678ded3-x86.exe)  
+Build: windows-x86  
+Checksum: `d95d811b86fc56234afee0d521ced38aa70ba55e`
+
+# MacOS
+Requirements: [OS X 10.9 Mavericks or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+Items Added:
+Native support for Apple Silicon.
+
+Items Fixed:
+* (Android) Music artwork on Android based servers could disappear after refreshing metadata (#13677)
+* (Hubs) The "Most Played in Month" music hub could fail to populate (#13660)
+* (Library) Release dates before 1901 could be saved incorrectly on Windows (#13661)
+* (Linux) Improve handling of Intel Compute Runtime (ICR) vs Beignet requirement detection.
+* (Music) Read in album-sort tags (#13653)
+* (Music) Setting artwork from the edit dialog could result in low quality images getting set (#13677)
+* (Music) Track titles could sometimes become blank after scanning the library (#13615)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/macos/PlexMediaServer-1.28.0.5999-97678ded3-universal.zip)  
+Build: darwin-x86_64  
+Checksum: `69536a495fdd99351ff193bcd55dbef6c44f57bd`
+
+# Linux
+Items Added:
+Native support for Apple Silicon.
+
+Items Fixed:
+* (Android) Music artwork on Android based servers could disappear after refreshing metadata (#13677)
+* (Hubs) The "Most Played in Month" music hub could fail to populate (#13660)
+* (Library) Release dates before 1901 could be saved incorrectly on Windows (#13661)
+* (Linux) Improve handling of Intel Compute Runtime (ICR) vs Beignet requirement detection.
+* (Music) Read in album-sort tags (#13653)
+* (Music) Setting artwork from the edit dialog could result in low quality images getting set (#13677)
+* (Music) Track titles could sometimes become blank after scanning the library (#13615)
+
+## Releases
+{: .no_toc }
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/debian/plexmediaserver_1.28.0.5999-97678ded3_i386.deb)  
+Build: linux-x86  
+Checksum: `33fc931878dc5517e21e2a9753c02fdbe58a3ac5`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/debian/plexmediaserver_1.28.0.5999-97678ded3_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `1bfceef358fb2c7503ffd8635cfcfc7b8236858f`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv8](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/debian/plexmediaserver_1.28.0.5999-97678ded3_arm64.deb)  
+Build: linux-aarch64  
+Checksum: `0160c3ea3ff83e9906e22ae01c23c30cb3a3946a`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv7](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/debian/plexmediaserver_1.28.0.5999-97678ded3_armhf.deb)  
+Build: linux-armv7neon  
+Checksum: `9c732dcc88a7dc7bb3cd2bcb8f2950b958d74288`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/redhat/plexmediaserver-1.28.0.5999-97678ded3.i686.rpm)  
+Build: linux-x86  
+Checksum: `c574435c98e648798ea379cb70f4786aaa32f9ee`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/redhat/plexmediaserver-1.28.0.5999-97678ded3.x86_64.rpm)  
+Build: linux-x86_64  
+Checksum: `cfb8dbf87f227a840f92953b509c19f12cc6d8e8`
+
+# FreeBSD
+Requirements: [FreeBSD 11.2 or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+Items Added:
+Native support for Apple Silicon.
+
+Items Fixed:
+* (Android) Music artwork on Android based servers could disappear after refreshing metadata (#13677)
+* (Hubs) The "Most Played in Month" music hub could fail to populate (#13660)
+* (Library) Release dates before 1901 could be saved incorrectly on Windows (#13661)
+* (Linux) Improve handling of Intel Compute Runtime (ICR) vs Beignet requirement detection.
+* (Music) Read in album-sort tags (#13653)
+* (Music) Setting artwork from the edit dialog could result in low quality images getting set (#13677)
+* (Music) Track titles could sometimes become blank after scanning the library (#13615)
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/freebsd/PlexMediaServer-1.28.0.5999-97678ded3-FreeBSD-amd64.tar.bz2)  
+Build: freebsd-x86_64  
+Checksum: `8098fd0bf107bfe52c2c564ebd471ee799520af6`
+
+# Synology
+Requirements: [Requires DSM 5.0 minimum to install.](Note:)  
+Extra Information: Guide: <a href="https://support.plex.tv/hc/en-us/articles/205165858" target="_blank">Add Plex as a trusted publisher for package installations</a>.  
+Items Added:
+Native support for Apple Silicon.
+
+Items Fixed:
+* (Android) Music artwork on Android based servers could disappear after refreshing metadata (#13677)
+* (Hubs) The "Most Played in Month" music hub could fail to populate (#13660)
+* (Library) Release dates before 1901 could be saved incorrectly on Windows (#13661)
+* (Linux) Improve handling of Intel Compute Runtime (ICR) vs Beignet requirement detection.
+* (Music) Read in album-sort tags (#13653)
+* (Music) Setting artwork from the edit dialog could result in low quality images getting set (#13677)
+* (Music) Track titles could sometimes become blank after scanning the library (#13615)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit (x10 Series, DS415play, and DS214play)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/synology/PlexMediaServer-1.28.0.5999-97678ded3-x86_DSM6.spk)  
+Build: linux-x86  
+Checksum: `e96ee7f13bc087d94cb59f26b60a5e3144d1b69c`
+
+Distro: [Intel 64-bit (DSM 6.0 and newer)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/synology/PlexMediaServer-1.28.0.5999-97678ded3-x86_64_DSM6.spk)  
+Build: linux-x86_64  
+Checksum: `bf42faad9d5a3479895183c90ed1d0dad5fdaecd`
+
+Distro: [ARMv8 (x18 Series)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/synology/PlexMediaServer-1.28.0.5999-97678ded3-aarch64_DSM6.spk)  
+Build: linux-aarch64  
+Checksum: `23de066fe043b8e27de82b9b0aa963afffc1a9c1`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/synology/PlexMediaServer-1.28.0.5999-97678ded3-armv7hf_DSM6.spk)  
+Build: linux-armv7hf  
+Checksum: `febf84cb82acfb4062070955e8d735c79f7d9f98`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/synology/PlexMediaServer-1.28.0.5999-97678ded3-armv7neon_DSM6.spk)  
+Build: linux-armv7neon  
+Checksum: `569d740ddbdb0b7ecfe551301dd9f84e64f3e9f0`
+
+# Synology (DSM 7)
+Requirements: [Requires DSM 7.0 minimum to install.](Note:)  
+Items Added:
+Native support for Apple Silicon.
+
+Items Fixed:
+* (Android) Music artwork on Android based servers could disappear after refreshing metadata (#13677)
+* (Hubs) The "Most Played in Month" music hub could fail to populate (#13660)
+* (Library) Release dates before 1901 could be saved incorrectly on Windows (#13661)
+* (Linux) Improve handling of Intel Compute Runtime (ICR) vs Beignet requirement detection.
+* (Music) Read in album-sort tags (#13653)
+* (Music) Setting artwork from the edit dialog could result in low quality images getting set (#13677)
+* (Music) Track titles could sometimes become blank after scanning the library (#13615)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/synology-dsm7/PlexMediaServer-1.28.0.5999-97678ded3-x86_DSM7.spk)  
+Build: linux-x86  
+Checksum: `09491434dd8bcb8376c965bc277ba9e486658f1b`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/synology-dsm7/PlexMediaServer-1.28.0.5999-97678ded3-x86_64_DSM7.spk)  
+Build: linux-x86_64  
+Checksum: `35916629823f80f4c83dcf5ee95002970fd29d4b`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/synology-dsm7/PlexMediaServer-1.28.0.5999-97678ded3-aarch64_DSM7.spk)  
+Build: linux-aarch64  
+Checksum: `23cc1c4faddcada432b531ebdada92fe239a1df0`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/synology-dsm7/PlexMediaServer-1.28.0.5999-97678ded3-armv7hf_DSM7.spk)  
+Build: linux-armv7hf  
+Checksum: `b6feca0f01f8c5074c972ba50ee643a4f0d4c2ec`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/synology-dsm7/PlexMediaServer-1.28.0.5999-97678ded3-armv7neon_DSM7.spk)  
+Build: linux-armv7neon  
+Checksum: `04b53d27c2a2d29309d75bfc8b6d3c0341483363`
+
+# Netgear
+Items Added:
+Native support for Apple Silicon.
+
+Items Fixed:
+* (Android) Music artwork on Android based servers could disappear after refreshing metadata (#13677)
+* (Hubs) The "Most Played in Month" music hub could fail to populate (#13660)
+* (Library) Release dates before 1901 could be saved incorrectly on Windows (#13661)
+* (Linux) Improve handling of Intel Compute Runtime (ICR) vs Beignet requirement detection.
+* (Music) Read in album-sort tags (#13653)
+* (Music) Setting artwork from the edit dialog could result in low quality images getting set (#13677)
+* (Music) Track titles could sometimes become blank after scanning the library (#13615)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/netgear/plexmediaserver_1.28.0.5999-97678ded3_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `3bafaad4a03a58b7e755047dc725ea514c9ea21d`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/netgear/plexmediaserver_1.28.0.5999-97678ded3_armel.deb)  
+Build: linux-armv7hf  
+Checksum: `1a9d5607f0dbf2bfe8e94ca76ee7ce8614d4c59d`
+
+Distro: [ARMv7 (RN2xx Series)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/netgear/plexmediaserver-annapurna_1.28.0.5999-97678ded3_armel.deb)  
+Build: linux-armv7neon  
+Checksum: `816ab9ec4e19d16550646de375be2ef35a654247`
+
+# QNAP
+Extra Information: <a href="http://www.qnap.com/i/en/trade_teach/con_show.php?op=showone&cid=72" target="_blank"><b>View the tutorial</b></a> on how to use a QNAP Turbo NAS as a Plex Media Server.  
+Items Added:
+Native support for Apple Silicon.
+
+Items Fixed:
+* (Android) Music artwork on Android based servers could disappear after refreshing metadata (#13677)
+* (Hubs) The "Most Played in Month" music hub could fail to populate (#13660)
+* (Library) Release dates before 1901 could be saved incorrectly on Windows (#13661)
+* (Linux) Improve handling of Intel Compute Runtime (ICR) vs Beignet requirement detection.
+* (Music) Read in album-sort tags (#13653)
+* (Music) Setting artwork from the edit dialog could result in low quality images getting set (#13677)
+* (Music) Track titles could sometimes become blank after scanning the library (#13615)
+
+## Releases
+{: .no_toc }
+Distro: [Intel/AMD 64-bit (QTS-4.3 and newer)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/qnap/PlexMediaServer-1.28.0.5999-97678ded3-x86_64.qpkg)  
+Build: linux-x86_64  
+Checksum: `8e7324b4b3fcf17994729d7e8508ce3bf4a53257`
+
+Distro: [ARMv8 (TS-x28, and TS-x32 Series)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/qnap/PlexMediaServer-1.28.0.5999-97678ded3-aarch64.qpkg)  
+Build: linux-aarch64  
+Checksum: `79b23a6b0fa26e9dff9bda6375ab690cf653c426`
+
+Distro: [ARMv7 (TS-x31, and TS-x31U Series)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/qnap/PlexMediaServer-1.28.0.5999-97678ded3-armv7hf.qpkg)  
+Build: linux-armv7hf  
+Checksum: `8e2a9ef1a7296f0b1b7a507395e2c2e0ff4070f4`
+
+Distro: [ARMv7 (TS-x31+, TS-x31P, TS-x31P2, TS-x31X, and TS-x31XU Series)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/qnap/PlexMediaServer-1.28.0.5999-97678ded3-armv7neon.qpkg)  
+Build: linux-armv7neon  
+Checksum: `28700dcb791c2a5c7165302dadc9676f203e7e62`
+
+# unRAID
+Items Added:
+Native support for Apple Silicon.
+
+Items Fixed:
+* (Android) Music artwork on Android based servers could disappear after refreshing metadata (#13677)
+* (Hubs) The "Most Played in Month" music hub could fail to populate (#13660)
+* (Library) Release dates before 1901 could be saved incorrectly on Windows (#13661)
+* (Linux) Improve handling of Intel Compute Runtime (ICR) vs Beignet requirement detection.
+* (Music) Read in album-sort tags (#13653)
+* (Music) Setting artwork from the edit dialog could result in low quality images getting set (#13677)
+* (Music) Track titles could sometimes become blank after scanning the library (#13615)
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/unraid/PlexMediaServer-1.28.0.5999-97678ded3-x86_64.txz)  
+Build: linux-x86_64  
+Checksum: `e169770f44d649aec8b60dcadee1edbd8ac1551f`
+
+# Drobo
+Items Added:
+Native support for Apple Silicon.
+
+Items Fixed:
+* (Android) Music artwork on Android based servers could disappear after refreshing metadata (#13677)
+* (Hubs) The "Most Played in Month" music hub could fail to populate (#13660)
+* (Library) Release dates before 1901 could be saved incorrectly on Windows (#13661)
+* (Linux) Improve handling of Intel Compute Runtime (ICR) vs Beignet requirement detection.
+* (Music) Read in album-sort tags (#13653)
+* (Music) Setting artwork from the edit dialog could result in low quality images getting set (#13677)
+* (Music) Track titles could sometimes become blank after scanning the library (#13615)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/drobo/plex.tgz)  
+Build: linux-armv7hf  
+Checksum: `1792491d607c6de4078efe174f1d808a6c995f8b`
+
+# ASUSTOR
+Extra Information: <a href="https://www.asustor.com/online/College_topic?topic=235" target="_blank"><b>View the tutorial</b></a> on how to use a ASUSTOR NAS as a Plex Media Server.  
+Items Added:
+Native support for Apple Silicon.
+
+Items Fixed:
+* (Android) Music artwork on Android based servers could disappear after refreshing metadata (#13677)
+* (Hubs) The "Most Played in Month" music hub could fail to populate (#13660)
+* (Library) Release dates before 1901 could be saved incorrectly on Windows (#13661)
+* (Linux) Improve handling of Intel Compute Runtime (ICR) vs Beignet requirement detection.
+* (Music) Read in album-sort tags (#13653)
+* (Music) Setting artwork from the edit dialog could result in low quality images getting set (#13677)
+* (Music) Track titles could sometimes become blank after scanning the library (#13615)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/asustor/PlexMediaServer-1.28.0.5999-97678ded3-x86.apk)  
+Build: linux-x86  
+Checksum: `8791a648bf1a9841cca6b157817cadd15d5fdc81`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/asustor/PlexMediaServer-1.28.0.5999-97678ded3-x86_64.apk)  
+Build: linux-x86_64  
+Checksum: `d895e7efb390eb0626bc8e700b280c42529d8956`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/asustor/PlexMediaServer-1.28.0.5999-97678ded3-aarch64.apk)  
+Build: linux-aarch64  
+Checksum: `f114d44c464c0a75657aece9ea8a1477597c6696`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/asustor/PlexMediaServer-1.28.0.5999-97678ded3-armv7neon.apk)  
+Build: linux-armv7neon  
+Checksum: `0e56780d8f435c4b999144cf731363d47e9fd1ea`
+
+# TerraMaster
+Items Added:
+Native support for Apple Silicon.
+
+Items Fixed:
+* (Android) Music artwork on Android based servers could disappear after refreshing metadata (#13677)
+* (Hubs) The "Most Played in Month" music hub could fail to populate (#13660)
+* (Library) Release dates before 1901 could be saved incorrectly on Windows (#13661)
+* (Linux) Improve handling of Intel Compute Runtime (ICR) vs Beignet requirement detection.
+* (Music) Read in album-sort tags (#13653)
+* (Music) Setting artwork from the edit dialog could result in low quality images getting set (#13677)
+* (Music) Track titles could sometimes become blank after scanning the library (#13615)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/terramaster/PlexMediaServer-1.28.0.5999-97678ded3-x86_64.tpk)  
+Build: linux-x86_64  
+Checksum: `aba32e02bad8f04ce8d8e0bd2e79ca75137c42a1`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/terramaster/PlexMediaServer-1.28.0.5999-97678ded3-aarch64.tpk)  
+Build: linux-aarch64  
+Checksum: `b295b61af67beadcfc007f5ca56f6c415636b3b6`
+
+# Thecus
+Items Added:
+Native support for Apple Silicon.
+
+Items Fixed:
+* (Android) Music artwork on Android based servers could disappear after refreshing metadata (#13677)
+* (Hubs) The "Most Played in Month" music hub could fail to populate (#13660)
+* (Library) Release dates before 1901 could be saved incorrectly on Windows (#13661)
+* (Linux) Improve handling of Intel Compute Runtime (ICR) vs Beignet requirement detection.
+* (Music) Read in album-sort tags (#13653)
+* (Music) Setting artwork from the edit dialog could result in low quality images getting set (#13677)
+* (Music) Track titles could sometimes become blank after scanning the library (#13615)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/thecus/PlexMediaServer-1.28.0.5999-97678ded3-x64.mod)  
+Build: linux-x86_64  
+Checksum: `7a90d6aeb2900392a992b4ded1134b75872d3444`
+
+# Seagate
+Items Added:
+Native support for Apple Silicon.
+
+Items Fixed:
+* (Android) Music artwork on Android based servers could disappear after refreshing metadata (#13677)
+* (Hubs) The "Most Played in Month" music hub could fail to populate (#13660)
+* (Library) Release dates before 1901 could be saved incorrectly on Windows (#13661)
+* (Linux) Improve handling of Intel Compute Runtime (ICR) vs Beignet requirement detection.
+* (Music) Read in album-sort tags (#13653)
+* (Music) Setting artwork from the edit dialog could result in low quality images getting set (#13677)
+* (Music) Track titles could sometimes become blank after scanning the library (#13615)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/seagate/PlexMediaServer-1.28.0.5999-97678ded3-x86_64.rbw)  
+Build: linux-x86_64  
+Checksum: `fbb60a92c0da39779154f23698af5a30ac7af1ef`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/seagate/PlexMediaServer-1.28.0.5999-97678ded3-armv7.rbw)  
+Build: linux-armv7hf  
+Checksum: `fed244779d26623e4b92665bea92be30fc138d1b`
+
+# Western Digital
+Requirements: [Requires My Cloud OS 5. Older devices use &#39;Western Digital (OS3)&#39;.](Note:)  
+Items Added:
+Native support for Apple Silicon.
+
+Items Fixed:
+* (Android) Music artwork on Android based servers could disappear after refreshing metadata (#13677)
+* (Hubs) The "Most Played in Month" music hub could fail to populate (#13660)
+* (Library) Release dates before 1901 could be saved incorrectly on Windows (#13661)
+* (Linux) Improve handling of Intel Compute Runtime (ICR) vs Beignet requirement detection.
+* (Music) Read in album-sort tags (#13653)
+* (Music) Setting artwork from the edit dialog could result in low quality images getting set (#13677)
+* (Music) Track titles could sometimes become blank after scanning the library (#13615)
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud PR2100](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/wd/PlexMediaServer-1.28.0.5999-97678ded3-MyCloudPR2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `caf6bbab125bb4ce91e3e8328a278199b9dfdb9f`
+
+Distro: [My Cloud PR4100](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/wd/PlexMediaServer-1.28.0.5999-97678ded3-MyCloudPR4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `dda035c0b1c0320337c25a528e41847c876c5ea1`
+
+Distro: [My Cloud EX2 Ultra](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/wd/PlexMediaServer-1.28.0.5999-97678ded3-MyCloudEX2Ultra_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `81bab0aa57bbaaf1c2eb75885fde8e831d886fb5`
+
+Distro: [My Cloud EX4100](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/wd/PlexMediaServer-1.28.0.5999-97678ded3-WDMyCloudEX4100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `73ded6144cfbea6b480666f470c2f7ace181f404`
+
+Distro: [My Cloud Mirror](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/wd/PlexMediaServer-1.28.0.5999-97678ded3-WDMyCloudMirror_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `3dd55ecd02bee0b7b6104ae06aac772b3d8f9d45`
+
+Distro: [My Cloud EX2100](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/wd/PlexMediaServer-1.28.0.5999-97678ded3-WDMyCloudEX2100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `27221d3468aca820bac6098ec2b32545f2e7778f`
+
+Distro: [My Cloud DL2100](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/wd/PlexMediaServer-1.28.0.5999-97678ded3-WDMyCloudDL2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `54c4a5086dcfdb5e84b0599ebaae1aad446fd2fb`
+
+Distro: [My Cloud DL4100](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/wd/PlexMediaServer-1.28.0.5999-97678ded3-WDMyCloudDL4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `b8c90ca4fded63abb4d2609df9b6e0bd83b674e6`
+
+Distro: [My Cloud (Single Bay)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/wd/PlexMediaServer-1.28.0.5999-97678ded3-WDMyCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `69e5457ae376d82c7080d61c2825432383ca87ec`
+
+Distro: [WD Cloud for Japan](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/wd/PlexMediaServer-1.28.0.5999-97678ded3-WDCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `aa09c5bdd3e037ddbe4dd8b551f7ecec55c0bdbf`
+
+# Western Digital (OS 3)
+Items Added:
+Native support for Apple Silicon.
+
+Items Fixed:
+* (Android) Music artwork on Android based servers could disappear after refreshing metadata (#13677)
+* (Hubs) The "Most Played in Month" music hub could fail to populate (#13660)
+* (Library) Release dates before 1901 could be saved incorrectly on Windows (#13661)
+* (Linux) Improve handling of Intel Compute Runtime (ICR) vs Beignet requirement detection.
+* (Music) Read in album-sort tags (#13653)
+* (Music) Setting artwork from the edit dialog could result in low quality images getting set (#13677)
+* (Music) Track titles could sometimes become blank after scanning the library (#13615)
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud DL2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/wd/PlexMediaServer-1.28.0.5999-97678ded3-WDMyCloudDL2100.bin)  
+Build: linux-x86_64  
+Checksum: `1b9c2bfd21b72b8465ffd11c15e5ff002e30a7bc`
+
+Distro: [My Cloud DL4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/wd/PlexMediaServer-1.28.0.5999-97678ded3-WDMyCloudDL4100.bin)  
+Build: linux-x86_64  
+Checksum: `352362368208e22e867d5dba3d9b61c590ef77df`
+
+Distro: [My Cloud PR2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/wd/PlexMediaServer-1.28.0.5999-97678ded3-MyCloudPR2100.bin)  
+Build: linux-x86_64  
+Checksum: `1cef8b6cdf03ea9750953bf00c709983e6cc704b`
+
+Distro: [My Cloud PR4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/wd/PlexMediaServer-1.28.0.5999-97678ded3-MyCloudPR4100.bin)  
+Build: linux-x86_64  
+Checksum: `2376f8fe95338da39ff39d9eea12f4ef686ebcd7`
+
+Distro: [My Cloud EX2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/wd/PlexMediaServer-1.28.0.5999-97678ded3-WDMyCloudEX2.bin)  
+Build: linux-armv7hf  
+Checksum: `cc251893842fb44114723d9e8b446b9a65485625`
+
+Distro: [My Cloud EX2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/wd/PlexMediaServer-1.28.0.5999-97678ded3-WDMyCloudEX2100.bin)  
+Build: linux-armv7hf  
+Checksum: `caf8986456b0615ba09841a3616a945ca3a1777e`
+
+Distro: [My Cloud EX2 Ultra (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/wd/PlexMediaServer-1.28.0.5999-97678ded3-MyCloudEX2Ultra.bin)  
+Build: linux-armv7hf  
+Checksum: `905106c92cc5d62e1e7fa3df696388c95eda1555`
+
+Distro: [My Cloud EX4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/wd/PlexMediaServer-1.28.0.5999-97678ded3-WDMyCloudEX4100.bin)  
+Build: linux-armv7hf  
+Checksum: `1facb5986fa542812e15d20bc2d01dcfbf9dbce0`
+
+Distro: [My Cloud Mirror (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/wd/PlexMediaServer-1.28.0.5999-97678ded3-WDMyCloudMirror.bin)  
+Build: linux-armv7hf  
+Checksum: `503bf8f665bf2a832e9ad4df1d26f0e8c219f52a`
+
+Distro: [My Cloud Mirror Gen2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.0.5999-97678ded3/wd/PlexMediaServer-1.28.0.5999-97678ded3-WDMyCloudMirrorGen2.bin)  
+Build: linux-armv7hf  
+Checksum: `3799f7f053ac77bedc2d609854f656e3f483353a`
+
