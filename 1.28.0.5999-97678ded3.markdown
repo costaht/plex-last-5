@@ -2,7 +2,7 @@
 layout: page
 title: 1.28.0.5999-97678ded3
 description: Plex Media Server version 1.28.0.5999-97678ded3
-nav_order: -11
+nav_order: -12
 ---
 ## Released on 07/29/2022 10:58
 {: .no_toc }
