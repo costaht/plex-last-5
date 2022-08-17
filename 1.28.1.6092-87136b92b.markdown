@@ -1,0 +1,601 @@
+---
+layout: page
+title: 1.28.1.6092-87136b92b
+description: Plex Media Server version 1.28.1.6092-87136b92b
+nav_order: -13
+---
+## Released on 08/16/2022 13:52
+{: .no_toc }
+## Table of contents
+{: .no_toc .text-delta }
+* TOC
+{:toc}
+# Windows
+Requirements: [Windows 7 SP1 or newer (Intel or AMD processors only)](https://support.plex.tv/hc/en-us/articles/200375666)  
+Items Added:
+* (Debian) Reduced external command usage 80% during installation
+* (Debian) repository signing upgraded to use GPG signing key Ubuntu 20+ and Debian 10+
+* (Pivots) Add genre categories to Movies and TV Shows libraries (#12309)
+* (Transcoder) Improved subtitle burning compatibility and performance
+* (Transcoder) Support reporting more detailed HDR metadata information in HLS manifests
+
+Items Fixed:
+* (Debian) Intel N and G series CPUs not always detected
+* (Debian) Some 10th, 11th and 12th gen CPUs not properly detected during inventory scan
+* (EPG) Guide might have shown items duplicated and misaligned following items when airing ends at 00:00 UTC (#13573)
+* (Library) Certain smart playlists could cause server to crash (#13710)
+* (Music) Local tags for track artist would be ignored if it was identical to the album artist (#13712)
+* (Pivots) Genres may not be shown for tv shows in some cases (#13751)
+* (Pivots) Show only genres with non-empty items (#13751)
+* (Pivots) Show only genres with non-restricted items (#13751)
+* (Scanner) Mark 'scan' and 'refresh' CLI actions as deprecated (#13700)
+* (Transcoder) Static transcodes were terminated if paused too long (#13682)
+
+## Releases
+{: .no_toc }
+Distro: [Windows 32-bit](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/windows/PlexMediaServer-1.28.1.6092-87136b92b-x86.exe)  
+Build: windows-x86  
+Checksum: `92c4843bb812cb9bc3d30e94e3e5060725625f86`
+
+# MacOS
+Requirements: [OS X 10.9 Mavericks or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+Items Added:
+* (Debian) Reduced external command usage 80% during installation
+* (Debian) repository signing upgraded to use GPG signing key Ubuntu 20+ and Debian 10+
+* (Pivots) Add genre categories to Movies and TV Shows libraries (#12309)
+* (Transcoder) Improved subtitle burning compatibility and performance
+* (Transcoder) Support reporting more detailed HDR metadata information in HLS manifests
+
+Items Fixed:
+* (Debian) Intel N and G series CPUs not always detected
+* (Debian) Some 10th, 11th and 12th gen CPUs not properly detected during inventory scan
+* (EPG) Guide might have shown items duplicated and misaligned following items when airing ends at 00:00 UTC (#13573)
+* (Library) Certain smart playlists could cause server to crash (#13710)
+* (Music) Local tags for track artist would be ignored if it was identical to the album artist (#13712)
+* (Pivots) Genres may not be shown for tv shows in some cases (#13751)
+* (Pivots) Show only genres with non-empty items (#13751)
+* (Pivots) Show only genres with non-restricted items (#13751)
+* (Scanner) Mark 'scan' and 'refresh' CLI actions as deprecated (#13700)
+* (Transcoder) Static transcodes were terminated if paused too long (#13682)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/macos/PlexMediaServer-1.28.1.6092-87136b92b-universal.zip)  
+Build: darwin-x86_64  
+Checksum: `f1b2ab152b575d63cf3c8c7e83475b4edb1f81df`
+
+# Linux
+Items Added:
+* (Debian) Reduced external command usage 80% during installation
+* (Debian) repository signing upgraded to use GPG signing key Ubuntu 20+ and Debian 10+
+* (Pivots) Add genre categories to Movies and TV Shows libraries (#12309)
+* (Transcoder) Improved subtitle burning compatibility and performance
+* (Transcoder) Support reporting more detailed HDR metadata information in HLS manifests
+
+Items Fixed:
+* (Debian) Intel N and G series CPUs not always detected
+* (Debian) Some 10th, 11th and 12th gen CPUs not properly detected during inventory scan
+* (EPG) Guide might have shown items duplicated and misaligned following items when airing ends at 00:00 UTC (#13573)
+* (Library) Certain smart playlists could cause server to crash (#13710)
+* (Music) Local tags for track artist would be ignored if it was identical to the album artist (#13712)
+* (Pivots) Genres may not be shown for tv shows in some cases (#13751)
+* (Pivots) Show only genres with non-empty items (#13751)
+* (Pivots) Show only genres with non-restricted items (#13751)
+* (Scanner) Mark 'scan' and 'refresh' CLI actions as deprecated (#13700)
+* (Transcoder) Static transcodes were terminated if paused too long (#13682)
+
+## Releases
+{: .no_toc }
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/debian/plexmediaserver_1.28.1.6092-87136b92b_i386.deb)  
+Build: linux-x86  
+Checksum: `8bd1034bb513d449f837ee82f3e63838c7b5879e`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/debian/plexmediaserver_1.28.1.6092-87136b92b_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `e46e88b3f23a23801a7bbccdc0deab7891b9b465`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv8](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/debian/plexmediaserver_1.28.1.6092-87136b92b_arm64.deb)  
+Build: linux-aarch64  
+Checksum: `845eb3dccdd292c827ad17d126804cc4ccb61a86`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv7](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/debian/plexmediaserver_1.28.1.6092-87136b92b_armhf.deb)  
+Build: linux-armv7neon  
+Checksum: `0d1e0b44f7adc5a0972e84e570aae6b5b7b12724`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/redhat/plexmediaserver-1.28.1.6092-87136b92b.i686.rpm)  
+Build: linux-x86  
+Checksum: `b82484a5bc0cefb3d9e5a50d29e88d251565ee6c`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/redhat/plexmediaserver-1.28.1.6092-87136b92b.x86_64.rpm)  
+Build: linux-x86_64  
+Checksum: `8ea560052e929b87c0167d4ab3af56e0b88dc6ec`
+
+# FreeBSD
+Requirements: [FreeBSD 11.2 or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+Items Added:
+* (Debian) Reduced external command usage 80% during installation
+* (Debian) repository signing upgraded to use GPG signing key Ubuntu 20+ and Debian 10+
+* (Pivots) Add genre categories to Movies and TV Shows libraries (#12309)
+* (Transcoder) Improved subtitle burning compatibility and performance
+* (Transcoder) Support reporting more detailed HDR metadata information in HLS manifests
+
+Items Fixed:
+* (Debian) Intel N and G series CPUs not always detected
+* (Debian) Some 10th, 11th and 12th gen CPUs not properly detected during inventory scan
+* (EPG) Guide might have shown items duplicated and misaligned following items when airing ends at 00:00 UTC (#13573)
+* (Library) Certain smart playlists could cause server to crash (#13710)
+* (Music) Local tags for track artist would be ignored if it was identical to the album artist (#13712)
+* (Pivots) Genres may not be shown for tv shows in some cases (#13751)
+* (Pivots) Show only genres with non-empty items (#13751)
+* (Pivots) Show only genres with non-restricted items (#13751)
+* (Scanner) Mark 'scan' and 'refresh' CLI actions as deprecated (#13700)
+* (Transcoder) Static transcodes were terminated if paused too long (#13682)
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/freebsd/PlexMediaServer-1.28.1.6092-87136b92b-FreeBSD-amd64.tar.bz2)  
+Build: freebsd-x86_64  
+Checksum: `0e01f74e0f61bfd85caa618d740815ee0fb14028`
+
+# Synology
+Requirements: [Requires DSM 5.0 minimum to install.](Note:)  
+Extra Information: Guide: <a href="https://support.plex.tv/hc/en-us/articles/205165858" target="_blank">Add Plex as a trusted publisher for package installations</a>.  
+Items Added:
+* (Debian) Reduced external command usage 80% during installation
+* (Debian) repository signing upgraded to use GPG signing key Ubuntu 20+ and Debian 10+
+* (Pivots) Add genre categories to Movies and TV Shows libraries (#12309)
+* (Transcoder) Improved subtitle burning compatibility and performance
+* (Transcoder) Support reporting more detailed HDR metadata information in HLS manifests
+
+Items Fixed:
+* (Debian) Intel N and G series CPUs not always detected
+* (Debian) Some 10th, 11th and 12th gen CPUs not properly detected during inventory scan
+* (EPG) Guide might have shown items duplicated and misaligned following items when airing ends at 00:00 UTC (#13573)
+* (Library) Certain smart playlists could cause server to crash (#13710)
+* (Music) Local tags for track artist would be ignored if it was identical to the album artist (#13712)
+* (Pivots) Genres may not be shown for tv shows in some cases (#13751)
+* (Pivots) Show only genres with non-empty items (#13751)
+* (Pivots) Show only genres with non-restricted items (#13751)
+* (Scanner) Mark 'scan' and 'refresh' CLI actions as deprecated (#13700)
+* (Transcoder) Static transcodes were terminated if paused too long (#13682)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit (x10 Series, DS415play, and DS214play)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/synology/PlexMediaServer-1.28.1.6092-87136b92b-x86_DSM6.spk)  
+Build: linux-x86  
+Checksum: `999efa427d598becffa4f6fa90b71de617b0e6f6`
+
+Distro: [Intel 64-bit (DSM 6.0 and newer)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/synology/PlexMediaServer-1.28.1.6092-87136b92b-x86_64_DSM6.spk)  
+Build: linux-x86_64  
+Checksum: `0f780c678da0f801a54a926b881349ce3205d4ee`
+
+Distro: [ARMv8 (x18 Series)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/synology/PlexMediaServer-1.28.1.6092-87136b92b-aarch64_DSM6.spk)  
+Build: linux-aarch64  
+Checksum: `696d66236a11617b69a00f3b656bf69698ba912d`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/synology/PlexMediaServer-1.28.1.6092-87136b92b-armv7hf_DSM6.spk)  
+Build: linux-armv7hf  
+Checksum: `43df09114d304109059e298f6929c99cecadb5a1`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/synology/PlexMediaServer-1.28.1.6092-87136b92b-armv7neon_DSM6.spk)  
+Build: linux-armv7neon  
+Checksum: `1129b593f0b9198366d5f7f29986e51c8baf621f`
+
+# Synology (DSM 7)
+Requirements: [Requires DSM 7.0 minimum to install.](Note:)  
+Items Added:
+* (Debian) Reduced external command usage 80% during installation
+* (Debian) repository signing upgraded to use GPG signing key Ubuntu 20+ and Debian 10+
+* (Pivots) Add genre categories to Movies and TV Shows libraries (#12309)
+* (Transcoder) Improved subtitle burning compatibility and performance
+* (Transcoder) Support reporting more detailed HDR metadata information in HLS manifests
+
+Items Fixed:
+* (Debian) Intel N and G series CPUs not always detected
+* (Debian) Some 10th, 11th and 12th gen CPUs not properly detected during inventory scan
+* (EPG) Guide might have shown items duplicated and misaligned following items when airing ends at 00:00 UTC (#13573)
+* (Library) Certain smart playlists could cause server to crash (#13710)
+* (Music) Local tags for track artist would be ignored if it was identical to the album artist (#13712)
+* (Pivots) Genres may not be shown for tv shows in some cases (#13751)
+* (Pivots) Show only genres with non-empty items (#13751)
+* (Pivots) Show only genres with non-restricted items (#13751)
+* (Scanner) Mark 'scan' and 'refresh' CLI actions as deprecated (#13700)
+* (Transcoder) Static transcodes were terminated if paused too long (#13682)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/synology-dsm7/PlexMediaServer-1.28.1.6092-87136b92b-x86_DSM7.spk)  
+Build: linux-x86  
+Checksum: `90b5a351d52f0dec59619f227ef91e6b39bdb11e`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/synology-dsm7/PlexMediaServer-1.28.1.6092-87136b92b-x86_64_DSM7.spk)  
+Build: linux-x86_64  
+Checksum: `67103a65fb34921395e12ecffc8528d0c1a7db73`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/synology-dsm7/PlexMediaServer-1.28.1.6092-87136b92b-aarch64_DSM7.spk)  
+Build: linux-aarch64  
+Checksum: `3a96dc837652c5f47e25bbdc7217bb48fbb7d994`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/synology-dsm7/PlexMediaServer-1.28.1.6092-87136b92b-armv7hf_DSM7.spk)  
+Build: linux-armv7hf  
+Checksum: `15de037f3e39ffd21e5226bce5aa224aff70b774`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/synology-dsm7/PlexMediaServer-1.28.1.6092-87136b92b-armv7neon_DSM7.spk)  
+Build: linux-armv7neon  
+Checksum: `b668aa7a5ff9c2f5b00041000973401fd6bc0aff`
+
+# Netgear
+Items Added:
+* (Debian) Reduced external command usage 80% during installation
+* (Debian) repository signing upgraded to use GPG signing key Ubuntu 20+ and Debian 10+
+* (Pivots) Add genre categories to Movies and TV Shows libraries (#12309)
+* (Transcoder) Improved subtitle burning compatibility and performance
+* (Transcoder) Support reporting more detailed HDR metadata information in HLS manifests
+
+Items Fixed:
+* (Debian) Intel N and G series CPUs not always detected
+* (Debian) Some 10th, 11th and 12th gen CPUs not properly detected during inventory scan
+* (EPG) Guide might have shown items duplicated and misaligned following items when airing ends at 00:00 UTC (#13573)
+* (Library) Certain smart playlists could cause server to crash (#13710)
+* (Music) Local tags for track artist would be ignored if it was identical to the album artist (#13712)
+* (Pivots) Genres may not be shown for tv shows in some cases (#13751)
+* (Pivots) Show only genres with non-empty items (#13751)
+* (Pivots) Show only genres with non-restricted items (#13751)
+* (Scanner) Mark 'scan' and 'refresh' CLI actions as deprecated (#13700)
+* (Transcoder) Static transcodes were terminated if paused too long (#13682)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/netgear/plexmediaserver_1.28.1.6092-87136b92b_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `6836563e3d80b22b8da5f20c21ba9e93cb841d3b`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/netgear/plexmediaserver_1.28.1.6092-87136b92b_armel.deb)  
+Build: linux-armv7hf  
+Checksum: `c89ccf6ce09b4f67b5877bbc05f647c8614ae816`
+
+Distro: [ARMv7 (RN2xx Series)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/netgear/plexmediaserver-annapurna_1.28.1.6092-87136b92b_armel.deb)  
+Build: linux-armv7neon  
+Checksum: `fa26f4a8c2025536a61ef7a316676bff00143b86`
+
+# QNAP
+Extra Information: <a href="http://www.qnap.com/i/en/trade_teach/con_show.php?op=showone&cid=72" target="_blank"><b>View the tutorial</b></a> on how to use a QNAP Turbo NAS as a Plex Media Server.  
+Items Added:
+* (Debian) Reduced external command usage 80% during installation
+* (Debian) repository signing upgraded to use GPG signing key Ubuntu 20+ and Debian 10+
+* (Pivots) Add genre categories to Movies and TV Shows libraries (#12309)
+* (Transcoder) Improved subtitle burning compatibility and performance
+* (Transcoder) Support reporting more detailed HDR metadata information in HLS manifests
+
+Items Fixed:
+* (Debian) Intel N and G series CPUs not always detected
+* (Debian) Some 10th, 11th and 12th gen CPUs not properly detected during inventory scan
+* (EPG) Guide might have shown items duplicated and misaligned following items when airing ends at 00:00 UTC (#13573)
+* (Library) Certain smart playlists could cause server to crash (#13710)
+* (Music) Local tags for track artist would be ignored if it was identical to the album artist (#13712)
+* (Pivots) Genres may not be shown for tv shows in some cases (#13751)
+* (Pivots) Show only genres with non-empty items (#13751)
+* (Pivots) Show only genres with non-restricted items (#13751)
+* (Scanner) Mark 'scan' and 'refresh' CLI actions as deprecated (#13700)
+* (Transcoder) Static transcodes were terminated if paused too long (#13682)
+
+## Releases
+{: .no_toc }
+Distro: [Intel/AMD 64-bit (QTS-4.3 and newer)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/qnap/PlexMediaServer-1.28.1.6092-87136b92b-x86_64.qpkg)  
+Build: linux-x86_64  
+Checksum: `b92d840d775b65561d78093983bf66f306f3cd38`
+
+Distro: [ARMv8 (TS-x28, and TS-x32 Series)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/qnap/PlexMediaServer-1.28.1.6092-87136b92b-aarch64.qpkg)  
+Build: linux-aarch64  
+Checksum: `f8bd313a80e11436bcc7d7163ca5acd75bbdca24`
+
+Distro: [ARMv7 (TS-x31, and TS-x31U Series)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/qnap/PlexMediaServer-1.28.1.6092-87136b92b-armv7hf.qpkg)  
+Build: linux-armv7hf  
+Checksum: `a4a1a405d225b8f20c21997299018fed172f7c33`
+
+Distro: [ARMv7 (TS-x31+, TS-x31P, TS-x31P2, TS-x31X, and TS-x31XU Series)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/qnap/PlexMediaServer-1.28.1.6092-87136b92b-armv7neon.qpkg)  
+Build: linux-armv7neon  
+Checksum: `d64f875771486d9b91d1ca692ce6b672e49df6f9`
+
+# unRAID
+Items Added:
+* (Debian) Reduced external command usage 80% during installation
+* (Debian) repository signing upgraded to use GPG signing key Ubuntu 20+ and Debian 10+
+* (Pivots) Add genre categories to Movies and TV Shows libraries (#12309)
+* (Transcoder) Improved subtitle burning compatibility and performance
+* (Transcoder) Support reporting more detailed HDR metadata information in HLS manifests
+
+Items Fixed:
+* (Debian) Intel N and G series CPUs not always detected
+* (Debian) Some 10th, 11th and 12th gen CPUs not properly detected during inventory scan
+* (EPG) Guide might have shown items duplicated and misaligned following items when airing ends at 00:00 UTC (#13573)
+* (Library) Certain smart playlists could cause server to crash (#13710)
+* (Music) Local tags for track artist would be ignored if it was identical to the album artist (#13712)
+* (Pivots) Genres may not be shown for tv shows in some cases (#13751)
+* (Pivots) Show only genres with non-empty items (#13751)
+* (Pivots) Show only genres with non-restricted items (#13751)
+* (Scanner) Mark 'scan' and 'refresh' CLI actions as deprecated (#13700)
+* (Transcoder) Static transcodes were terminated if paused too long (#13682)
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/unraid/PlexMediaServer-1.28.1.6092-87136b92b-x86_64.txz)  
+Build: linux-x86_64  
+Checksum: `e94d3fb1399cd982c8ad74bff9276e32694fdce2`
+
+# Drobo
+Items Added:
+* (Debian) Reduced external command usage 80% during installation
+* (Debian) repository signing upgraded to use GPG signing key Ubuntu 20+ and Debian 10+
+* (Pivots) Add genre categories to Movies and TV Shows libraries (#12309)
+* (Transcoder) Improved subtitle burning compatibility and performance
+* (Transcoder) Support reporting more detailed HDR metadata information in HLS manifests
+
+Items Fixed:
+* (Debian) Intel N and G series CPUs not always detected
+* (Debian) Some 10th, 11th and 12th gen CPUs not properly detected during inventory scan
+* (EPG) Guide might have shown items duplicated and misaligned following items when airing ends at 00:00 UTC (#13573)
+* (Library) Certain smart playlists could cause server to crash (#13710)
+* (Music) Local tags for track artist would be ignored if it was identical to the album artist (#13712)
+* (Pivots) Genres may not be shown for tv shows in some cases (#13751)
+* (Pivots) Show only genres with non-empty items (#13751)
+* (Pivots) Show only genres with non-restricted items (#13751)
+* (Scanner) Mark 'scan' and 'refresh' CLI actions as deprecated (#13700)
+* (Transcoder) Static transcodes were terminated if paused too long (#13682)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/drobo/plex.tgz)  
+Build: linux-armv7hf  
+Checksum: `536bcbec5b88d931f6b93f93cfae70e410d85058`
+
+# ASUSTOR
+Extra Information: <a href="https://www.asustor.com/online/College_topic?topic=235" target="_blank"><b>View the tutorial</b></a> on how to use a ASUSTOR NAS as a Plex Media Server.  
+Items Added:
+* (Debian) Reduced external command usage 80% during installation
+* (Debian) repository signing upgraded to use GPG signing key Ubuntu 20+ and Debian 10+
+* (Pivots) Add genre categories to Movies and TV Shows libraries (#12309)
+* (Transcoder) Improved subtitle burning compatibility and performance
+* (Transcoder) Support reporting more detailed HDR metadata information in HLS manifests
+
+Items Fixed:
+* (Debian) Intel N and G series CPUs not always detected
+* (Debian) Some 10th, 11th and 12th gen CPUs not properly detected during inventory scan
+* (EPG) Guide might have shown items duplicated and misaligned following items when airing ends at 00:00 UTC (#13573)
+* (Library) Certain smart playlists could cause server to crash (#13710)
+* (Music) Local tags for track artist would be ignored if it was identical to the album artist (#13712)
+* (Pivots) Genres may not be shown for tv shows in some cases (#13751)
+* (Pivots) Show only genres with non-empty items (#13751)
+* (Pivots) Show only genres with non-restricted items (#13751)
+* (Scanner) Mark 'scan' and 'refresh' CLI actions as deprecated (#13700)
+* (Transcoder) Static transcodes were terminated if paused too long (#13682)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/asustor/PlexMediaServer-1.28.1.6092-87136b92b-x86.apk)  
+Build: linux-x86  
+Checksum: `85d5c82b7047db7d38be70a66ad7764154b02cf6`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/asustor/PlexMediaServer-1.28.1.6092-87136b92b-x86_64.apk)  
+Build: linux-x86_64  
+Checksum: `f8157b9fa566cfe07b18d4950c4c62a7ce26a05f`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/asustor/PlexMediaServer-1.28.1.6092-87136b92b-aarch64.apk)  
+Build: linux-aarch64  
+Checksum: `885312d1b64ec428cde5c2a6c5a463a581232f8c`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/asustor/PlexMediaServer-1.28.1.6092-87136b92b-armv7neon.apk)  
+Build: linux-armv7neon  
+Checksum: `b7ea05fb614bce005932bdd6caaa66ac596f0455`
+
+# TerraMaster
+Items Added:
+* (Debian) Reduced external command usage 80% during installation
+* (Debian) repository signing upgraded to use GPG signing key Ubuntu 20+ and Debian 10+
+* (Pivots) Add genre categories to Movies and TV Shows libraries (#12309)
+* (Transcoder) Improved subtitle burning compatibility and performance
+* (Transcoder) Support reporting more detailed HDR metadata information in HLS manifests
+
+Items Fixed:
+* (Debian) Intel N and G series CPUs not always detected
+* (Debian) Some 10th, 11th and 12th gen CPUs not properly detected during inventory scan
+* (EPG) Guide might have shown items duplicated and misaligned following items when airing ends at 00:00 UTC (#13573)
+* (Library) Certain smart playlists could cause server to crash (#13710)
+* (Music) Local tags for track artist would be ignored if it was identical to the album artist (#13712)
+* (Pivots) Genres may not be shown for tv shows in some cases (#13751)
+* (Pivots) Show only genres with non-empty items (#13751)
+* (Pivots) Show only genres with non-restricted items (#13751)
+* (Scanner) Mark 'scan' and 'refresh' CLI actions as deprecated (#13700)
+* (Transcoder) Static transcodes were terminated if paused too long (#13682)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/terramaster/PlexMediaServer-1.28.1.6092-87136b92b-x86_64.tpk)  
+Build: linux-x86_64  
+Checksum: `368f3631ff7aea8c911fcaf01b5aed5a117a3264`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/terramaster/PlexMediaServer-1.28.1.6092-87136b92b-aarch64.tpk)  
+Build: linux-aarch64  
+Checksum: `85eae73a25162db5ff2f8c179498b92feaac86ed`
+
+# Thecus
+Items Added:
+* (Debian) Reduced external command usage 80% during installation
+* (Debian) repository signing upgraded to use GPG signing key Ubuntu 20+ and Debian 10+
+* (Pivots) Add genre categories to Movies and TV Shows libraries (#12309)
+* (Transcoder) Improved subtitle burning compatibility and performance
+* (Transcoder) Support reporting more detailed HDR metadata information in HLS manifests
+
+Items Fixed:
+* (Debian) Intel N and G series CPUs not always detected
+* (Debian) Some 10th, 11th and 12th gen CPUs not properly detected during inventory scan
+* (EPG) Guide might have shown items duplicated and misaligned following items when airing ends at 00:00 UTC (#13573)
+* (Library) Certain smart playlists could cause server to crash (#13710)
+* (Music) Local tags for track artist would be ignored if it was identical to the album artist (#13712)
+* (Pivots) Genres may not be shown for tv shows in some cases (#13751)
+* (Pivots) Show only genres with non-empty items (#13751)
+* (Pivots) Show only genres with non-restricted items (#13751)
+* (Scanner) Mark 'scan' and 'refresh' CLI actions as deprecated (#13700)
+* (Transcoder) Static transcodes were terminated if paused too long (#13682)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/thecus/PlexMediaServer-1.28.1.6092-87136b92b-x64.mod)  
+Build: linux-x86_64  
+Checksum: `25e38db21ee06c5ad57af0662d31adad7ae5fdac`
+
+# Seagate
+Items Added:
+* (Debian) Reduced external command usage 80% during installation
+* (Debian) repository signing upgraded to use GPG signing key Ubuntu 20+ and Debian 10+
+* (Pivots) Add genre categories to Movies and TV Shows libraries (#12309)
+* (Transcoder) Improved subtitle burning compatibility and performance
+* (Transcoder) Support reporting more detailed HDR metadata information in HLS manifests
+
+Items Fixed:
+* (Debian) Intel N and G series CPUs not always detected
+* (Debian) Some 10th, 11th and 12th gen CPUs not properly detected during inventory scan
+* (EPG) Guide might have shown items duplicated and misaligned following items when airing ends at 00:00 UTC (#13573)
+* (Library) Certain smart playlists could cause server to crash (#13710)
+* (Music) Local tags for track artist would be ignored if it was identical to the album artist (#13712)
+* (Pivots) Genres may not be shown for tv shows in some cases (#13751)
+* (Pivots) Show only genres with non-empty items (#13751)
+* (Pivots) Show only genres with non-restricted items (#13751)
+* (Scanner) Mark 'scan' and 'refresh' CLI actions as deprecated (#13700)
+* (Transcoder) Static transcodes were terminated if paused too long (#13682)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/seagate/PlexMediaServer-1.28.1.6092-87136b92b-x86_64.rbw)  
+Build: linux-x86_64  
+Checksum: `54427c4822ada76129569184262bd5356b4ef7c6`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/seagate/PlexMediaServer-1.28.1.6092-87136b92b-armv7.rbw)  
+Build: linux-armv7hf  
+Checksum: `24ec3c8618bb7cf561e7804f412db195fb966211`
+
+# Western Digital
+Requirements: [Requires My Cloud OS 5. Older devices use &#39;Western Digital (OS3)&#39;.](Note:)  
+Items Added:
+* (Debian) Reduced external command usage 80% during installation
+* (Debian) repository signing upgraded to use GPG signing key Ubuntu 20+ and Debian 10+
+* (Pivots) Add genre categories to Movies and TV Shows libraries (#12309)
+* (Transcoder) Improved subtitle burning compatibility and performance
+* (Transcoder) Support reporting more detailed HDR metadata information in HLS manifests
+
+Items Fixed:
+* (Debian) Intel N and G series CPUs not always detected
+* (Debian) Some 10th, 11th and 12th gen CPUs not properly detected during inventory scan
+* (EPG) Guide might have shown items duplicated and misaligned following items when airing ends at 00:00 UTC (#13573)
+* (Library) Certain smart playlists could cause server to crash (#13710)
+* (Music) Local tags for track artist would be ignored if it was identical to the album artist (#13712)
+* (Pivots) Genres may not be shown for tv shows in some cases (#13751)
+* (Pivots) Show only genres with non-empty items (#13751)
+* (Pivots) Show only genres with non-restricted items (#13751)
+* (Scanner) Mark 'scan' and 'refresh' CLI actions as deprecated (#13700)
+* (Transcoder) Static transcodes were terminated if paused too long (#13682)
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud PR2100](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/wd/PlexMediaServer-1.28.1.6092-87136b92b-MyCloudPR2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `b5802a39997ceef8098238a69105ec9559cc7c70`
+
+Distro: [My Cloud PR4100](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/wd/PlexMediaServer-1.28.1.6092-87136b92b-MyCloudPR4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `06ed0bb2be7a14325d14a7de6ce2e7822c0b2d2b`
+
+Distro: [My Cloud EX2 Ultra](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/wd/PlexMediaServer-1.28.1.6092-87136b92b-MyCloudEX2Ultra_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `b998e7c9a3ef5a5b4396032de98c86dd1d8e86f5`
+
+Distro: [My Cloud EX4100](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/wd/PlexMediaServer-1.28.1.6092-87136b92b-WDMyCloudEX4100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `bdd3fb2cf0a3acdc838eac7ea6906884fdf09c96`
+
+Distro: [My Cloud Mirror](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/wd/PlexMediaServer-1.28.1.6092-87136b92b-WDMyCloudMirror_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `aab486e92cbb4485e9c3b6866cf11fab133536ab`
+
+Distro: [My Cloud EX2100](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/wd/PlexMediaServer-1.28.1.6092-87136b92b-WDMyCloudEX2100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `ed30c28161c448359e4b4bfb31e16035cbab33f3`
+
+Distro: [My Cloud DL2100](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/wd/PlexMediaServer-1.28.1.6092-87136b92b-WDMyCloudDL2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `03e02069a12703417c03b0d4a39feceab0d8622d`
+
+Distro: [My Cloud DL4100](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/wd/PlexMediaServer-1.28.1.6092-87136b92b-WDMyCloudDL4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `aa3c0d9b6dc5dd70af5065790bebe889de4df044`
+
+Distro: [My Cloud (Single Bay)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/wd/PlexMediaServer-1.28.1.6092-87136b92b-WDMyCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `4a1d33b8e8da4be1285a4348a88dbe353b240713`
+
+Distro: [WD Cloud for Japan](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/wd/PlexMediaServer-1.28.1.6092-87136b92b-WDCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `7485cf8e450dcbddf5501c7d2461a466df9648f6`
+
+# Western Digital (OS 3)
+Items Added:
+* (Debian) Reduced external command usage 80% during installation
+* (Debian) repository signing upgraded to use GPG signing key Ubuntu 20+ and Debian 10+
+* (Pivots) Add genre categories to Movies and TV Shows libraries (#12309)
+* (Transcoder) Improved subtitle burning compatibility and performance
+* (Transcoder) Support reporting more detailed HDR metadata information in HLS manifests
+
+Items Fixed:
+* (Debian) Intel N and G series CPUs not always detected
+* (Debian) Some 10th, 11th and 12th gen CPUs not properly detected during inventory scan
+* (EPG) Guide might have shown items duplicated and misaligned following items when airing ends at 00:00 UTC (#13573)
+* (Library) Certain smart playlists could cause server to crash (#13710)
+* (Music) Local tags for track artist would be ignored if it was identical to the album artist (#13712)
+* (Pivots) Genres may not be shown for tv shows in some cases (#13751)
+* (Pivots) Show only genres with non-empty items (#13751)
+* (Pivots) Show only genres with non-restricted items (#13751)
+* (Scanner) Mark 'scan' and 'refresh' CLI actions as deprecated (#13700)
+* (Transcoder) Static transcodes were terminated if paused too long (#13682)
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud DL2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/wd/PlexMediaServer-1.28.1.6092-87136b92b-WDMyCloudDL2100.bin)  
+Build: linux-x86_64  
+Checksum: `1f79ce112c26d1ff8131a62e08de149bc376e421`
+
+Distro: [My Cloud DL4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/wd/PlexMediaServer-1.28.1.6092-87136b92b-WDMyCloudDL4100.bin)  
+Build: linux-x86_64  
+Checksum: `8ca602f345e3f8f687b1f419f5fa06bc3b81cf6d`
+
+Distro: [My Cloud PR2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/wd/PlexMediaServer-1.28.1.6092-87136b92b-MyCloudPR2100.bin)  
+Build: linux-x86_64  
+Checksum: `af8786202e2e081aa08e24d5f16d5e583fd39b05`
+
+Distro: [My Cloud PR4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/wd/PlexMediaServer-1.28.1.6092-87136b92b-MyCloudPR4100.bin)  
+Build: linux-x86_64  
+Checksum: `d7ebe2361c57c3c273191b614e13f35d3b5aee4f`
+
+Distro: [My Cloud EX2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/wd/PlexMediaServer-1.28.1.6092-87136b92b-WDMyCloudEX2.bin)  
+Build: linux-armv7hf  
+Checksum: `30fe4d06f77761dd62d98915050befd80cac6fe2`
+
+Distro: [My Cloud EX2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/wd/PlexMediaServer-1.28.1.6092-87136b92b-WDMyCloudEX2100.bin)  
+Build: linux-armv7hf  
+Checksum: `f1b08922646562e445f836dc76b3755bf5b47485`
+
+Distro: [My Cloud EX2 Ultra (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/wd/PlexMediaServer-1.28.1.6092-87136b92b-MyCloudEX2Ultra.bin)  
+Build: linux-armv7hf  
+Checksum: `a708c853b57aaabacf794aceb5cd3e2e6468b960`
+
+Distro: [My Cloud EX4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/wd/PlexMediaServer-1.28.1.6092-87136b92b-WDMyCloudEX4100.bin)  
+Build: linux-armv7hf  
+Checksum: `7e98270a88fecca059b2a6f4ef9431fda65b3674`
+
+Distro: [My Cloud Mirror (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/wd/PlexMediaServer-1.28.1.6092-87136b92b-WDMyCloudMirror.bin)  
+Build: linux-armv7hf  
+Checksum: `b52056e6e3ef7a6fce96544a4b4d26c085e947c9`
+
+Distro: [My Cloud Mirror Gen2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.1.6092-87136b92b/wd/PlexMediaServer-1.28.1.6092-87136b92b-WDMyCloudMirrorGen2.bin)  
+Build: linux-armv7hf  
+Checksum: `eea7a2fcb572acf3967277043a3a33a1c312fda9`
+
