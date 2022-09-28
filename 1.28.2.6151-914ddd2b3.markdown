@@ -1,0 +1,537 @@
+---
+layout: page
+title: 1.28.2.6151-914ddd2b3
+description: Plex Media Server version 1.28.2.6151-914ddd2b3
+nav_order: -15
+---
+## Released on 08/30/2022 10:13
+{: .no_toc }
+## Table of contents
+{: .no_toc .text-delta }
+* TOC
+{:toc}
+# Windows
+Requirements: [Windows 7 SP1 or newer (Intel or AMD processors only)](https://support.plex.tv/hc/en-us/articles/200375666)  
+Items Added:
+* (HTTP) Indicate when a database migration is being run (#13651)
+* (Web) Updated to 4.87.2
+
+Items Fixed:
+* (Collections) Playing a collection of shows/seasons resulted in no playback in certain clients (#12977)
+* (HTTP) Certain client apps could quit unexpectedly when connecting to a server during startup maintenance (#13802)
+* (Library) Cleaning up legacy music agent bundle files could fail when running a Clean Bundles (#13761)
+* (Library) Running a Clean Bundles operation could crash the server (#13787)
+* (Music) Read artist and album sort tags from m4a audio files (#13760)
+* (Music) Upgrading an album should retain the added date of the original (#13753)
+* (Photos) Timelines could get reprocessed unnecessarily leading to incorrect placement of photos in the timeline (#13730)
+* (Transcoder) Subtitles could become mis-timed when multiple events shared the same start timestamp
+Server could hang in certain circumstances (#13758)
+
+## Releases
+{: .no_toc }
+Distro: [Windows 32-bit](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/windows/PlexMediaServer-1.28.2.6151-914ddd2b3-x86.exe)  
+Build: windows-x86  
+Checksum: `773f39d8d90a3cfbb70bdf6a60ca7cda11eabadc`
+
+# MacOS
+Requirements: [OS X 10.9 Mavericks or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+Items Added:
+* (HTTP) Indicate when a database migration is being run (#13651)
+* (Web) Updated to 4.87.2
+
+Items Fixed:
+* (Collections) Playing a collection of shows/seasons resulted in no playback in certain clients (#12977)
+* (HTTP) Certain client apps could quit unexpectedly when connecting to a server during startup maintenance (#13802)
+* (Library) Cleaning up legacy music agent bundle files could fail when running a Clean Bundles (#13761)
+* (Library) Running a Clean Bundles operation could crash the server (#13787)
+* (Music) Read artist and album sort tags from m4a audio files (#13760)
+* (Music) Upgrading an album should retain the added date of the original (#13753)
+* (Photos) Timelines could get reprocessed unnecessarily leading to incorrect placement of photos in the timeline (#13730)
+* (Transcoder) Subtitles could become mis-timed when multiple events shared the same start timestamp
+Server could hang in certain circumstances (#13758)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/macos/PlexMediaServer-1.28.2.6151-914ddd2b3-universal.zip)  
+Build: darwin-x86_64  
+Checksum: `2cf82b505fe43a888164eb0d3bd1f33a8f546a4c`
+
+# Linux
+Items Added:
+* (HTTP) Indicate when a database migration is being run (#13651)
+* (Web) Updated to 4.87.2
+
+Items Fixed:
+* (Collections) Playing a collection of shows/seasons resulted in no playback in certain clients (#12977)
+* (HTTP) Certain client apps could quit unexpectedly when connecting to a server during startup maintenance (#13802)
+* (Library) Cleaning up legacy music agent bundle files could fail when running a Clean Bundles (#13761)
+* (Library) Running a Clean Bundles operation could crash the server (#13787)
+* (Music) Read artist and album sort tags from m4a audio files (#13760)
+* (Music) Upgrading an album should retain the added date of the original (#13753)
+* (Photos) Timelines could get reprocessed unnecessarily leading to incorrect placement of photos in the timeline (#13730)
+* (Transcoder) Subtitles could become mis-timed when multiple events shared the same start timestamp
+Server could hang in certain circumstances (#13758)
+
+## Releases
+{: .no_toc }
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/debian/plexmediaserver_1.28.2.6151-914ddd2b3_i386.deb)  
+Build: linux-x86  
+Checksum: `31c018b35b485de4868c0acd2a2faa3123f1dcc6`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/debian/plexmediaserver_1.28.2.6151-914ddd2b3_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `9f1167962b90c5e74e7937902261c3330ece7cc0`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv8](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/debian/plexmediaserver_1.28.2.6151-914ddd2b3_arm64.deb)  
+Build: linux-aarch64  
+Checksum: `630443a940224a1154bf519313b1e93de0935af1`
+
+Distro: [Ubuntu (16.04+) / Debian (8+) - ARMv7](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/debian/plexmediaserver_1.28.2.6151-914ddd2b3_armhf.deb)  
+Build: linux-armv7neon  
+Checksum: `11ee80a4cf3f7ca0449bcaa34114fc5a26161249`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 32-bit](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/redhat/plexmediaserver-1.28.2.6151-914ddd2b3.i686.rpm)  
+Build: linux-x86  
+Checksum: `5058fa77ec91efebf97deeeebf5dd8fec75fa727`
+
+Distro: [Fedora (27+) / CentOS (7+) / SUSE (15+) - Intel/AMD 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/redhat/plexmediaserver-1.28.2.6151-914ddd2b3.x86_64.rpm)  
+Build: linux-x86_64  
+Checksum: `4b2f9669033fb397f78a9c2df38664b9a8743f9e`
+
+# FreeBSD
+Requirements: [FreeBSD 11.2 or newer](https://support.plex.tv/hc/en-us/articles/200375666)  
+Items Added:
+* (HTTP) Indicate when a database migration is being run (#13651)
+* (Web) Updated to 4.87.2
+
+Items Fixed:
+* (Collections) Playing a collection of shows/seasons resulted in no playback in certain clients (#12977)
+* (HTTP) Certain client apps could quit unexpectedly when connecting to a server during startup maintenance (#13802)
+* (Library) Cleaning up legacy music agent bundle files could fail when running a Clean Bundles (#13761)
+* (Library) Running a Clean Bundles operation could crash the server (#13787)
+* (Music) Read artist and album sort tags from m4a audio files (#13760)
+* (Music) Upgrading an album should retain the added date of the original (#13753)
+* (Photos) Timelines could get reprocessed unnecessarily leading to incorrect placement of photos in the timeline (#13730)
+* (Transcoder) Subtitles could become mis-timed when multiple events shared the same start timestamp
+Server could hang in certain circumstances (#13758)
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/freebsd/PlexMediaServer-1.28.2.6151-914ddd2b3-FreeBSD-amd64.tar.bz2)  
+Build: freebsd-x86_64  
+Checksum: `01c3af836e11511f60b241d351c981e7f8fb06ab`
+
+# Synology
+Requirements: [Requires DSM 5.0 minimum to install.](Note:)  
+Extra Information: Guide: <a href="https://support.plex.tv/hc/en-us/articles/205165858" target="_blank">Add Plex as a trusted publisher for package installations</a>.  
+Items Added:
+* (HTTP) Indicate when a database migration is being run (#13651)
+* (Web) Updated to 4.87.2
+
+Items Fixed:
+* (Collections) Playing a collection of shows/seasons resulted in no playback in certain clients (#12977)
+* (HTTP) Certain client apps could quit unexpectedly when connecting to a server during startup maintenance (#13802)
+* (Library) Cleaning up legacy music agent bundle files could fail when running a Clean Bundles (#13761)
+* (Library) Running a Clean Bundles operation could crash the server (#13787)
+* (Music) Read artist and album sort tags from m4a audio files (#13760)
+* (Music) Upgrading an album should retain the added date of the original (#13753)
+* (Photos) Timelines could get reprocessed unnecessarily leading to incorrect placement of photos in the timeline (#13730)
+* (Transcoder) Subtitles could become mis-timed when multiple events shared the same start timestamp
+Server could hang in certain circumstances (#13758)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit (x10 Series, DS415play, and DS214play)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/synology/PlexMediaServer-1.28.2.6151-914ddd2b3-x86_DSM6.spk)  
+Build: linux-x86  
+Checksum: `5dcb212b1cb92855388ffca99729b35dde3c2711`
+
+Distro: [Intel 64-bit (DSM 6.0 and newer)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/synology/PlexMediaServer-1.28.2.6151-914ddd2b3-x86_64_DSM6.spk)  
+Build: linux-x86_64  
+Checksum: `cef46bea427e95d4d94a4de591d83565b8ae65cb`
+
+Distro: [ARMv8 (x18 Series)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/synology/PlexMediaServer-1.28.2.6151-914ddd2b3-aarch64_DSM6.spk)  
+Build: linux-aarch64  
+Checksum: `bead38cc64556c18e75d5470dcaf9f1a3edba83c`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/synology/PlexMediaServer-1.28.2.6151-914ddd2b3-armv7hf_DSM6.spk)  
+Build: linux-armv7hf  
+Checksum: `a1441653734a32a00be5fdec5a5bd847dd8d548b`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/synology/PlexMediaServer-1.28.2.6151-914ddd2b3-armv7neon_DSM6.spk)  
+Build: linux-armv7neon  
+Checksum: `0a9058c20ca96c7fe2b4f8b1cf609890ee59eac9`
+
+# Synology (DSM 7)
+Requirements: [Requires DSM 7.0 minimum to install.](Note:)  
+Items Added:
+* (HTTP) Indicate when a database migration is being run (#13651)
+* (Web) Updated to 4.87.2
+
+Items Fixed:
+* (Collections) Playing a collection of shows/seasons resulted in no playback in certain clients (#12977)
+* (HTTP) Certain client apps could quit unexpectedly when connecting to a server during startup maintenance (#13802)
+* (Library) Cleaning up legacy music agent bundle files could fail when running a Clean Bundles (#13761)
+* (Library) Running a Clean Bundles operation could crash the server (#13787)
+* (Music) Read artist and album sort tags from m4a audio files (#13760)
+* (Music) Upgrading an album should retain the added date of the original (#13753)
+* (Photos) Timelines could get reprocessed unnecessarily leading to incorrect placement of photos in the timeline (#13730)
+* (Transcoder) Subtitles could become mis-timed when multiple events shared the same start timestamp
+Server could hang in certain circumstances (#13758)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/synology-dsm7/PlexMediaServer-1.28.2.6151-914ddd2b3-x86_DSM7.spk)  
+Build: linux-x86  
+Checksum: `1c3d91b3d67e0ee526050eae1b116406ff808c2a`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/synology-dsm7/PlexMediaServer-1.28.2.6151-914ddd2b3-x86_64_DSM7.spk)  
+Build: linux-x86_64  
+Checksum: `202224b90d8c2882753ceb14ba4bcace399da480`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/synology-dsm7/PlexMediaServer-1.28.2.6151-914ddd2b3-aarch64_DSM7.spk)  
+Build: linux-aarch64  
+Checksum: `9e4e190c3886b3333a628681ffeefb6f70752ee7`
+
+Distro: [ARMv7 (x13 Series, x14 Series (excluding DS414j), DS115j, RS815, and DS216se)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/synology-dsm7/PlexMediaServer-1.28.2.6151-914ddd2b3-armv7hf_DSM7.spk)  
+Build: linux-armv7hf  
+Checksum: `423e6f5f5cf473a7c7bc8dece59cec51140efccd`
+
+Distro: [ARMv7 (x15 Series (excluding DS115j and RS815), x16 Series (excluding DS216se), x17 Series, x18 Series, and DS414j)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/synology-dsm7/PlexMediaServer-1.28.2.6151-914ddd2b3-armv7neon_DSM7.spk)  
+Build: linux-armv7neon  
+Checksum: `d0ad7fa3003bf8afe0d24c7f6e61ee21fe072b68`
+
+# Netgear
+Items Added:
+* (HTTP) Indicate when a database migration is being run (#13651)
+* (Web) Updated to 4.87.2
+
+Items Fixed:
+* (Collections) Playing a collection of shows/seasons resulted in no playback in certain clients (#12977)
+* (HTTP) Certain client apps could quit unexpectedly when connecting to a server during startup maintenance (#13802)
+* (Library) Cleaning up legacy music agent bundle files could fail when running a Clean Bundles (#13761)
+* (Library) Running a Clean Bundles operation could crash the server (#13787)
+* (Music) Read artist and album sort tags from m4a audio files (#13760)
+* (Music) Upgrading an album should retain the added date of the original (#13753)
+* (Photos) Timelines could get reprocessed unnecessarily leading to incorrect placement of photos in the timeline (#13730)
+* (Transcoder) Subtitles could become mis-timed when multiple events shared the same start timestamp
+Server could hang in certain circumstances (#13758)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/netgear/plexmediaserver_1.28.2.6151-914ddd2b3_amd64.deb)  
+Build: linux-x86_64  
+Checksum: `00a2d1dfda277321f87ac14ccd798bfe239aa980`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/netgear/plexmediaserver_1.28.2.6151-914ddd2b3_armel.deb)  
+Build: linux-armv7hf  
+Checksum: `6ae7df077df1711db9e46e97ac7cdf220bde10b3`
+
+Distro: [ARMv7 (RN2xx Series)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/netgear/plexmediaserver-annapurna_1.28.2.6151-914ddd2b3_armel.deb)  
+Build: linux-armv7neon  
+Checksum: `e48b5cbf2176a1de223625eca598e2934e4d4402`
+
+# QNAP
+Extra Information: <a href="http://www.qnap.com/i/en/trade_teach/con_show.php?op=showone&cid=72" target="_blank"><b>View the tutorial</b></a> on how to use a QNAP Turbo NAS as a Plex Media Server.  
+Items Added:
+* (HTTP) Indicate when a database migration is being run (#13651)
+* (Web) Updated to 4.87.2
+
+Items Fixed:
+* (Collections) Playing a collection of shows/seasons resulted in no playback in certain clients (#12977)
+* (HTTP) Certain client apps could quit unexpectedly when connecting to a server during startup maintenance (#13802)
+* (Library) Cleaning up legacy music agent bundle files could fail when running a Clean Bundles (#13761)
+* (Library) Running a Clean Bundles operation could crash the server (#13787)
+* (Music) Read artist and album sort tags from m4a audio files (#13760)
+* (Music) Upgrading an album should retain the added date of the original (#13753)
+* (Photos) Timelines could get reprocessed unnecessarily leading to incorrect placement of photos in the timeline (#13730)
+* (Transcoder) Subtitles could become mis-timed when multiple events shared the same start timestamp
+Server could hang in certain circumstances (#13758)
+
+## Releases
+{: .no_toc }
+Distro: [Intel/AMD 64-bit (QTS-4.3 and newer)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/qnap/PlexMediaServer-1.28.2.6151-914ddd2b3-x86_64.qpkg)  
+Build: linux-x86_64  
+Checksum: `21d1dda390fdcd38b3175babfdda16330f734fbf`
+
+Distro: [ARMv8 (TS-x28, and TS-x32 Series)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/qnap/PlexMediaServer-1.28.2.6151-914ddd2b3-aarch64.qpkg)  
+Build: linux-aarch64  
+Checksum: `578807d0a678766986327477803c20f067cd1410`
+
+Distro: [ARMv7 (TS-x31, and TS-x31U Series)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/qnap/PlexMediaServer-1.28.2.6151-914ddd2b3-armv7hf.qpkg)  
+Build: linux-armv7hf  
+Checksum: `3541dce058fee53b5bab2fbbdeff00541c999f5e`
+
+Distro: [ARMv7 (TS-x31+, TS-x31P, TS-x31P2, TS-x31X, and TS-x31XU Series)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/qnap/PlexMediaServer-1.28.2.6151-914ddd2b3-armv7neon.qpkg)  
+Build: linux-armv7neon  
+Checksum: `820e366fd110a09d87c28117527b1627bae0c462`
+
+# unRAID
+Items Added:
+* (HTTP) Indicate when a database migration is being run (#13651)
+* (Web) Updated to 4.87.2
+
+Items Fixed:
+* (Collections) Playing a collection of shows/seasons resulted in no playback in certain clients (#12977)
+* (HTTP) Certain client apps could quit unexpectedly when connecting to a server during startup maintenance (#13802)
+* (Library) Cleaning up legacy music agent bundle files could fail when running a Clean Bundles (#13761)
+* (Library) Running a Clean Bundles operation could crash the server (#13787)
+* (Music) Read artist and album sort tags from m4a audio files (#13760)
+* (Music) Upgrading an album should retain the added date of the original (#13753)
+* (Photos) Timelines could get reprocessed unnecessarily leading to incorrect placement of photos in the timeline (#13730)
+* (Transcoder) Subtitles could become mis-timed when multiple events shared the same start timestamp
+Server could hang in certain circumstances (#13758)
+
+## Releases
+{: .no_toc }
+Distro: [Download 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/unraid/PlexMediaServer-1.28.2.6151-914ddd2b3-x86_64.txz)  
+Build: linux-x86_64  
+Checksum: `af1b428e411c1cc5030f975d114c348aefef4c02`
+
+# Drobo
+Items Added:
+* (HTTP) Indicate when a database migration is being run (#13651)
+* (Web) Updated to 4.87.2
+
+Items Fixed:
+* (Collections) Playing a collection of shows/seasons resulted in no playback in certain clients (#12977)
+* (HTTP) Certain client apps could quit unexpectedly when connecting to a server during startup maintenance (#13802)
+* (Library) Cleaning up legacy music agent bundle files could fail when running a Clean Bundles (#13761)
+* (Library) Running a Clean Bundles operation could crash the server (#13787)
+* (Music) Read artist and album sort tags from m4a audio files (#13760)
+* (Music) Upgrading an album should retain the added date of the original (#13753)
+* (Photos) Timelines could get reprocessed unnecessarily leading to incorrect placement of photos in the timeline (#13730)
+* (Transcoder) Subtitles could become mis-timed when multiple events shared the same start timestamp
+Server could hang in certain circumstances (#13758)
+
+## Releases
+{: .no_toc }
+Distro: [Download](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/drobo/plex.tgz)  
+Build: linux-armv7hf  
+Checksum: `b1dd5ab8f5bba693ba32f1255519d045ce78b341`
+
+# ASUSTOR
+Extra Information: <a href="https://www.asustor.com/online/College_topic?topic=235" target="_blank"><b>View the tutorial</b></a> on how to use a ASUSTOR NAS as a Plex Media Server.  
+Items Added:
+* (HTTP) Indicate when a database migration is being run (#13651)
+* (Web) Updated to 4.87.2
+
+Items Fixed:
+* (Collections) Playing a collection of shows/seasons resulted in no playback in certain clients (#12977)
+* (HTTP) Certain client apps could quit unexpectedly when connecting to a server during startup maintenance (#13802)
+* (Library) Cleaning up legacy music agent bundle files could fail when running a Clean Bundles (#13761)
+* (Library) Running a Clean Bundles operation could crash the server (#13787)
+* (Music) Read artist and album sort tags from m4a audio files (#13760)
+* (Music) Upgrading an album should retain the added date of the original (#13753)
+* (Photos) Timelines could get reprocessed unnecessarily leading to incorrect placement of photos in the timeline (#13730)
+* (Transcoder) Subtitles could become mis-timed when multiple events shared the same start timestamp
+Server could hang in certain circumstances (#13758)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 32-bit](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/asustor/PlexMediaServer-1.28.2.6151-914ddd2b3-x86.apk)  
+Build: linux-x86  
+Checksum: `c0fed28d4f06158a06cf0bf94ed379f14d401230`
+
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/asustor/PlexMediaServer-1.28.2.6151-914ddd2b3-x86_64.apk)  
+Build: linux-x86_64  
+Checksum: `43693c8f027cd3f62c09548f2c8c305b0b48005d`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/asustor/PlexMediaServer-1.28.2.6151-914ddd2b3-aarch64.apk)  
+Build: linux-aarch64  
+Checksum: `e9356159d9193290bfd79c5d04e717a7a0e838f2`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/asustor/PlexMediaServer-1.28.2.6151-914ddd2b3-armv7neon.apk)  
+Build: linux-armv7neon  
+Checksum: `456b000ce96526725ced08bf7143f9caab9a12b1`
+
+# TerraMaster
+Items Added:
+* (HTTP) Indicate when a database migration is being run (#13651)
+* (Web) Updated to 4.87.2
+
+Items Fixed:
+* (Collections) Playing a collection of shows/seasons resulted in no playback in certain clients (#12977)
+* (HTTP) Certain client apps could quit unexpectedly when connecting to a server during startup maintenance (#13802)
+* (Library) Cleaning up legacy music agent bundle files could fail when running a Clean Bundles (#13761)
+* (Library) Running a Clean Bundles operation could crash the server (#13787)
+* (Music) Read artist and album sort tags from m4a audio files (#13760)
+* (Music) Upgrading an album should retain the added date of the original (#13753)
+* (Photos) Timelines could get reprocessed unnecessarily leading to incorrect placement of photos in the timeline (#13730)
+* (Transcoder) Subtitles could become mis-timed when multiple events shared the same start timestamp
+Server could hang in certain circumstances (#13758)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/terramaster/PlexMediaServer-1.28.2.6151-914ddd2b3-x86_64.tpk)  
+Build: linux-x86_64  
+Checksum: `c9423b417504e83515fd3882ab4eee9789ea818b`
+
+Distro: [ARMv8](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/terramaster/PlexMediaServer-1.28.2.6151-914ddd2b3-aarch64.tpk)  
+Build: linux-aarch64  
+Checksum: `ad614bcf438d61553496340c0e360a1c819f0f8d`
+
+# Thecus
+Items Added:
+* (HTTP) Indicate when a database migration is being run (#13651)
+* (Web) Updated to 4.87.2
+
+Items Fixed:
+* (Collections) Playing a collection of shows/seasons resulted in no playback in certain clients (#12977)
+* (HTTP) Certain client apps could quit unexpectedly when connecting to a server during startup maintenance (#13802)
+* (Library) Cleaning up legacy music agent bundle files could fail when running a Clean Bundles (#13761)
+* (Library) Running a Clean Bundles operation could crash the server (#13787)
+* (Music) Read artist and album sort tags from m4a audio files (#13760)
+* (Music) Upgrading an album should retain the added date of the original (#13753)
+* (Photos) Timelines could get reprocessed unnecessarily leading to incorrect placement of photos in the timeline (#13730)
+* (Transcoder) Subtitles could become mis-timed when multiple events shared the same start timestamp
+Server could hang in certain circumstances (#13758)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/thecus/PlexMediaServer-1.28.2.6151-914ddd2b3-x64.mod)  
+Build: linux-x86_64  
+Checksum: `df8589527900d5a3610e22f128b244a1d714230c`
+
+# Seagate
+Items Added:
+* (HTTP) Indicate when a database migration is being run (#13651)
+* (Web) Updated to 4.87.2
+
+Items Fixed:
+* (Collections) Playing a collection of shows/seasons resulted in no playback in certain clients (#12977)
+* (HTTP) Certain client apps could quit unexpectedly when connecting to a server during startup maintenance (#13802)
+* (Library) Cleaning up legacy music agent bundle files could fail when running a Clean Bundles (#13761)
+* (Library) Running a Clean Bundles operation could crash the server (#13787)
+* (Music) Read artist and album sort tags from m4a audio files (#13760)
+* (Music) Upgrading an album should retain the added date of the original (#13753)
+* (Photos) Timelines could get reprocessed unnecessarily leading to incorrect placement of photos in the timeline (#13730)
+* (Transcoder) Subtitles could become mis-timed when multiple events shared the same start timestamp
+Server could hang in certain circumstances (#13758)
+
+## Releases
+{: .no_toc }
+Distro: [Intel 64-bit](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/seagate/PlexMediaServer-1.28.2.6151-914ddd2b3-x86_64.rbw)  
+Build: linux-x86_64  
+Checksum: `8c23b2024b76e50b8583ac318738f4dc59378e18`
+
+Distro: [ARMv7](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/seagate/PlexMediaServer-1.28.2.6151-914ddd2b3-armv7.rbw)  
+Build: linux-armv7hf  
+Checksum: `761e042cfce321a384dcc61b799e5b607d3a9d15`
+
+# Western Digital
+Requirements: [Requires My Cloud OS 5. Older devices use &#39;Western Digital (OS3)&#39;.](Note:)  
+Items Added:
+* (HTTP) Indicate when a database migration is being run (#13651)
+* (Web) Updated to 4.87.2
+
+Items Fixed:
+* (Collections) Playing a collection of shows/seasons resulted in no playback in certain clients (#12977)
+* (HTTP) Certain client apps could quit unexpectedly when connecting to a server during startup maintenance (#13802)
+* (Library) Cleaning up legacy music agent bundle files could fail when running a Clean Bundles (#13761)
+* (Library) Running a Clean Bundles operation could crash the server (#13787)
+* (Music) Read artist and album sort tags from m4a audio files (#13760)
+* (Music) Upgrading an album should retain the added date of the original (#13753)
+* (Photos) Timelines could get reprocessed unnecessarily leading to incorrect placement of photos in the timeline (#13730)
+* (Transcoder) Subtitles could become mis-timed when multiple events shared the same start timestamp
+Server could hang in certain circumstances (#13758)
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud PR2100](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/wd/PlexMediaServer-1.28.2.6151-914ddd2b3-MyCloudPR2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `5863c92229aae8b584a81324b9c52b530e794a23`
+
+Distro: [My Cloud PR4100](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/wd/PlexMediaServer-1.28.2.6151-914ddd2b3-MyCloudPR4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `862edc2cc3714d731c4456109d21827951c0514f`
+
+Distro: [My Cloud EX2 Ultra](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/wd/PlexMediaServer-1.28.2.6151-914ddd2b3-MyCloudEX2Ultra_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `0fdbbce708b22f12b95eb3ac6b3bc3c82f232081`
+
+Distro: [My Cloud EX4100](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/wd/PlexMediaServer-1.28.2.6151-914ddd2b3-WDMyCloudEX4100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `c13055a33332e9e7aebb1d39ab17f036914c046e`
+
+Distro: [My Cloud Mirror](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/wd/PlexMediaServer-1.28.2.6151-914ddd2b3-WDMyCloudMirror_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `f9297213833ea086a111a3906284d85ed1ba6c04`
+
+Distro: [My Cloud EX2100](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/wd/PlexMediaServer-1.28.2.6151-914ddd2b3-WDMyCloudEX2100_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `0b977c32ede1ca53119fa0c605cedc293dc59607`
+
+Distro: [My Cloud DL2100](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/wd/PlexMediaServer-1.28.2.6151-914ddd2b3-WDMyCloudDL2100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `7ce7acde161e59907b3bef8eb810e3a25fba9d76`
+
+Distro: [My Cloud DL4100](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/wd/PlexMediaServer-1.28.2.6151-914ddd2b3-WDMyCloudDL4100_OS5.bin)  
+Build: linux-x86_64  
+Checksum: `cb4c10de7a486381b469bc09c8f0d7562cce272a`
+
+Distro: [My Cloud (Single Bay)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/wd/PlexMediaServer-1.28.2.6151-914ddd2b3-WDMyCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `21afdacd560a5f9896081ffe33e35b98e2d0035a`
+
+Distro: [WD Cloud for Japan](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/wd/PlexMediaServer-1.28.2.6151-914ddd2b3-WDCloud_OS5.bin)  
+Build: linux-armv7hf  
+Checksum: `50da4019adc37c745d33df1506d6bb61f6945e20`
+
+# Western Digital (OS 3)
+Items Added:
+* (HTTP) Indicate when a database migration is being run (#13651)
+* (Web) Updated to 4.87.2
+
+Items Fixed:
+* (Collections) Playing a collection of shows/seasons resulted in no playback in certain clients (#12977)
+* (HTTP) Certain client apps could quit unexpectedly when connecting to a server during startup maintenance (#13802)
+* (Library) Cleaning up legacy music agent bundle files could fail when running a Clean Bundles (#13761)
+* (Library) Running a Clean Bundles operation could crash the server (#13787)
+* (Music) Read artist and album sort tags from m4a audio files (#13760)
+* (Music) Upgrading an album should retain the added date of the original (#13753)
+* (Photos) Timelines could get reprocessed unnecessarily leading to incorrect placement of photos in the timeline (#13730)
+* (Transcoder) Subtitles could become mis-timed when multiple events shared the same start timestamp
+Server could hang in certain circumstances (#13758)
+
+## Releases
+{: .no_toc }
+Distro: [My Cloud DL2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/wd/PlexMediaServer-1.28.2.6151-914ddd2b3-WDMyCloudDL2100.bin)  
+Build: linux-x86_64  
+Checksum: `00ddf26dc73709adb051f6bdf9c6f501140c63b3`
+
+Distro: [My Cloud DL4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/wd/PlexMediaServer-1.28.2.6151-914ddd2b3-WDMyCloudDL4100.bin)  
+Build: linux-x86_64  
+Checksum: `7aacaee104f57d41385c1c74fb88c904d5b2dafb`
+
+Distro: [My Cloud PR2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/wd/PlexMediaServer-1.28.2.6151-914ddd2b3-MyCloudPR2100.bin)  
+Build: linux-x86_64  
+Checksum: `6bd777f81003bb3bdc71249c55f7cbde02df4cee`
+
+Distro: [My Cloud PR4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/wd/PlexMediaServer-1.28.2.6151-914ddd2b3-MyCloudPR4100.bin)  
+Build: linux-x86_64  
+Checksum: `9d8171a59c5b79d2dbf9f1cf0c21ef39f998081c`
+
+Distro: [My Cloud EX2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/wd/PlexMediaServer-1.28.2.6151-914ddd2b3-WDMyCloudEX2.bin)  
+Build: linux-armv7hf  
+Checksum: `1bd9d596a01af5ed9c0cd18d5f6fd2bb420f2bf2`
+
+Distro: [My Cloud EX2100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/wd/PlexMediaServer-1.28.2.6151-914ddd2b3-WDMyCloudEX2100.bin)  
+Build: linux-armv7hf  
+Checksum: `f367537d3a0fed7aa30543bc1ec7f8cdfc838824`
+
+Distro: [My Cloud EX2 Ultra (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/wd/PlexMediaServer-1.28.2.6151-914ddd2b3-MyCloudEX2Ultra.bin)  
+Build: linux-armv7hf  
+Checksum: `ab4012950dd7d5656f00a43113efb00827e2d147`
+
+Distro: [My Cloud EX4100 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/wd/PlexMediaServer-1.28.2.6151-914ddd2b3-WDMyCloudEX4100.bin)  
+Build: linux-armv7hf  
+Checksum: `9fe4932ee61bd462972e1dc8825a9ea0a3f1744d`
+
+Distro: [My Cloud Mirror (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/wd/PlexMediaServer-1.28.2.6151-914ddd2b3-WDMyCloudMirror.bin)  
+Build: linux-armv7hf  
+Checksum: `0024aa0c492193b0761ba66f2d50d318a4ba0241`
+
+Distro: [My Cloud Mirror Gen2 (OS 3)](https://downloads.plex.tv/plex-media-server-new/1.28.2.6151-914ddd2b3/wd/PlexMediaServer-1.28.2.6151-914ddd2b3-WDMyCloudMirrorGen2.bin)  
+Build: linux-armv7hf  
+Checksum: `eef914f8b34565ede60d06e6db408cc893abb78e`
+
